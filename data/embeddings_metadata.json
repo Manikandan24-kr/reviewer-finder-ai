@@ -1,0 +1,4991 @@
+[
+  {
+    "author_id": "https://openalex.org/A5103570310",
+    "citation_count": 1852,
+    "country": "BR",
+    "h_index": 22,
+    "institution": "Universidade de S\u00e3o Paulo",
+    "last_publication_date": "2024-01-01",
+    "name": "Robert N. Proctor",
+    "orcid": "",
+    "topics": [
+      "Galaxies: Formation, Evolution, Phenomena",
+      "Stellar, planetary, and galactic studies",
+      "Astronomy and Astrophysical Research",
+      "Gamma-ray bursts and supernovae",
+      "Astrophysical Phenomena and Observations"
+    ],
+    "works_count": 58
+  },
+  {
+    "author_id": "https://openalex.org/A5008155172",
+    "citation_count": 18736,
+    "country": "GB",
+    "h_index": 51,
+    "institution": "Marine Stewardship Council",
+    "last_publication_date": "2025-10-16",
+    "name": "Richard J. T. Klein",
+    "orcid": "0000-0002-9458-0944",
+    "topics": [
+      "Climate Change Policy and Economics",
+      "Climate Change, Adaptation, Migration",
+      "Climate change impacts on agriculture",
+      "Sustainability and Climate Change Governance",
+      "Coastal and Marine Management"
+    ],
+    "works_count": 212
+  },
+  {
+    "author_id": "https://openalex.org/A5117549071",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2025-05-14",
+    "name": "DR. Siddheshwar. V.Patil",
+    "orcid": "",
+    "topics": [],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5006344650",
+    "citation_count": 56775,
+    "country": "CH",
+    "h_index": 95,
+    "institution": "University of Bern",
+    "last_publication_date": "2025-11-24",
+    "name": "Thomas F. Stocker",
+    "orcid": "0000-0003-1245-2728",
+    "topics": [
+      "Geology and Paleoclimatology Research",
+      "Cryospheric studies and observations",
+      "Climate variability and models",
+      "Methane Hydrates and Related Phenomena",
+      "Atmospheric and Environmental Gas Dynamics"
+    ],
+    "works_count": 666
+  },
+  {
+    "author_id": "https://openalex.org/A5060182415",
+    "citation_count": 9459,
+    "country": "IL",
+    "h_index": 41,
+    "institution": "Ben-Gurion University of the Negev",
+    "last_publication_date": "2025-11-26",
+    "name": "Shlomi Dolev",
+    "orcid": "0000-0001-5418-6670",
+    "topics": [
+      "Distributed systems and fault tolerance",
+      "Cryptography and Data Security",
+      "Optimization and Search Problems",
+      "Parallel Computing and Optimization Techniques",
+      "Privacy-Preserving Technologies in Data"
+    ],
+    "works_count": 595
+  },
+  {
+    "author_id": "https://openalex.org/A5026926043",
+    "citation_count": 201,
+    "country": "",
+    "h_index": 4,
+    "institution": "",
+    "last_publication_date": "2025-01-01",
+    "name": "Computational Intelligence and Neuroscience",
+    "orcid": "",
+    "topics": [
+      "Advanced Technologies in Various Fields",
+      "E-commerce and Technology Innovations",
+      "AI and Big Data Applications",
+      "Educational Technology and Pedagogy",
+      "Applied Advanced Technologies"
+    ],
+    "works_count": 1036
+  },
+  {
+    "author_id": "https://openalex.org/A5091658266",
+    "citation_count": 12241,
+    "country": "CN",
+    "h_index": 45,
+    "institution": "Shantou University",
+    "last_publication_date": "2025-10-30",
+    "name": "Renkun Chen",
+    "orcid": "0000-0001-7526-4981",
+    "topics": [
+      "Thermal properties of materials",
+      "Thermal Radiation and Cooling Technologies",
+      "Advanced Thermoelectric Materials and Devices",
+      "Solar Thermal and Photovoltaic Systems",
+      "Heat Transfer and Optimization"
+    ],
+    "works_count": 172
+  },
+  {
+    "author_id": "https://openalex.org/A5054180573",
+    "citation_count": 4808,
+    "country": "US",
+    "h_index": 37,
+    "institution": "University of Delaware",
+    "last_publication_date": "2025-08-28",
+    "name": "Joel Rosenthal",
+    "orcid": "0000-0002-6814-6503",
+    "topics": [
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Porphyrin and Phthalocyanine Chemistry",
+      "CO2 Reduction Techniques and Catalysts",
+      "Metal-Catalyzed Oxygenation Mechanisms"
+    ],
+    "works_count": 158
+  },
+  {
+    "author_id": "https://openalex.org/A5076018042",
+    "citation_count": 17358,
+    "country": "US",
+    "h_index": 67,
+    "institution": "The University of Texas at Arlington",
+    "last_publication_date": "2025-12-01",
+    "name": "Krishnan Rajeshwar",
+    "orcid": "0000-0003-4917-7790",
+    "topics": [
+      "Advanced Photocatalysis Techniques",
+      "Electrochemical Analysis and Applications",
+      "Chalcogenide Semiconductor Thin Films",
+      "Copper-based nanomaterials and applications",
+      "TiO2 Photocatalysis and Solar Cells"
+    ],
+    "works_count": 631
+  },
+  {
+    "author_id": "https://openalex.org/A5002511629",
+    "citation_count": 5203,
+    "country": "DE",
+    "h_index": 39,
+    "institution": "TU Bergakademie Freiberg",
+    "last_publication_date": "2025-12-07",
+    "name": "Olga Fabrichnaya",
+    "orcid": "0000-0001-5750-3192",
+    "topics": [
+      "Metallurgical Processes and Thermodynamics",
+      "Advanced ceramic materials synthesis",
+      "Intermetallics and Advanced Alloy Properties",
+      "Nuclear Materials and Properties",
+      "Nuclear materials and radiation effects"
+    ],
+    "works_count": 293
+  },
+  {
+    "author_id": "https://openalex.org/A5016782700",
+    "citation_count": 20917,
+    "country": "CN",
+    "h_index": 69,
+    "institution": "Chinese Academy of Sciences",
+    "last_publication_date": "2026-01-28",
+    "name": "Pengcheng Dai",
+    "orcid": "0000-0002-6088-3170",
+    "topics": [
+      "Iron-based superconductors research",
+      "Physics of Superconductivity and Magnetism",
+      "Rare-earth and actinide compounds",
+      "Advanced Condensed Matter Physics",
+      "Magnetic and transport properties of perovskites and related materials"
+    ],
+    "works_count": 672
+  },
+  {
+    "author_id": "https://openalex.org/A5055830218",
+    "citation_count": 98995,
+    "country": "AU",
+    "h_index": 130,
+    "institution": "CSIRO Oceans and Atmosphere",
+    "last_publication_date": "2025-12-17",
+    "name": "Josep G. Canadell",
+    "orcid": "0000-0002-8788-3218",
+    "topics": [
+      "Atmospheric and Environmental Gas Dynamics",
+      "Atmospheric chemistry and aerosols",
+      "Climate Change Policy and Economics",
+      "Climate variability and models",
+      "Plant Water Relations and Carbon Dynamics"
+    ],
+    "works_count": 609
+  },
+  {
+    "author_id": "https://openalex.org/A5070927495",
+    "citation_count": 18,
+    "country": "",
+    "h_index": 2,
+    "institution": "",
+    "last_publication_date": "2025-01-01",
+    "name": "Computational Intelligence and Neuroscience",
+    "orcid": "",
+    "topics": [
+      "Educational Technology and Pedagogy",
+      "Ideological and Political Education",
+      "E-commerce and Technology Innovations",
+      "Autonomous Vehicle Technology and Safety",
+      "Brain Tumor Detection and Classification"
+    ],
+    "works_count": 44
+  },
+  {
+    "author_id": "https://openalex.org/A5063431322",
+    "citation_count": 827,
+    "country": "CN",
+    "h_index": 11,
+    "institution": "Nanjing University of Aeronautics and Astronautics",
+    "last_publication_date": "2025-11-18",
+    "name": "Xiangping Zhai",
+    "orcid": "0000-0001-8939-199X",
+    "topics": [
+      "UAV Applications and Optimization",
+      "Advanced MIMO Systems Optimization",
+      "Robotic Path Planning Algorithms",
+      "Distributed Control Multi-Agent Systems",
+      "Advanced Wireless Communication Technologies"
+    ],
+    "works_count": 98
+  },
+  {
+    "author_id": "https://openalex.org/A5109057765",
+    "citation_count": 10353,
+    "country": "PL",
+    "h_index": 34,
+    "institution": "University of Szczecin",
+    "last_publication_date": "2025-12-19",
+    "name": "Walter Musial",
+    "orcid": "",
+    "topics": [
+      "Wind Energy Research and Development",
+      "Marine and Offshore Engineering Studies",
+      "Offshore Engineering and Technologies",
+      "Social Acceptance of Renewable Energy",
+      "Structural Health Monitoring Techniques"
+    ],
+    "works_count": 136
+  },
+  {
+    "author_id": "https://openalex.org/A5082517605",
+    "citation_count": 758,
+    "country": "IT",
+    "h_index": 16,
+    "institution": "Italian Institute of Technology",
+    "last_publication_date": "2025-10-19",
+    "name": "Silvio Traversaro",
+    "orcid": "0000-0002-9283-6133",
+    "topics": [
+      "Robotic Locomotion and Control",
+      "Prosthetics and Rehabilitation Robotics",
+      "Robot Manipulation and Learning",
+      "Muscle activation and electromyography studies",
+      "Dynamics and Control of Mechanical Systems"
+    ],
+    "works_count": 99
+  },
+  {
+    "author_id": "https://openalex.org/A5117067846",
+    "citation_count": 2,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2025-04-30",
+    "name": "Hanie Zand",
+    "orcid": "",
+    "topics": [
+      "Child and Adolescent Psychosocial and Emotional Development",
+      "Optical Imaging and Spectroscopy Techniques",
+      "Spectroscopy Techniques in Biomedical and Chemical Research",
+      "Laser Applications in Dentistry and Medicine"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5023710404",
+    "citation_count": 274,
+    "country": "KR",
+    "h_index": 8,
+    "institution": "Keimyung University",
+    "last_publication_date": "2025-11-12",
+    "name": "Jung Hyun Choi",
+    "orcid": "0000-0001-7090-1953",
+    "topics": [
+      "Vehicle Dynamics and Control Systems",
+      "Stroke Rehabilitation and Recovery",
+      "Muscle activation and electromyography studies",
+      "Musculoskeletal pain and rehabilitation",
+      "Robotic Locomotion and Control"
+    ],
+    "works_count": 44
+  },
+  {
+    "author_id": "https://openalex.org/A5072820246",
+    "citation_count": 75,
+    "country": "GB",
+    "h_index": 2,
+    "institution": "East Cheshire NHS Trust",
+    "last_publication_date": "2025-01-01",
+    "name": "Hibatallah Altaher",
+    "orcid": "",
+    "topics": [
+      "Health and Medical Research Impacts",
+      "Conferences and Exhibitions Management",
+      "Advances in Oncology and Radiotherapy",
+      "Bone health and osteoporosis research",
+      "Innovations in Medical Education"
+    ],
+    "works_count": 5
+  },
+  {
+    "author_id": "https://openalex.org/A5010717087",
+    "citation_count": 14363,
+    "country": "CN",
+    "h_index": 52,
+    "institution": "Chinese Academy of Sciences",
+    "last_publication_date": "2026-01-05",
+    "name": "Chuanxiao Xiao",
+    "orcid": "0000-0002-4136-2249",
+    "topics": [
+      "Perovskite Materials and Applications",
+      "Chalcogenide Semiconductor Thin Films",
+      "Quantum Dots Synthesis And Properties",
+      "Conducting polymers and applications",
+      "Silicon and Solar Cell Technologies"
+    ],
+    "works_count": 201
+  },
+  {
+    "author_id": "https://openalex.org/A5079221090",
+    "citation_count": 6599,
+    "country": "",
+    "h_index": 10,
+    "institution": "",
+    "last_publication_date": "2002-11-07",
+    "name": "F.M. Rupley",
+    "orcid": "",
+    "topics": [
+      "Advanced Combustion Engine Technologies",
+      "Combustion and flame dynamics",
+      "Catalytic Processes in Materials Science",
+      "Gas Dynamics and Kinetic Theory",
+      "nanoparticles nucleation surface interactions"
+    ],
+    "works_count": 14
+  },
+  {
+    "author_id": "https://openalex.org/A5108200465",
+    "citation_count": 10992,
+    "country": "US",
+    "h_index": 50,
+    "institution": "University of Hawai\u02bbi at M\u0101noa",
+    "last_publication_date": "2025-01-14",
+    "name": "Craig M. Jensen",
+    "orcid": "0009-0004-5285-7273",
+    "topics": [
+      "Hydrogen Storage and Materials",
+      "Ammonia Synthesis and Nitrogen Reduction",
+      "Organometallic Complex Synthesis and Catalysis",
+      "Asymmetric Hydrogenation and Catalysis",
+      "Hybrid Renewable Energy Systems"
+    ],
+    "works_count": 178
+  },
+  {
+    "author_id": "https://openalex.org/A5067905595",
+    "citation_count": 56475,
+    "country": "FR",
+    "h_index": 49,
+    "institution": "Centre National de la Recherche Scientifique",
+    "last_publication_date": "2025-12-09",
+    "name": "Camille Parmesan",
+    "orcid": "0000-0002-1515-274X",
+    "topics": [
+      "Species Distribution and Climate Change",
+      "Plant and animal studies",
+      "Ecology and Vegetation Dynamics Studies",
+      "Lepidoptera: Biology and Taxonomy",
+      "Zoonotic diseases and public health"
+    ],
+    "works_count": 118
+  },
+  {
+    "author_id": "https://openalex.org/A5110261659",
+    "citation_count": 314,
+    "country": "US",
+    "h_index": 8,
+    "institution": "Electric Power Research Institute",
+    "last_publication_date": "2024-09-15",
+    "name": "D. Dorr",
+    "orcid": "",
+    "topics": [
+      "Power Quality and Harmonics",
+      "Lightning and Electromagnetic Phenomena",
+      "Electrical Fault Detection and Protection",
+      "Power System Optimization and Stability",
+      "Power Line Communications and Noise"
+    ],
+    "works_count": 23
+  },
+  {
+    "author_id": "https://openalex.org/A5100326637",
+    "citation_count": 11322,
+    "country": "CN",
+    "h_index": 51,
+    "institution": "Changchun University of Science and Technology",
+    "last_publication_date": "2025-11-03",
+    "name": "Xinwei Wang",
+    "orcid": "0000-0002-9373-3750",
+    "topics": [
+      "Thermal properties of materials",
+      "Graphene research and applications",
+      "Thermal Radiation and Cooling Technologies",
+      "Carbon Nanotubes in Composites",
+      "Advanced Thermoelectric Materials and Devices"
+    ],
+    "works_count": 347
+  },
+  {
+    "author_id": "https://openalex.org/A5013177258",
+    "citation_count": 13420,
+    "country": "US",
+    "h_index": 33,
+    "institution": "Feinstein Institute for Medical Research",
+    "last_publication_date": "2025-10-28",
+    "name": "Max Lam",
+    "orcid": "0000-0002-4256-7844",
+    "topics": [
+      "Genetic Associations and Epidemiology",
+      "Schizophrenia research and treatment",
+      "Bioinformatics and Genomic Networks",
+      "Genomics and Rare Diseases",
+      "Genetics and Neurodevelopmental Disorders"
+    ],
+    "works_count": 155
+  },
+  {
+    "author_id": "https://openalex.org/A5046619683",
+    "citation_count": 3,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2022-06-15",
+    "name": "Moldyr E. Beisenbekova",
+    "orcid": "",
+    "topics": [
+      "Nanomaterials for catalytic reactions",
+      "Copper-based nanomaterials and applications",
+      "Electrocatalysts for Energy Conversion",
+      "Magnetic Properties and Synthesis of Ferrites",
+      "Environmental remediation with nanomaterials"
+    ],
+    "works_count": 3
+  },
+  {
+    "author_id": "https://openalex.org/A5045096379",
+    "citation_count": 225,
+    "country": "UA",
+    "h_index": 7,
+    "institution": "National Academy of Sciences of Ukraine",
+    "last_publication_date": "2025-04-07",
+    "name": "V.V. Kravchenko",
+    "orcid": "0000-0002-8732-7502",
+    "topics": [
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Lanthanide and Transition Metal Complexes",
+      "Radioactive element chemistry and processing",
+      "Photochromic and Fluorescence Chemistry"
+    ],
+    "works_count": 181
+  },
+  {
+    "author_id": "https://openalex.org/A5114374519",
+    "citation_count": 20943,
+    "country": "DK",
+    "h_index": 66,
+    "institution": "University of Copenhagen",
+    "last_publication_date": "2025-09-29",
+    "name": "Jens Hesselbjerg Christensen",
+    "orcid": "0000-0002-9908-8203",
+    "topics": [
+      "Climate variability and models",
+      "Meteorological Phenomena and Simulations",
+      "Cryospheric studies and observations",
+      "Climate change and permafrost",
+      "Arctic and Antarctic ice dynamics"
+    ],
+    "works_count": 306
+  },
+  {
+    "author_id": "https://openalex.org/A5121777484",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2025-01-01",
+    "name": "cybersecurity",
+    "orcid": "",
+    "topics": [
+      "Network Security and Intrusion Detection",
+      "Information and Cyber Security",
+      "Web Application Security Vulnerabilities"
+    ],
+    "works_count": 4
+  },
+  {
+    "author_id": "https://openalex.org/A5075132014",
+    "citation_count": 7045,
+    "country": "",
+    "h_index": 41,
+    "institution": "",
+    "last_publication_date": "2024-10-25",
+    "name": "Haydn Chen",
+    "orcid": "0000-0002-4791-100X",
+    "topics": [
+      "Ferroelectric and Piezoelectric Materials",
+      "Microwave Dielectric Ceramics Synthesis",
+      "Acoustic Wave Resonator Technologies",
+      "Multiferroics and related materials",
+      "X-ray Diffraction in Crystallography"
+    ],
+    "works_count": 260
+  },
+  {
+    "author_id": "https://openalex.org/A5034040931",
+    "citation_count": 199,
+    "country": "BE",
+    "h_index": 4,
+    "institution": "UCLouvain",
+    "last_publication_date": "2025-12-17",
+    "name": "Gregorio Sorrentino",
+    "orcid": "0000-0003-0939-1127",
+    "topics": [
+      "Stroke Rehabilitation and Recovery",
+      "Musculoskeletal pain and rehabilitation",
+      "Virtual Reality Applications and Impacts",
+      "Spatial Neglect and Hemispheric Dysfunction",
+      "Osteoarthritis Treatment and Mechanisms"
+    ],
+    "works_count": 11
+  },
+  {
+    "author_id": "https://openalex.org/A5073238665",
+    "citation_count": 911,
+    "country": "IN",
+    "h_index": 17,
+    "institution": "KPC Medical College and Hospital",
+    "last_publication_date": "2025-07-31",
+    "name": "Moumita Samanta",
+    "orcid": "0000-0001-7961-2672",
+    "topics": [
+      "Sepsis Diagnosis and Treatment",
+      "Autoimmune and Inflammatory Disorders Research",
+      "Neonatal and Maternal Infections",
+      "Erythrocyte Function and Pathophysiology",
+      "Neonatal Respiratory Health Research"
+    ],
+    "works_count": 70
+  },
+  {
+    "author_id": "https://openalex.org/A5065876439",
+    "citation_count": 1672,
+    "country": "US",
+    "h_index": 20,
+    "institution": "Harvard University Press",
+    "last_publication_date": "2025-12-04",
+    "name": "Shai M. Chester",
+    "orcid": "0000-0001-8803-1511",
+    "topics": [
+      "Black Holes and Theoretical Physics",
+      "Particle physics theoretical and experimental studies",
+      "Quantum Chromodynamics and Particle Interactions",
+      "Cosmology and Gravitation Theories",
+      "Physics of Superconductivity and Magnetism"
+    ],
+    "works_count": 68
+  },
+  {
+    "author_id": "https://openalex.org/A5110306580",
+    "citation_count": 357,
+    "country": "KR",
+    "h_index": 8,
+    "institution": "Korea Institute of Machinery and Materials",
+    "last_publication_date": "2025-11-05",
+    "name": "Byungtae Ahn",
+    "orcid": "0000-0002-5007-5946",
+    "topics": [
+      "Face recognition and analysis",
+      "Face and Expression Recognition",
+      "Photochemistry and Electron Transfer Studies",
+      "Gaze Tracking and Assistive Technology",
+      "Semiconductor Quantum Structures and Devices"
+    ],
+    "works_count": 42
+  },
+  {
+    "author_id": "https://openalex.org/A5047340885",
+    "citation_count": 45203,
+    "country": "US",
+    "h_index": 103,
+    "institution": "Boston University",
+    "last_publication_date": "2025-12-17",
+    "name": "Wendy S. Post",
+    "orcid": "0000-0002-8655-5204",
+    "topics": [
+      "Cardiac Imaging and Diagnostics",
+      "Cardiovascular Disease and Adiposity",
+      "Cardiovascular Function and Risk Factors",
+      "HIV-related health complications and treatments",
+      "Genetic Associations and Epidemiology"
+    ],
+    "works_count": 916
+  },
+  {
+    "author_id": "https://openalex.org/A5034992809",
+    "citation_count": 2,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2026-01-01",
+    "name": "Nisrine Elkabbaj",
+    "orcid": "",
+    "topics": [
+      "Substance Abuse Treatment and Outcomes",
+      "Sleep and related disorders",
+      "Impact of Technology on Adolescents",
+      "Sexual function and dysfunction studies",
+      "Islamic Studies and History"
+    ],
+    "works_count": 6
+  },
+  {
+    "author_id": "https://openalex.org/A5067460858",
+    "citation_count": 236,
+    "country": "GB",
+    "h_index": 7,
+    "institution": "Public Health Agency",
+    "last_publication_date": "2025-06-20",
+    "name": "Betty Roosihermiatie",
+    "orcid": "0000-0002-7080-4640",
+    "topics": [
+      "Healthcare Quality and Satisfaction",
+      "Public Health and Nutrition",
+      "COVID-19 Prevention and Impact",
+      "Methodologies in Health Research and Practice",
+      "Diverse Scientific Research Studies"
+    ],
+    "works_count": 54
+  },
+  {
+    "author_id": "https://openalex.org/A5073477303",
+    "citation_count": 6000,
+    "country": "AT",
+    "h_index": 42,
+    "institution": "University of Vienna",
+    "last_publication_date": "2024-05-15",
+    "name": "A. Grytsiv",
+    "orcid": "0000-0002-1806-9992",
+    "topics": [
+      "Rare-earth and actinide compounds",
+      "Advanced Thermoelectric Materials and Devices",
+      "Intermetallics and Advanced Alloy Properties",
+      "Inorganic Chemistry and Materials",
+      "Iron-based superconductors research"
+    ],
+    "works_count": 235
+  },
+  {
+    "author_id": "https://openalex.org/A5025116997",
+    "citation_count": 10249,
+    "country": "JP",
+    "h_index": 57,
+    "institution": "Osaka University",
+    "last_publication_date": "2025-09-02",
+    "name": "Seiki Kuramitsu",
+    "orcid": "0000-0003-4364-1994",
+    "topics": [
+      "Enzyme Structure and Function",
+      "Biochemical and Molecular Research",
+      "Protein Structure and Dynamics",
+      "RNA and protein synthesis mechanisms",
+      "Amino Acid Enzymes and Metabolism"
+    ],
+    "works_count": 540
+  },
+  {
+    "author_id": "https://openalex.org/A5062634123",
+    "citation_count": 16078,
+    "country": "US",
+    "h_index": 17,
+    "institution": "Broad Institute",
+    "last_publication_date": "2024-01-15",
+    "name": "Charlotte Tolonen",
+    "orcid": "",
+    "topics": [
+      "Genomics and Rare Diseases",
+      "Genomic variations and chromosomal abnormalities",
+      "Genomics and Phylogenetic Studies",
+      "Genetic Associations and Epidemiology",
+      "Genomics and Chromatin Dynamics"
+    ],
+    "works_count": 26
+  },
+  {
+    "author_id": "https://openalex.org/A5092665785",
+    "citation_count": 0,
+    "country": "US",
+    "h_index": 0,
+    "institution": "Start Making A Reader Today",
+    "last_publication_date": "2023-07-30",
+    "name": "Pamela Victor Ibitamuno",
+    "orcid": "",
+    "topics": [
+      "Digital and Cyber Forensics",
+      "Cybercrime and Law Enforcement Studies"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5088592503",
+    "citation_count": 22,
+    "country": "",
+    "h_index": 2,
+    "institution": "",
+    "last_publication_date": "2025-05-20",
+    "name": "Jyotirmay Jena",
+    "orcid": "",
+    "topics": [
+      "Network Security and Intrusion Detection",
+      "Precipitation Measurement and Analysis",
+      "Satellite Communication Systems",
+      "Telecommunications and Broadcasting Technologies",
+      "Information and Cyber Security"
+    ],
+    "works_count": 12
+  },
+  {
+    "author_id": "https://openalex.org/A5080927998",
+    "citation_count": 53827,
+    "country": "US",
+    "h_index": 63,
+    "institution": "University of Florida",
+    "last_publication_date": "2025-09-29",
+    "name": "Jennifer Harrow",
+    "orcid": "0000-0003-0338-3070",
+    "topics": [
+      "Genomics and Phylogenetic Studies",
+      "RNA and protein synthesis mechanisms",
+      "RNA modifications and cancer",
+      "Genomics and Chromatin Dynamics",
+      "RNA Research and Splicing"
+    ],
+    "works_count": 174
+  },
+  {
+    "author_id": "https://openalex.org/A5092119977",
+    "citation_count": 1,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2023-05-17",
+    "name": "Divhya Gnanasekar",
+    "orcid": "",
+    "topics": [
+      "Autism Spectrum Disorder Research",
+      "Child Development and Digital Technology",
+      "Child Development and Education"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5068852782",
+    "citation_count": 40420,
+    "country": "GB",
+    "h_index": 95,
+    "institution": "Genomics (United Kingdom)",
+    "last_publication_date": "2025-11-03",
+    "name": "Vincent Plagnol",
+    "orcid": "0000-0002-5597-9215",
+    "topics": [
+      "Cancer Genomics and Diagnostics",
+      "Genetic Associations and Epidemiology",
+      "Retinal Development and Disorders",
+      "Lung Cancer Treatments and Mutations",
+      "Diabetes and associated disorders"
+    ],
+    "works_count": 341
+  },
+  {
+    "author_id": "https://openalex.org/A5075906720",
+    "citation_count": 0,
+    "country": "CN",
+    "h_index": 0,
+    "institution": "Ministry of Industry and Information Technology",
+    "last_publication_date": "2021-07-24",
+    "name": "Cybersecurity Administration",
+    "orcid": "",
+    "topics": [
+      "Medical Research and Treatments",
+      "Technology and Data Analysis"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5069268661",
+    "citation_count": 20046,
+    "country": "CN",
+    "h_index": 52,
+    "institution": "Beijing Union University",
+    "last_publication_date": "2025-12-19",
+    "name": "Shuhong Liu",
+    "orcid": "0000-0001-5657-7237",
+    "topics": [
+      "Intermetallics and Advanced Alloy Properties",
+      "Metallurgical and Alloy Processes",
+      "Cavitation Phenomena in Pumps",
+      "Aluminum Alloy Microstructure Properties",
+      "Aluminum Alloys Composites Properties"
+    ],
+    "works_count": 671
+  },
+  {
+    "author_id": "https://openalex.org/A5082887836",
+    "citation_count": 75356,
+    "country": "US",
+    "h_index": 121,
+    "institution": "California Institute of Technology",
+    "last_publication_date": "2026-02-11",
+    "name": "Harry A. Atwater",
+    "orcid": "0000-0001-9435-0201",
+    "topics": [
+      "Plasmonic and Surface Plasmon Research",
+      "Nanowire Synthesis and Applications",
+      "Thin-Film Transistor Technologies",
+      "solar cell performance optimization",
+      "Silicon and Solar Cell Technologies"
+    ],
+    "works_count": 1336
+  },
+  {
+    "author_id": "https://openalex.org/A5125527243",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2025-01-01",
+    "name": "Directorate of Surveillance and Epidemiology, National Public Health Agency, Freetown, Sierra Leone",
+    "orcid": "",
+    "topics": [
+      "Bacillus and Francisella bacterial research",
+      "Poxvirus research and outbreaks",
+      "Zoonotic diseases and public health"
+    ],
+    "works_count": 3
+  },
+  {
+    "author_id": "https://openalex.org/A5019095467",
+    "citation_count": 10625,
+    "country": "US",
+    "h_index": 45,
+    "institution": "National Renewable Energy Laboratory",
+    "last_publication_date": "2025-09-05",
+    "name": "Paul W. King",
+    "orcid": "0000-0001-5039-654X",
+    "topics": [
+      "Metalloenzymes and iron-sulfur proteins",
+      "Electrocatalysts for Energy Conversion",
+      "Photosynthetic Processes and Mechanisms",
+      "Algal biology and biofuel production",
+      "Advanced battery technologies research"
+    ],
+    "works_count": 133
+  },
+  {
+    "author_id": "https://openalex.org/A5084606902",
+    "citation_count": 7,
+    "country": "EG",
+    "h_index": 2,
+    "institution": "Mansoura University",
+    "last_publication_date": "2022-12-14",
+    "name": "Bader Alibrahim",
+    "orcid": "",
+    "topics": [
+      "Diabetes, Cardiovascular Risks, and Lipoproteins",
+      "Salmonella and Campylobacter epidemiology",
+      "Viral gastroenteritis research and epidemiology",
+      "Healthcare Systems and Reforms",
+      "Food Safety and Hygiene"
+    ],
+    "works_count": 4
+  },
+  {
+    "author_id": "https://openalex.org/A5002765662",
+    "citation_count": 8092,
+    "country": "CA",
+    "h_index": 47,
+    "institution": "Dalhousie University",
+    "last_publication_date": "2026-01-01",
+    "name": "J. Bentley",
+    "orcid": "0000-0002-9981-4375",
+    "topics": [
+      "Electron and X-Ray Spectroscopy Techniques",
+      "Advanced Materials Characterization Techniques",
+      "Advanced ceramic materials synthesis",
+      "Ion-surface interactions and analysis",
+      "Microstructure and Mechanical Properties of Steels"
+    ],
+    "works_count": 401
+  },
+  {
+    "author_id": "https://openalex.org/A5067179170",
+    "citation_count": 1482,
+    "country": "US",
+    "h_index": 14,
+    "institution": "Lawrence Berkeley National Laboratory",
+    "last_publication_date": "2025-12-03",
+    "name": "Itay M. Bloch",
+    "orcid": "0000-0003-1931-4344",
+    "topics": [
+      "Dark Matter and Cosmic Phenomena",
+      "Atomic and Subatomic Physics Research",
+      "Particle Detector Development and Performance",
+      "Particle physics theoretical and experimental studies",
+      "CCD and CMOS Imaging Sensors"
+    ],
+    "works_count": 46
+  },
+  {
+    "author_id": "https://openalex.org/A5069550340",
+    "citation_count": 17550,
+    "country": "",
+    "h_index": 48,
+    "institution": "",
+    "last_publication_date": "2025-12-08",
+    "name": "P.R. Shukla",
+    "orcid": "0000-0002-7305-2907",
+    "topics": [
+      "Climate Change Policy and Economics",
+      "Energy, Environment, and Transportation Policies",
+      "Global Energy and Sustainability Research",
+      "Environmental Impact and Sustainability",
+      "Energy and Environment Impacts"
+    ],
+    "works_count": 187
+  },
+  {
+    "author_id": "https://openalex.org/A5100442092",
+    "citation_count": 14970,
+    "country": "US",
+    "h_index": 64,
+    "institution": "University of Nebraska\u2013Lincoln",
+    "last_publication_date": "2025-12-16",
+    "name": "Wei Qiao",
+    "orcid": "0000-0002-7197-4019",
+    "topics": [
+      "Machine Fault Diagnosis Techniques",
+      "Microgrid Control and Optimization",
+      "Wind Turbine Control Systems",
+      "Electric Motor Design and Analysis",
+      "Multilevel Inverters and Converters"
+    ],
+    "works_count": 411
+  },
+  {
+    "author_id": "https://openalex.org/A5029914414",
+    "citation_count": 9352,
+    "country": "",
+    "h_index": 32,
+    "institution": "",
+    "last_publication_date": "2025-03-21",
+    "name": "Alan Marchant",
+    "orcid": "",
+    "topics": [
+      "Plant Molecular Biology Research",
+      "Plant nutrient uptake and metabolism",
+      "Plant Reproductive Biology",
+      "Polysaccharides and Plant Cell Walls",
+      "Photosynthetic Processes and Mechanisms"
+    ],
+    "works_count": 94
+  },
+  {
+    "author_id": "https://openalex.org/A5070012747",
+    "citation_count": 140,
+    "country": "CA",
+    "h_index": 5,
+    "institution": "Alberta Health Services",
+    "last_publication_date": "2025-10-09",
+    "name": "Jennifer Happe",
+    "orcid": "0009-0007-5407-6552",
+    "topics": [
+      "Antibiotic Use and Resistance",
+      "Urinary Tract Infections Management",
+      "Nosocomial Infections in ICU",
+      "Bacterial Identification and Susceptibility Testing",
+      "Antibiotic Resistance in Bacteria"
+    ],
+    "works_count": 20
+  },
+  {
+    "author_id": "https://openalex.org/A5018385260",
+    "citation_count": 3369,
+    "country": "",
+    "h_index": 22,
+    "institution": "",
+    "last_publication_date": "2023-03-31",
+    "name": "Joseph S. Verducci",
+    "orcid": "",
+    "topics": [
+      "MicroRNA in disease regulation",
+      "Computational Drug Discovery Methods",
+      "Bayesian Modeling and Causal Inference",
+      "Advanced Statistical Methods and Models",
+      "Data Mining Algorithms and Applications"
+    ],
+    "works_count": 88
+  },
+  {
+    "author_id": "https://openalex.org/A5008420001",
+    "citation_count": 21379,
+    "country": "GB",
+    "h_index": 72,
+    "institution": "University of Leeds",
+    "last_publication_date": "2026-01-23",
+    "name": "J. E. Cunningham",
+    "orcid": "0000-0002-1805-9743",
+    "topics": [
+      "Photonic and Optical Devices",
+      "Semiconductor Quantum Structures and Devices",
+      "Semiconductor Lasers and Optical Devices",
+      "Terahertz technology and applications",
+      "Quantum and electron transport phenomena"
+    ],
+    "works_count": 704
+  },
+  {
+    "author_id": "https://openalex.org/A5020877559",
+    "citation_count": 32987,
+    "country": "US",
+    "h_index": 83,
+    "institution": "Southwest Research Institute",
+    "last_publication_date": "2025-12-19",
+    "name": "J. L. Burch",
+    "orcid": "0000-0003-0452-8403",
+    "topics": [
+      "Ionosphere and magnetosphere dynamics",
+      "Solar and Space Plasma Dynamics",
+      "Geomagnetism and Paleomagnetism Studies",
+      "Astro and Planetary Science",
+      "Earthquake Detection and Analysis"
+    ],
+    "works_count": 1483
+  },
+  {
+    "author_id": "https://openalex.org/A5037272540",
+    "citation_count": 60539,
+    "country": "FR",
+    "h_index": 85,
+    "institution": "Centre National de la Recherche Scientifique",
+    "last_publication_date": "2025-12-16",
+    "name": "Wolfgang Cr\u00e4mer",
+    "orcid": "0000-0002-9205-5812",
+    "topics": [
+      "Plant Water Relations and Carbon Dynamics",
+      "Climate variability and models",
+      "Atmospheric and Environmental Gas Dynamics",
+      "Land Use and Ecosystem Services",
+      "Ecology and Vegetation Dynamics Studies"
+    ],
+    "works_count": 343
+  },
+  {
+    "author_id": "https://openalex.org/A5062175799",
+    "citation_count": 8834,
+    "country": "",
+    "h_index": 33,
+    "institution": "",
+    "last_publication_date": "2026-01-20",
+    "name": "John Dickie",
+    "orcid": "0000-0002-8792-8113",
+    "topics": [
+      "Seed Germination and Physiology",
+      "Ecology and Vegetation Dynamics Studies",
+      "Plant and animal studies",
+      "Tropical and Extratropical Cyclones Research",
+      "Climate variability and models"
+    ],
+    "works_count": 89
+  },
+  {
+    "author_id": "https://openalex.org/A5063968794",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2023-02-01",
+    "name": "William McCurry",
+    "orcid": "",
+    "topics": [
+      "Market Dynamics and Volatility",
+      "Energy and Environment Impacts",
+      "Infrastructure Resilience and Vulnerability Analysis",
+      "Energy, Environment, and Transportation Policies",
+      "Transportation Systems and Infrastructure"
+    ],
+    "works_count": 4
+  },
+  {
+    "author_id": "https://openalex.org/A5081061531",
+    "citation_count": 5920,
+    "country": "DE",
+    "h_index": 35,
+    "institution": "Max Planck Institute for Radio Astronomy",
+    "last_publication_date": "2025-03-21",
+    "name": "A. Jessner",
+    "orcid": "0000-0001-6152-9504",
+    "topics": [
+      "Pulsars and Gravitational Waves Research",
+      "Radio Astronomy Observations and Technology",
+      "Geophysics and Gravity Measurements",
+      "Geophysics and Sensor Technology",
+      "High-pressure geophysics and materials"
+    ],
+    "works_count": 146
+  },
+  {
+    "author_id": "https://openalex.org/A5034264877",
+    "citation_count": 17881,
+    "country": "AU",
+    "h_index": 39,
+    "institution": "Bureau of Meteorology",
+    "last_publication_date": "2025-10-15",
+    "name": "Blair Trewin",
+    "orcid": "0000-0001-8186-7885",
+    "topics": [
+      "Climate variability and models",
+      "Meteorological Phenomena and Simulations",
+      "Atmospheric and Environmental Gas Dynamics",
+      "Cryospheric studies and observations",
+      "Hydrology and Drought Analysis"
+    ],
+    "works_count": 144
+  },
+  {
+    "author_id": "https://openalex.org/A5056240100",
+    "citation_count": 4306,
+    "country": "US",
+    "h_index": 34,
+    "institution": "Rutgers, The State University of New Jersey",
+    "last_publication_date": "2025-11-03",
+    "name": "S. E. Donnelly",
+    "orcid": "0000-0002-9749-5550",
+    "topics": [
+      "Ion-surface interactions and analysis",
+      "Fusion materials and technologies",
+      "Nuclear Materials and Properties",
+      "Silicon and Solar Cell Technologies",
+      "Integrated Circuits and Semiconductor Failure Analysis"
+    ],
+    "works_count": 253
+  },
+  {
+    "author_id": "https://openalex.org/A5040508278",
+    "citation_count": 25025,
+    "country": "TN",
+    "h_index": 45,
+    "institution": "Tunis University",
+    "last_publication_date": "2025-12-01",
+    "name": "Rebecca Sims",
+    "orcid": "0000-0002-3885-1199",
+    "topics": [
+      "Alzheimer's disease research and treatments",
+      "Genetic Associations and Epidemiology",
+      "Bioinformatics and Genomic Networks",
+      "Genomics and Rare Diseases",
+      "Dementia and Cognitive Impairment Research"
+    ],
+    "works_count": 205
+  },
+  {
+    "author_id": "https://openalex.org/A5044354792",
+    "citation_count": 15902,
+    "country": "NL",
+    "h_index": 47,
+    "institution": "University of Groningen",
+    "last_publication_date": "2025-01-01",
+    "name": "Maria L. Ghirardi",
+    "orcid": "",
+    "topics": [
+      "Photosynthetic Processes and Mechanisms",
+      "Algal biology and biofuel production",
+      "Metalloenzymes and iron-sulfur proteins",
+      "Marine and coastal ecosystems",
+      "Electrocatalysts for Energy Conversion"
+    ],
+    "works_count": 132
+  },
+  {
+    "author_id": "https://openalex.org/A5029693196",
+    "citation_count": 10644,
+    "country": "US",
+    "h_index": 52,
+    "institution": "Lehigh University",
+    "last_publication_date": "2026-02-04",
+    "name": "Richard Sause",
+    "orcid": "0000-0002-6143-4385",
+    "topics": [
+      "Structural Load-Bearing Analysis",
+      "Seismic Performance and Analysis",
+      "Structural Behavior of Reinforced Concrete",
+      "Structural Engineering and Vibration Analysis",
+      "Hydraulic and Pneumatic Systems"
+    ],
+    "works_count": 280
+  },
+  {
+    "author_id": "https://openalex.org/A5000744359",
+    "citation_count": 23,
+    "country": "PH",
+    "h_index": 2,
+    "institution": "Central Bicol State University of Agriculture",
+    "last_publication_date": "2024-03-09",
+    "name": "Marla Vina A. Briones",
+    "orcid": "0009-0003-7512-4366",
+    "topics": [
+      "COVID-19 Clinical Research Studies",
+      "COVID-19 and healthcare impacts",
+      "Long-Term Effects of COVID-19",
+      "Lung Cancer Diagnosis and Treatment",
+      "Dialysis and Renal Disease Management"
+    ],
+    "works_count": 7
+  },
+  {
+    "author_id": "https://openalex.org/A5110182411",
+    "citation_count": 1473,
+    "country": "",
+    "h_index": 18,
+    "institution": "",
+    "last_publication_date": "2025-12-05",
+    "name": "Tareq Ahram",
+    "orcid": "",
+    "topics": [
+      "Systems Engineering Methodologies and Applications",
+      "Ergonomics and Human Factors",
+      "Human-Automation Interaction and Safety",
+      "Technology Assessment and Management",
+      "Complex Systems and Decision Making"
+    ],
+    "works_count": 107
+  },
+  {
+    "author_id": "https://openalex.org/A5113077259",
+    "citation_count": 1047,
+    "country": "",
+    "h_index": 3,
+    "institution": "",
+    "last_publication_date": "2025-12-11",
+    "name": "Gemini Robotics Team",
+    "orcid": "",
+    "topics": [
+      "Natural Language Processing Techniques",
+      "Semantic Web and Ontologies",
+      "Planetary Science and Exploration",
+      "Multimodal Machine Learning Applications",
+      "Spacecraft Design and Technology"
+    ],
+    "works_count": 6
+  },
+  {
+    "author_id": "https://openalex.org/A5014003147",
+    "citation_count": 38230,
+    "country": "CA",
+    "h_index": 84,
+    "institution": "Canadian Institute for Advanced Research",
+    "last_publication_date": "2025-10-24",
+    "name": "Leon Balents",
+    "orcid": "0000-0002-2377-2711",
+    "topics": [
+      "Physics of Superconductivity and Magnetism",
+      "Advanced Condensed Matter Physics",
+      "Magnetic and transport properties of perovskites and related materials",
+      "Quantum and electron transport phenomena",
+      "Magnetic properties of thin films"
+    ],
+    "works_count": 584
+  },
+  {
+    "author_id": "https://openalex.org/A5085061969",
+    "citation_count": 151,
+    "country": "US",
+    "h_index": 5,
+    "institution": "Johnson & Johnson (United States)",
+    "last_publication_date": "2021-04-08",
+    "name": "Bridget M. Kohlnhofer",
+    "orcid": "0000-0003-3978-9507",
+    "topics": [
+      "Bat Biology and Ecology Studies",
+      "Congenital heart defects research",
+      "Tracheal and airway disorders",
+      "Adipose Tissue and Metabolism",
+      "Esophageal and GI Pathology"
+    ],
+    "works_count": 12
+  },
+  {
+    "author_id": "https://openalex.org/A5052644960",
+    "citation_count": 20065,
+    "country": "US",
+    "h_index": 75,
+    "institution": "Indiana University Bloomington",
+    "last_publication_date": "2025-10-06",
+    "name": "Trevor Douglas",
+    "orcid": "0000-0002-7882-2704",
+    "topics": [
+      "Bacteriophages and microbial interactions",
+      "Iron Metabolism and Disorders",
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Advanced biosensing and bioanalysis techniques",
+      "Iron oxide chemistry and applications"
+    ],
+    "works_count": 321
+  },
+  {
+    "author_id": "https://openalex.org/A5097950486",
+    "citation_count": 6933,
+    "country": "",
+    "h_index": 8,
+    "institution": "",
+    "last_publication_date": "2023-06-29",
+    "name": "Intergovernmental Panel on Climate Change",
+    "orcid": "",
+    "topics": [
+      "Climate Change, Adaptation, Migration",
+      "Global Energy and Sustainability Research",
+      "Climate variability and models",
+      "Land Use and Ecosystem Services",
+      "Marine and fisheries research"
+    ],
+    "works_count": 10
+  },
+  {
+    "author_id": "https://openalex.org/A5073590633",
+    "citation_count": 10709,
+    "country": "",
+    "h_index": 21,
+    "institution": "",
+    "last_publication_date": "2019-03-13",
+    "name": "Brian S. Fisher",
+    "orcid": "",
+    "topics": [
+      "Climate Change Policy and Economics",
+      "Agricultural Economics and Policy",
+      "Global Energy and Sustainability Research",
+      "Environmental Impact and Sustainability",
+      "Economics of Agriculture and Food Markets"
+    ],
+    "works_count": 123
+  },
+  {
+    "author_id": "https://openalex.org/A5062268280",
+    "citation_count": 10984,
+    "country": "US",
+    "h_index": 38,
+    "institution": "Pacific Northwest National Laboratory",
+    "last_publication_date": "2025-07-14",
+    "name": "Vilayanur Viswanathan",
+    "orcid": "0000-0003-1319-7984",
+    "topics": [
+      "Advanced Battery Technologies Research",
+      "Advancements in Battery Materials",
+      "Advanced battery technologies research",
+      "Advanced Battery Materials and Technologies",
+      "Fuel Cells and Related Materials"
+    ],
+    "works_count": 123
+  },
+  {
+    "author_id": "https://openalex.org/A5002754414",
+    "citation_count": 3993,
+    "country": "US",
+    "h_index": 31,
+    "institution": "Smithsonian Astrophysical Observatory",
+    "last_publication_date": "2026-02-01",
+    "name": "HUIQUN WANG",
+    "orcid": "0000-0001-9722-9992",
+    "topics": [
+      "Planetary Science and Exploration",
+      "Space Exploration and Technology",
+      "Astro and Planetary Science",
+      "Space exploration and regulation",
+      "Atmospheric Ozone and Climate"
+    ],
+    "works_count": 306
+  },
+  {
+    "author_id": "https://openalex.org/A5113579907",
+    "citation_count": 15,
+    "country": "FR",
+    "h_index": 3,
+    "institution": "Observatoire de Paris",
+    "last_publication_date": "2017-11-21",
+    "name": "J.-P. Amans",
+    "orcid": "",
+    "topics": [
+      "Adaptive optics and wavefront sensing",
+      "Optical Systems and Laser Technology",
+      "Stellar, planetary, and galactic studies",
+      "Solar and Space Plasma Dynamics",
+      "Optical measurement and interference techniques"
+    ],
+    "works_count": 6
+  },
+  {
+    "author_id": "https://openalex.org/A5091723041",
+    "citation_count": 1665,
+    "country": "IT",
+    "h_index": 19,
+    "institution": "University of Genoa",
+    "last_publication_date": "2023-11-02",
+    "name": "Rezia Molfino",
+    "orcid": "0000-0002-5257-9056",
+    "topics": [
+      "Manufacturing Process and Optimization",
+      "Robot Manipulation and Learning",
+      "Soft Robotics and Applications",
+      "Robotic Mechanisms and Dynamics",
+      "Advanced Manufacturing and Logistics Optimization"
+    ],
+    "works_count": 193
+  },
+  {
+    "author_id": "https://openalex.org/A5055321262",
+    "citation_count": 2,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2020-04-07",
+    "name": "organic-chemistry",
+    "orcid": "",
+    "topics": [],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5018973449",
+    "citation_count": 18612,
+    "country": "US",
+    "h_index": 69,
+    "institution": "National Renewable Energy Laboratory",
+    "last_publication_date": "2026-02-01",
+    "name": "Paul Denholm",
+    "orcid": "0000-0001-7128-4643",
+    "topics": [
+      "Smart Grid Energy Management",
+      "Integrated Energy Systems Optimization",
+      "Electric Power System Optimization",
+      "Energy and Environment Impacts",
+      "Microgrid Control and Optimization"
+    ],
+    "works_count": 275
+  },
+  {
+    "author_id": "https://openalex.org/A5029911656",
+    "citation_count": 8494,
+    "country": "IT",
+    "h_index": 36,
+    "institution": "University of Bologna",
+    "last_publication_date": "2025-09-30",
+    "name": "Emidio Capriotti",
+    "orcid": "0000-0002-2323-0963",
+    "topics": [
+      "Genomics and Rare Diseases",
+      "RNA and protein synthesis mechanisms",
+      "Protein Structure and Dynamics",
+      "Genomics and Phylogenetic Studies",
+      "Machine Learning in Bioinformatics"
+    ],
+    "works_count": 160
+  },
+  {
+    "author_id": "https://openalex.org/A5000796665",
+    "citation_count": 38,
+    "country": "US",
+    "h_index": 3,
+    "institution": "Boston Children's Hospital",
+    "last_publication_date": "2025-08-05",
+    "name": "Sophie Hurewitz",
+    "orcid": "0009-0007-6221-8901",
+    "topics": [
+      "Family and Disability Support Research",
+      "Down syndrome and intellectual disability research",
+      "Disability Education and Employment",
+      "Child and Adolescent Health",
+      "Autism Spectrum Disorder Research"
+    ],
+    "works_count": 13
+  },
+  {
+    "author_id": "https://openalex.org/A5049436617",
+    "citation_count": 185,
+    "country": "US",
+    "h_index": 7,
+    "institution": "Chemical Dynamics (United States)",
+    "last_publication_date": "2025-09-24",
+    "name": "Gennady F. Rayenko",
+    "orcid": "0000-0002-3694-536X",
+    "topics": [
+      "N-Heterocyclic Carbenes in Organic and Inorganic Chemistry",
+      "Catalytic Cross-Coupling Reactions",
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Cyclopropane Reaction Mechanisms"
+    ],
+    "works_count": 47
+  },
+  {
+    "author_id": "https://openalex.org/A5046284938",
+    "citation_count": 9448,
+    "country": "DE",
+    "h_index": 55,
+    "institution": "Clausthal University of Technology",
+    "last_publication_date": "2025-04-16",
+    "name": "Rainer Schmid\u2010Fetzer",
+    "orcid": "0000-0002-0559-1941",
+    "topics": [
+      "Metallurgical and Alloy Processes",
+      "Aluminum Alloy Microstructure Properties",
+      "Magnesium Alloys: Properties and Applications",
+      "Intermetallics and Advanced Alloy Properties",
+      "Aluminum Alloys Composites Properties"
+    ],
+    "works_count": 376
+  },
+  {
+    "author_id": "https://openalex.org/A5051259325",
+    "citation_count": 9122,
+    "country": "AU",
+    "h_index": 43,
+    "institution": "Australian National University",
+    "last_publication_date": "2025-12-04",
+    "name": "Nerilie J. Abram",
+    "orcid": "0000-0003-1246-2344",
+    "topics": [
+      "Geology and Paleoclimatology Research",
+      "Climate variability and models",
+      "Cryospheric studies and observations",
+      "Arctic and Antarctic ice dynamics",
+      "Tree-ring climate responses"
+    ],
+    "works_count": 226
+  },
+  {
+    "author_id": "https://openalex.org/A5010019244",
+    "citation_count": 14376,
+    "country": "US",
+    "h_index": 59,
+    "institution": "Berkeley College",
+    "last_publication_date": "2025-10-19",
+    "name": "Ken Goldberg",
+    "orcid": "0000-0001-6747-9499",
+    "topics": [
+      "Robot Manipulation and Learning",
+      "Robotic Path Planning Algorithms",
+      "Soft Robotics and Applications",
+      "Manufacturing Process and Optimization",
+      "Robotics and Sensor-Based Localization"
+    ],
+    "works_count": 325
+  },
+  {
+    "author_id": "https://openalex.org/A5102360456",
+    "citation_count": 214,
+    "country": "US",
+    "h_index": 8,
+    "institution": "SBS CyberSecurity (United States)",
+    "last_publication_date": "2025-10-09",
+    "name": "Shafi Muhammad",
+    "orcid": "",
+    "topics": [
+      "Essential Oils and Antimicrobial Activity",
+      "Phytochemistry and Biological Activities",
+      "Pharmacological Effects of Natural Compounds",
+      "Perovskite Materials and Applications",
+      "Conducting polymers and applications"
+    ],
+    "works_count": 39
+  },
+  {
+    "author_id": "https://openalex.org/A5047627018",
+    "citation_count": 415,
+    "country": "NP",
+    "h_index": 9,
+    "institution": "Tribhuvan University",
+    "last_publication_date": "2025-10-31",
+    "name": "Subhash Khatri",
+    "orcid": "0000-0002-5634-1547",
+    "topics": [
+      "Musculoskeletal pain and rehabilitation",
+      "Shoulder Injury and Treatment",
+      "Health and Well-being Studies",
+      "Occupational Therapy Practice and Research",
+      "Spine and Intervertebral Disc Pathology"
+    ],
+    "works_count": 107
+  },
+  {
+    "author_id": "https://openalex.org/A5108501920",
+    "citation_count": 972,
+    "country": "CN",
+    "h_index": 15,
+    "institution": "Hebei Medical University",
+    "last_publication_date": "2025-12-18",
+    "name": "Limin Meng",
+    "orcid": "0009-0006-2497-1727",
+    "topics": [
+      "Advanced Wireless Communication Techniques",
+      "Wireless Communication Networks Research",
+      "Advanced MIMO Systems Optimization",
+      "Cooperative Communication and Network Coding",
+      "Mobile Ad Hoc Networks"
+    ],
+    "works_count": 156
+  },
+  {
+    "author_id": "https://openalex.org/A5078366274",
+    "citation_count": 1078,
+    "country": "EE",
+    "h_index": 19,
+    "institution": "Tartu Observatory",
+    "last_publication_date": "2023-05-26",
+    "name": "Mart Noorma",
+    "orcid": "0000-0003-1867-4196",
+    "topics": [
+      "Calibration and Measurement Techniques",
+      "Spacecraft Dynamics and Control",
+      "Spacecraft Design and Technology",
+      "Infrared Target Detection Methodologies",
+      "Astro and Planetary Science"
+    ],
+    "works_count": 80
+  },
+  {
+    "author_id": "https://openalex.org/A5097819024",
+    "citation_count": 1,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2021-10-20",
+    "name": "Natural Language Processing",
+    "orcid": "",
+    "topics": [
+      "Topic Modeling",
+      "Biomedical Text Mining and Ontologies",
+      "Machine Learning in Healthcare"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5048724931",
+    "citation_count": 63,
+    "country": "",
+    "h_index": 3,
+    "institution": "",
+    "last_publication_date": "2025-05-14",
+    "name": "Shubham Varma",
+    "orcid": "",
+    "topics": [
+      "Digital Media Forensic Detection",
+      "Advanced Text Analysis Techniques",
+      "Advanced Steganography and Watermarking Techniques",
+      "Advanced Image and Video Retrieval Techniques",
+      "Image Retrieval and Classification Techniques"
+    ],
+    "works_count": 13
+  },
+  {
+    "author_id": "https://openalex.org/A5011288866",
+    "citation_count": 356,
+    "country": "DE",
+    "h_index": 11,
+    "institution": "Technical University of Munich",
+    "last_publication_date": "2022-07-19",
+    "name": "J\u00f6rg G\u00fcttler",
+    "orcid": "0000-0002-8786-5706",
+    "topics": [
+      "Context-Aware Activity Recognition Systems",
+      "Technology Use by Older Adults",
+      "Advanced Manufacturing and Logistics Optimization",
+      "Tactile and Sensory Interactions",
+      "Gaze Tracking and Assistive Technology"
+    ],
+    "works_count": 49
+  },
+  {
+    "author_id": "https://openalex.org/A5027971019",
+    "citation_count": 5,
+    "country": "IE",
+    "h_index": 1,
+    "institution": "Schlumberger (Ireland)",
+    "last_publication_date": "2023-01-01",
+    "name": "P. Punitha Ilayarani",
+    "orcid": "",
+    "topics": [
+      "Topic Modeling",
+      "Network Security and Intrusion Detection",
+      "Context-Aware Activity Recognition Systems",
+      "Data Mining Algorithms and Applications",
+      "COVID-19 diagnosis using AI"
+    ],
+    "works_count": 4
+  },
+  {
+    "author_id": "https://openalex.org/A5066741432",
+    "citation_count": 8021,
+    "country": "CA",
+    "h_index": 49,
+    "institution": "Universit\u00e9 de Sherbrooke",
+    "last_publication_date": "2026-01-07",
+    "name": "Dominique Derome",
+    "orcid": "0000-0002-8018-1133",
+    "topics": [
+      "Urban Heat Island Mitigation",
+      "Wind and Air Flow Studies",
+      "Building Energy and Comfort Optimization",
+      "Hygrothermal properties of building materials",
+      "Wood Treatment and Properties"
+    ],
+    "works_count": 355
+  },
+  {
+    "author_id": "https://openalex.org/A5072820678",
+    "citation_count": 19418,
+    "country": "AT",
+    "h_index": 65,
+    "institution": "University of Vienna",
+    "last_publication_date": "2025-12-16",
+    "name": "P. Rogl",
+    "orcid": "0000-0002-7733-1612",
+    "topics": [
+      "Rare-earth and actinide compounds",
+      "Intermetallics and Advanced Alloy Properties",
+      "Inorganic Chemistry and Materials",
+      "Iron-based superconductors research",
+      "Advanced Thermoelectric Materials and Devices"
+    ],
+    "works_count": 1056
+  },
+  {
+    "author_id": "https://openalex.org/A5035677612",
+    "citation_count": 227,
+    "country": "IT",
+    "h_index": 6,
+    "institution": "Azienda Unit\u00e0 Sanitaria Locale Piacenza",
+    "last_publication_date": "2025-06-02",
+    "name": "Anna Cassio",
+    "orcid": "",
+    "topics": [
+      "Stroke Rehabilitation and Recovery",
+      "Cerebral Palsy and Movement Disorders",
+      "Acute Ischemic Stroke Management",
+      "Spinal Cord Injury Research",
+      "Prosthetics and Rehabilitation Robotics"
+    ],
+    "works_count": 9
+  },
+  {
+    "author_id": "https://openalex.org/A5011572601",
+    "citation_count": 12399,
+    "country": "GB",
+    "h_index": 39,
+    "institution": "Wellcome Sanger Institute",
+    "last_publication_date": "2025-09-17",
+    "name": "Nancy Holroyd",
+    "orcid": "0000-0003-2608-7151",
+    "topics": [
+      "Parasite Biology and Host Interactions",
+      "Parasites and Host Interactions",
+      "Helminth infection and control",
+      "Nematode management and characterization studies",
+      "Genomics and Phylogenetic Studies"
+    ],
+    "works_count": 146
+  },
+  {
+    "author_id": "https://openalex.org/A5008405173",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2020-06-25",
+    "name": "The ELIXIR Machine Learning focus group",
+    "orcid": "",
+    "topics": [
+      "Computational Drug Discovery Methods",
+      "Bioinformatics and Genomic Networks",
+      "Genetics, Bioinformatics, and Biomedical Research"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5025962260",
+    "citation_count": 8442,
+    "country": "US",
+    "h_index": 45,
+    "institution": "New York University",
+    "last_publication_date": "2025-10-23",
+    "name": "Elisa Riedo",
+    "orcid": "0000-0002-2423-8801",
+    "topics": [
+      "Force Microscopy Techniques and Applications",
+      "Graphene research and applications",
+      "Diamond and Carbon-based Materials Research",
+      "Nanofabrication and Lithography Techniques",
+      "Mechanical and Optical Resonators"
+    ],
+    "works_count": 171
+  },
+  {
+    "author_id": "https://openalex.org/A5048219277",
+    "citation_count": 11833,
+    "country": "US",
+    "h_index": 56,
+    "institution": "Harvard University",
+    "last_publication_date": "2025-12-16",
+    "name": "Le Xie",
+    "orcid": "0000-0002-9810-948X",
+    "topics": [
+      "Smart Grid Energy Management",
+      "Electric Power System Optimization",
+      "Optimal Power Flow Distribution",
+      "Smart Grid Security and Resilience",
+      "Energy Load and Power Forecasting"
+    ],
+    "works_count": 483
+  },
+  {
+    "author_id": "https://openalex.org/A5006083279",
+    "citation_count": 14314,
+    "country": "",
+    "h_index": 67,
+    "institution": "",
+    "last_publication_date": "2025-11-01",
+    "name": "Thomas Bugge",
+    "orcid": "0000-0001-7046-4060",
+    "topics": [
+      "Bacillus and Francisella bacterial research",
+      "Protease and Inhibitor Mechanisms",
+      "Blood Coagulation and Thrombosis Mechanisms",
+      "Cell Adhesion Molecules Research",
+      "Cancer Research and Treatments"
+    ],
+    "works_count": 221
+  },
+  {
+    "author_id": "https://openalex.org/A5022492755",
+    "citation_count": 63,
+    "country": "",
+    "h_index": 4,
+    "institution": "",
+    "last_publication_date": "2018-12-29",
+    "name": "Jessica Hannah",
+    "orcid": "",
+    "topics": [
+      "Cerebrovascular and Carotid Artery Diseases",
+      "Acute Ischemic Stroke Management",
+      "Stroke Rehabilitation and Recovery",
+      "Glioma Diagnosis and Treatment",
+      "Sports Performance and Training"
+    ],
+    "works_count": 10
+  },
+  {
+    "author_id": "https://openalex.org/A5053821320",
+    "citation_count": 48922,
+    "country": "GB",
+    "h_index": 86,
+    "institution": "Manchester Academic Health Science Centre",
+    "last_publication_date": "2025-07-02",
+    "name": "Stephen Eyre",
+    "orcid": "0000-0002-1251-6974",
+    "topics": [
+      "Rheumatoid Arthritis Research and Therapies",
+      "Genetic Associations and Epidemiology",
+      "Systemic Lupus Erythematosus Research",
+      "Chronic Lymphocytic Leukemia Research",
+      "Cytokine Signaling Pathways and Interactions"
+    ],
+    "works_count": 410
+  },
+  {
+    "author_id": "https://openalex.org/A5108838909",
+    "citation_count": 324,
+    "country": "",
+    "h_index": 9,
+    "institution": "",
+    "last_publication_date": "2023-05-25",
+    "name": "Jerzy S\u0105siadek",
+    "orcid": "",
+    "topics": [
+      "Robotic Path Planning Algorithms",
+      "Control and Dynamics of Mobile Robots",
+      "Advanced Control Systems Optimization",
+      "Fault Detection and Control Systems",
+      "Control Systems and Identification"
+    ],
+    "works_count": 39
+  },
+  {
+    "author_id": "https://openalex.org/A5076208030",
+    "citation_count": 1,
+    "country": "EG",
+    "h_index": 1,
+    "institution": "Mansoura University",
+    "last_publication_date": "2022-09-26",
+    "name": "Ommama Idris Abbas Ali",
+    "orcid": "",
+    "topics": [
+      "Healthcare and Environmental Waste Management",
+      "Healthcare Facilities Design and Sustainability"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5085216755",
+    "citation_count": 182,
+    "country": "CA",
+    "h_index": 6,
+    "institution": "Douglas College",
+    "last_publication_date": "2025-02-07",
+    "name": "Amanda Larosa",
+    "orcid": "0000-0003-2538-2773",
+    "topics": [
+      "Stress Responses and Cortisol",
+      "Neuroendocrine regulation and behavior",
+      "Memory and Neural Mechanisms",
+      "Neuroscience and Neuropharmacology Research",
+      "Maternal Mental Health During Pregnancy and Postpartum"
+    ],
+    "works_count": 13
+  },
+  {
+    "author_id": "https://openalex.org/A5072633267",
+    "citation_count": 4320,
+    "country": "ES",
+    "h_index": 30,
+    "institution": "Universitat de Barcelona",
+    "last_publication_date": "2025-12-19",
+    "name": "Jorge Casalderrey-Solana",
+    "orcid": "0000-0002-5241-0154",
+    "topics": [
+      "High-Energy Particle Collisions Research",
+      "Particle physics theoretical and experimental studies",
+      "Black Holes and Theoretical Physics",
+      "Cosmology and Gravitation Theories",
+      "Quantum Chromodynamics and Particle Interactions"
+    ],
+    "works_count": 136
+  },
+  {
+    "author_id": "https://openalex.org/A5086288084",
+    "citation_count": 40276,
+    "country": "PH",
+    "h_index": 88,
+    "institution": "University of the Philippines Los Ba\u00f1os",
+    "last_publication_date": "2025-11-15",
+    "name": "Josef Settele",
+    "orcid": "0000-0002-8624-4983",
+    "topics": [
+      "Plant and animal studies",
+      "Ecology and Vegetation Dynamics Studies",
+      "Species Distribution and Climate Change",
+      "Insect and Arachnid Ecology and Behavior",
+      "Insect and Pesticide Research"
+    ],
+    "works_count": 421
+  },
+  {
+    "author_id": "https://openalex.org/A5032578658",
+    "citation_count": 5782,
+    "country": "",
+    "h_index": 29,
+    "institution": "",
+    "last_publication_date": "2025-12-04",
+    "name": "Liping Yu",
+    "orcid": "0000-0001-9654-9193",
+    "topics": [
+      "2D Materials and Applications",
+      "Chalcogenide Semiconductor Thin Films",
+      "MXene and MAX Phase Materials",
+      "Perovskite Materials and Applications",
+      "Electronic and Structural Properties of Oxides"
+    ],
+    "works_count": 92
+  },
+  {
+    "author_id": "https://openalex.org/A5108378152",
+    "citation_count": 444190,
+    "country": "MX",
+    "h_index": 224,
+    "institution": "National Institute of Genomic Medicine",
+    "last_publication_date": "2026-01-16",
+    "name": "Stacey Gabriel",
+    "orcid": "",
+    "topics": [
+      "Cancer Genomics and Diagnostics",
+      "Genetic Associations and Epidemiology",
+      "Genomics and Rare Diseases",
+      "RNA modifications and cancer",
+      "Genetic factors in colorectal cancer"
+    ],
+    "works_count": 770
+  },
+  {
+    "author_id": "https://openalex.org/A5087429528",
+    "citation_count": 7812,
+    "country": "US",
+    "h_index": 45,
+    "institution": "Great Minds",
+    "last_publication_date": "2025-02-26",
+    "name": "Patricia Boksa",
+    "orcid": "0000-0001-5735-9565",
+    "topics": [
+      "Neuroscience and Neuropharmacology Research",
+      "Neuroendocrine regulation and behavior",
+      "Stress Responses and Cortisol",
+      "Receptor Mechanisms and Signaling",
+      "Tryptophan and brain disorders"
+    ],
+    "works_count": 163
+  },
+  {
+    "author_id": "https://openalex.org/A5101438844",
+    "citation_count": 6524,
+    "country": "IN",
+    "h_index": 45,
+    "institution": "Indian Institute of Technology Guwahati",
+    "last_publication_date": "2025-10-15",
+    "name": "M. Bhattacharjee",
+    "orcid": "0000-0002-8700-4930",
+    "topics": [
+      "Particle physics theoretical and experimental studies",
+      "High-Energy Particle Collisions Research",
+      "Quantum Chromodynamics and Particle Interactions",
+      "Dark Matter and Cosmic Phenomena",
+      "Neutrino Physics Research"
+    ],
+    "works_count": 169
+  },
+  {
+    "author_id": "https://openalex.org/A5100459097",
+    "citation_count": 8490,
+    "country": "CN",
+    "h_index": 43,
+    "institution": "Hebei University",
+    "last_publication_date": "2026-01-08",
+    "name": "Zheng Zhang",
+    "orcid": "",
+    "topics": [
+      "Structural Analysis and Optimization",
+      "Composite Structure Analysis and Optimization",
+      "Aeroelasticity and Vibration Control",
+      "Advanced Materials and Mechanics",
+      "Structural Load-Bearing Analysis"
+    ],
+    "works_count": 295
+  },
+  {
+    "author_id": "https://openalex.org/A5120740059",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2025-12-10",
+    "name": "Noel Joseph Jomy",
+    "orcid": "",
+    "topics": [],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5073677238",
+    "citation_count": 0,
+    "country": "US",
+    "h_index": 0,
+    "institution": "Adobe Systems (United States)",
+    "last_publication_date": "2020-09-15",
+    "name": "Blockchain",
+    "orcid": "",
+    "topics": [
+      "Brain Tumor Detection and Classification",
+      "E-commerce and Technology Innovations",
+      "Impact of AI and Big Data on Business and Society"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5092439373",
+    "citation_count": 0,
+    "country": "US",
+    "h_index": 0,
+    "institution": "Start Making A Reader Today",
+    "last_publication_date": "2023-07-10",
+    "name": "Janet Njoku",
+    "orcid": "",
+    "topics": [
+      "Network Security and Intrusion Detection",
+      "Information and Cyber Security",
+      "Cloud Data Security Solutions"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5092472696",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2023-06-27",
+    "name": "O.Yu. Kochetkov",
+    "orcid": "",
+    "topics": [
+      "Legal and Policy Issues"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5053089950",
+    "citation_count": 78,
+    "country": "US",
+    "h_index": 4,
+    "institution": "Stony Brook University Hospital",
+    "last_publication_date": "2022-05-03",
+    "name": "Joseph Adachi",
+    "orcid": "",
+    "topics": [
+      "Functional Brain Connectivity Studies",
+      "Traumatic Brain Injury Research",
+      "EEG and Brain-Computer Interfaces",
+      "Neural dynamics and brain function",
+      "Traumatic Brain Injury and Neurovascular Disturbances"
+    ],
+    "works_count": 7
+  },
+  {
+    "author_id": "https://openalex.org/A5043862313",
+    "citation_count": 18489,
+    "country": "CN",
+    "h_index": 76,
+    "institution": "Shandong University of Technology",
+    "last_publication_date": "2025-10-27",
+    "name": "Yulin Deng",
+    "orcid": "0000-0002-1797-7702",
+    "topics": [
+      "Advanced Cellulose Research Studies",
+      "Advanced Sensor and Energy Harvesting Materials",
+      "Lignin and Wood Chemistry",
+      "Conducting polymers and applications",
+      "Electrospun Nanofibers in Biomedical Applications"
+    ],
+    "works_count": 338
+  },
+  {
+    "author_id": "https://openalex.org/A5100659515",
+    "citation_count": 12504,
+    "country": "CN",
+    "h_index": 58,
+    "institution": "Shenyang University of Technology",
+    "last_publication_date": "2025-12-10",
+    "name": "Zhaoyu Wang",
+    "orcid": "0000-0003-0656-0562",
+    "topics": [
+      "Optimal Power Flow Distribution",
+      "Smart Grid Energy Management",
+      "Microgrid Control and Optimization",
+      "Power System Reliability and Maintenance",
+      "Power System Optimization and Stability"
+    ],
+    "works_count": 409
+  },
+  {
+    "author_id": "https://openalex.org/A5084494552",
+    "citation_count": 832,
+    "country": "SE",
+    "h_index": 15,
+    "institution": "Volvo (Sweden)",
+    "last_publication_date": "2022-06-29",
+    "name": "Ataollah Abbasi",
+    "orcid": "0000-0001-8406-8587",
+    "topics": [
+      "EEG and Brain-Computer Interfaces",
+      "Heart Rate Variability and Autonomic Control",
+      "ECG Monitoring and Analysis",
+      "Emotion and Mood Recognition",
+      "Neuroscience and Neuropharmacology Research"
+    ],
+    "works_count": 66
+  },
+  {
+    "author_id": "https://openalex.org/A5044286845",
+    "citation_count": 17100,
+    "country": "IN",
+    "h_index": 77,
+    "institution": "Lovely Professional University",
+    "last_publication_date": "2025-12-19",
+    "name": "Veena Kumari",
+    "orcid": "0000-0002-9635-5505",
+    "topics": [
+      "Schizophrenia research and treatment",
+      "Functional Brain Connectivity Studies",
+      "Anxiety, Depression, Psychometrics, Treatment, Cognitive Processes",
+      "Advanced Neuroimaging Techniques and Applications",
+      "Neural and Behavioral Psychology Studies"
+    ],
+    "works_count": 567
+  },
+  {
+    "author_id": "https://openalex.org/A5080582354",
+    "citation_count": 6635,
+    "country": "ZA",
+    "h_index": 40,
+    "institution": "University of Cape Town",
+    "last_publication_date": "2026-01-14",
+    "name": "Kirsten A. Donald",
+    "orcid": "0000-0002-0276-9660",
+    "topics": [
+      "Neonatal and fetal brain pathology",
+      "Prenatal Substance Exposure Effects",
+      "Infant Development and Preterm Care",
+      "Birth, Development, and Health",
+      "Maternal Mental Health During Pregnancy and Postpartum"
+    ],
+    "works_count": 325
+  },
+  {
+    "author_id": "https://openalex.org/A5063479620",
+    "citation_count": 1209,
+    "country": "",
+    "h_index": 19,
+    "institution": "",
+    "last_publication_date": "2024-09-10",
+    "name": "J. H. Brownell",
+    "orcid": "",
+    "topics": [
+      "Laser-Plasma Interactions and Diagnostics",
+      "Particle Accelerators and Free-Electron Lasers",
+      "Gyrotron and Vacuum Electronics Research",
+      "Particle accelerators and beam dynamics",
+      "Quantum Electrodynamics and Casimir Effect"
+    ],
+    "works_count": 87
+  },
+  {
+    "author_id": "https://openalex.org/A5117334082",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2025-08-16",
+    "name": "Prassanna Rao Rajgopal",
+    "orcid": "",
+    "topics": [
+      "Blockchain Technology Applications and Security",
+      "Digital Transformation in Industry",
+      "Ethics and Social Impacts of AI",
+      "Law, AI, and Intellectual Property"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5113605048",
+    "citation_count": 7397,
+    "country": "US",
+    "h_index": 37,
+    "institution": "Los Alamos National Laboratory",
+    "last_publication_date": "2024-02-07",
+    "name": "Stirling A. Colgate",
+    "orcid": "",
+    "topics": [
+      "Gamma-ray bursts and supernovae",
+      "Astrophysics and Cosmic Phenomena",
+      "Solar and Space Plasma Dynamics",
+      "Astro and Planetary Science",
+      "Pulsars and Gravitational Waves Research"
+    ],
+    "works_count": 366
+  },
+  {
+    "author_id": "https://openalex.org/A5014842430",
+    "citation_count": 164,
+    "country": "US",
+    "h_index": 6,
+    "institution": "Western Michigan University",
+    "last_publication_date": "2025-05-01",
+    "name": "Shrabanti Roy",
+    "orcid": "0000-0001-9130-4533",
+    "topics": [
+      "Advanced Combustion Engine Technologies",
+      "Combustion and flame dynamics",
+      "Thermochemical Biomass Conversion Processes",
+      "Biodiesel Production and Applications",
+      "Wind Energy Research and Development"
+    ],
+    "works_count": 25
+  },
+  {
+    "author_id": "https://openalex.org/A5077632077",
+    "citation_count": 15632,
+    "country": "CN",
+    "h_index": 65,
+    "institution": "Xidian University",
+    "last_publication_date": "2025-12-15",
+    "name": "Jinwen Zhang",
+    "orcid": "0000-0001-8828-114X",
+    "topics": [
+      "biodegradable polymer synthesis and properties",
+      "Polymer composites and self-healing",
+      "Crystallization and Solubility Studies",
+      "X-ray Diffraction in Crystallography",
+      "Polymer crystallization and properties"
+    ],
+    "works_count": 449
+  },
+  {
+    "author_id": "https://openalex.org/A5102024041",
+    "citation_count": 218,
+    "country": "US",
+    "h_index": 7,
+    "institution": "Lawrence Berkeley National Laboratory",
+    "last_publication_date": "2025-12-06",
+    "name": "Brad Richardson",
+    "orcid": "0000-0002-3205-2169",
+    "topics": [
+      "Parallel Computing and Optimization Techniques",
+      "Distributed and Parallel Computing Systems",
+      "Additive Manufacturing and 3D Printing Technologies",
+      "Nuclear reactor physics and engineering",
+      "Additive Manufacturing Materials and Processes"
+    ],
+    "works_count": 32
+  },
+  {
+    "author_id": "https://openalex.org/A5017748148",
+    "citation_count": 5397,
+    "country": "US",
+    "h_index": 39,
+    "institution": "Carnegie Mellon University",
+    "last_publication_date": "2025-12-11",
+    "name": "Maarten P. Boer",
+    "orcid": "0000-0003-1574-9324",
+    "topics": [
+      "Advanced MEMS and NEMS Technologies",
+      "Force Microscopy Techniques and Applications",
+      "Adhesion, Friction, and Surface Interactions",
+      "Metal and Thin Film Mechanics",
+      "Mechanical and Optical Resonators"
+    ],
+    "works_count": 343
+  },
+  {
+    "author_id": "https://openalex.org/A5088404965",
+    "citation_count": 34104,
+    "country": "AU",
+    "h_index": 64,
+    "institution": "Australian Centre for Plant Functional Genomics",
+    "last_publication_date": "2025-11-01",
+    "name": "Torsten Seemann",
+    "orcid": "0000-0001-6046-610X",
+    "topics": [
+      "Antimicrobial Resistance in Staphylococcus",
+      "Genomics and Phylogenetic Studies",
+      "Mycobacterium research and diagnosis",
+      "Bacterial Identification and Susceptibility Testing",
+      "Antibiotic Resistance in Bacteria"
+    ],
+    "works_count": 321
+  },
+  {
+    "author_id": "https://openalex.org/A5034708742",
+    "citation_count": 1098,
+    "country": "FR",
+    "h_index": 15,
+    "institution": "Centre National de la Recherche Scientifique",
+    "last_publication_date": "2025-10-01",
+    "name": "Atri Bhattacharya",
+    "orcid": "0000-0003-0571-905X",
+    "topics": [
+      "Particle physics theoretical and experimental studies",
+      "Stellar, planetary, and galactic studies",
+      "Astronomy and Astrophysical Research",
+      "Astrophysics and Cosmic Phenomena",
+      "Dark Matter and Cosmic Phenomena"
+    ],
+    "works_count": 72
+  },
+  {
+    "author_id": "https://openalex.org/A5028843362",
+    "citation_count": 112669,
+    "country": "GB",
+    "h_index": 169,
+    "institution": "University of Aberdeen",
+    "last_publication_date": "2026-01-06",
+    "name": "Pete Smith",
+    "orcid": "0000-0002-3784-1124",
+    "topics": [
+      "Soil Carbon and Nitrogen Dynamics",
+      "Agriculture Sustainability and Environmental Impact",
+      "Peatlands and Wetlands Ecology",
+      "Bioenergy crop production and management",
+      "Atmospheric and Environmental Gas Dynamics"
+    ],
+    "works_count": 1415
+  },
+  {
+    "author_id": "https://openalex.org/A5036141382",
+    "citation_count": 9526,
+    "country": "GB",
+    "h_index": 47,
+    "institution": "Manchester Metropolitan University",
+    "last_publication_date": "2025-12-23",
+    "name": "Zackary I. Johnson",
+    "orcid": "0000-0003-0793-8512",
+    "topics": [
+      "Marine and coastal ecosystems",
+      "Microbial Community Ecology and Physiology",
+      "Algal biology and biofuel production",
+      "Marine Biology and Ecology Research",
+      "Protist diversity and phylogeny"
+    ],
+    "works_count": 165
+  },
+  {
+    "author_id": "https://openalex.org/A5059734329",
+    "citation_count": 15451,
+    "country": "US",
+    "h_index": 53,
+    "institution": "University of Idaho",
+    "last_publication_date": "2025-11-22",
+    "name": "Jeffrey A. Hicke",
+    "orcid": "",
+    "topics": [
+      "Forest Insect Ecology and Management",
+      "Fire effects on ecosystems",
+      "Forest ecology and management",
+      "Forest Management and Policy",
+      "Forest Ecology and Biodiversity Studies"
+    ],
+    "works_count": 186
+  },
+  {
+    "author_id": "https://openalex.org/A5039479646",
+    "citation_count": 2506,
+    "country": "NP",
+    "h_index": 28,
+    "institution": "International Centre for Integrated Mountain Development",
+    "last_publication_date": "2025-11-28",
+    "name": "Sher Muhammad",
+    "orcid": "0000-0001-7315-6450",
+    "topics": [
+      "Cryospheric studies and observations",
+      "Climate change and permafrost",
+      "Arctic and Antarctic ice dynamics",
+      "Climate variability and models",
+      "Fractional Differential Equations Solutions"
+    ],
+    "works_count": 143
+  },
+  {
+    "author_id": "https://openalex.org/A5050039741",
+    "citation_count": 14128,
+    "country": "US",
+    "h_index": 54,
+    "institution": "SLAC National Accelerator Laboratory",
+    "last_publication_date": "2025-12-18",
+    "name": "William C. Chueh",
+    "orcid": "0000-0002-7066-3470",
+    "topics": [
+      "Advancements in Battery Materials",
+      "Advanced Battery Technologies Research",
+      "Advanced Battery Materials and Technologies",
+      "Advancements in Solid Oxide Fuel Cells",
+      "Electronic and Structural Properties of Oxides"
+    ],
+    "works_count": 268
+  },
+  {
+    "author_id": "https://openalex.org/A5047319335",
+    "citation_count": 127,
+    "country": "US",
+    "h_index": 4,
+    "institution": "Harvard University Press",
+    "last_publication_date": "2025-04-01",
+    "name": "Craig McFarland",
+    "orcid": "0009-0004-9063-7984",
+    "topics": [
+      "Mental Health and Psychiatry",
+      "Neuroethics, Human Enhancement, Biomedical Innovations",
+      "Dementia and Cognitive Impairment Research",
+      "Neural and Behavioral Psychology Studies",
+      "Mental Health Treatment and Access"
+    ],
+    "works_count": 17
+  },
+  {
+    "author_id": "https://openalex.org/A5067854039",
+    "citation_count": 25036,
+    "country": "GB",
+    "h_index": 72,
+    "institution": "British Antarctic Survey",
+    "last_publication_date": "2025-03-10",
+    "name": "David G. Vaughan",
+    "orcid": "0000-0002-9065-0570",
+    "topics": [
+      "Cryospheric studies and observations",
+      "Winter Sports Injuries and Performance",
+      "Geology and Paleoclimatology Research",
+      "Arctic and Antarctic ice dynamics",
+      "Landslides and related hazards"
+    ],
+    "works_count": 297
+  },
+  {
+    "author_id": "https://openalex.org/A5031084922",
+    "citation_count": 236,
+    "country": "US",
+    "h_index": 8,
+    "institution": "National Renewable Energy Laboratory",
+    "last_publication_date": "2025-01-02",
+    "name": "Sriharsha Etigowni",
+    "orcid": "",
+    "topics": [
+      "Smart Grid Security and Resilience",
+      "Security and Verification in Computing",
+      "Power System Optimization and Stability",
+      "Network Security and Intrusion Detection",
+      "Optimal Power Flow Distribution"
+    ],
+    "works_count": 18
+  },
+  {
+    "author_id": "https://openalex.org/A5042387870",
+    "citation_count": 2617,
+    "country": "BR",
+    "h_index": 26,
+    "institution": "S\u00e3o Camilo Hospital",
+    "last_publication_date": "2025-10-30",
+    "name": "Pawe\u0142 Kiper",
+    "orcid": "0000-0001-5990-5734",
+    "topics": [
+      "Stroke Rehabilitation and Recovery",
+      "Cerebral Palsy and Movement Disorders",
+      "Botulinum Toxin and Related Neurological Disorders",
+      "Musculoskeletal pain and rehabilitation",
+      "Muscle activation and electromyography studies"
+    ],
+    "works_count": 100
+  },
+  {
+    "author_id": "https://openalex.org/A5065502629",
+    "citation_count": 1268,
+    "country": "DE",
+    "h_index": 20,
+    "institution": "Waldkrankenhaus Rudolf Elle",
+    "last_publication_date": "2022-12-06",
+    "name": "Christian Fisahn",
+    "orcid": "0000-0003-1035-9423",
+    "topics": [
+      "Spinal Fractures and Fixation Techniques",
+      "Spine and Intervertebral Disc Pathology",
+      "Cervical and Thoracic Myelopathy",
+      "Spinal Hematomas and Complications",
+      "Stroke Rehabilitation and Recovery"
+    ],
+    "works_count": 86
+  },
+  {
+    "author_id": "https://openalex.org/A5094952677",
+    "citation_count": 1,
+    "country": "US",
+    "h_index": 1,
+    "institution": "SBS CyberSecurity (United States)",
+    "last_publication_date": "2019-12-31",
+    "name": "Cybersecurity Hasan",
+    "orcid": "",
+    "topics": [
+      "Network Security and Intrusion Detection",
+      "Information and Cyber Security",
+      "Smart Grid Security and Resilience"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5057303694",
+    "citation_count": 907,
+    "country": "DE",
+    "h_index": 15,
+    "institution": "Deutsches Elektronen-Synchrotron DESY",
+    "last_publication_date": "2022-05-23",
+    "name": "Michael Duerr",
+    "orcid": "",
+    "topics": [
+      "Particle physics theoretical and experimental studies",
+      "Dark Matter and Cosmic Phenomena",
+      "Cosmology and Gravitation Theories",
+      "Neutrino Physics Research",
+      "Particle Detector Development and Performance"
+    ],
+    "works_count": 28
+  },
+  {
+    "author_id": "https://openalex.org/A5022805968",
+    "citation_count": 5598,
+    "country": "US",
+    "h_index": 36,
+    "institution": "Purchase College",
+    "last_publication_date": "2025-11-29",
+    "name": "Zohar Komargodski",
+    "orcid": "0000-0002-8486-0811",
+    "topics": [
+      "Black Holes and Theoretical Physics",
+      "Quantum Chromodynamics and Particle Interactions",
+      "Particle physics theoretical and experimental studies",
+      "Cosmology and Gravitation Theories",
+      "Noncommutative and Quantum Gravity Theories"
+    ],
+    "works_count": 90
+  },
+  {
+    "author_id": "https://openalex.org/A5087054041",
+    "citation_count": 9803,
+    "country": "GB",
+    "h_index": 50,
+    "institution": "University College London Hospitals NHS Foundation Trust",
+    "last_publication_date": "2025-12-09",
+    "name": "Rosaline C. M. Quinlivan",
+    "orcid": "0000-0002-2306-4782",
+    "topics": [
+      "Muscle Physiology and Disorders",
+      "Glycogen Storage Diseases and Myoclonus",
+      "Neurogenetic and Muscular Disorders Research",
+      "Genetic Neurodegenerative Diseases",
+      "Metabolism and Genetic Disorders"
+    ],
+    "works_count": 904
+  },
+  {
+    "author_id": "https://openalex.org/A5070228965",
+    "citation_count": 13592,
+    "country": "IL",
+    "h_index": 50,
+    "institution": "Weizmann Institute of Science",
+    "last_publication_date": "2025-12-03",
+    "name": "Ofer Aharony",
+    "orcid": "0000-0002-4966-1665",
+    "topics": [
+      "Black Holes and Theoretical Physics",
+      "Cosmology and Gravitation Theories",
+      "Particle physics theoretical and experimental studies",
+      "Quantum Chromodynamics and Particle Interactions",
+      "Noncommutative and Quantum Gravity Theories"
+    ],
+    "works_count": 133
+  },
+  {
+    "author_id": "https://openalex.org/A5101714505",
+    "citation_count": 2138,
+    "country": "US",
+    "h_index": 23,
+    "institution": "University of North Carolina at Chapel Hill",
+    "last_publication_date": "2025-08-25",
+    "name": "Fuzhou Wang",
+    "orcid": "0000-0002-9028-5382",
+    "topics": [
+      "Anesthesia and Pain Management",
+      "Single-cell and spatial transcriptomics",
+      "Pain Mechanisms and Treatments",
+      "Genomics and Chromatin Dynamics",
+      "Cardiac, Anesthesia and Surgical Outcomes"
+    ],
+    "works_count": 138
+  },
+  {
+    "author_id": "https://openalex.org/A5041321997",
+    "citation_count": 45093,
+    "country": "US",
+    "h_index": 111,
+    "institution": "United States Department of Commerce",
+    "last_publication_date": "2025-11-24",
+    "name": "Nicholas Katsanis",
+    "orcid": "0000-0002-2480-0171",
+    "topics": [
+      "Genetic and Kidney Cyst Diseases",
+      "Genetic Syndromes and Imprinting",
+      "Hedgehog Signaling Pathway Studies",
+      "Renal and related cancers",
+      "Genetics and Neurodevelopmental Disorders"
+    ],
+    "works_count": 477
+  },
+  {
+    "author_id": "https://openalex.org/A5050405397",
+    "citation_count": 3695,
+    "country": "",
+    "h_index": 34,
+    "institution": "",
+    "last_publication_date": "2025-07-10",
+    "name": "Tereza Neuma de Castro Dantas",
+    "orcid": "0000-0001-5389-7075",
+    "topics": [
+      "Surfactants and Colloidal Systems",
+      "Enhanced Oil Recovery Techniques",
+      "Petroleum Processing and Analysis",
+      "Hydraulic Fracturing and Reservoir Analysis",
+      "Biodiesel Production and Applications"
+    ],
+    "works_count": 184
+  },
+  {
+    "author_id": "https://openalex.org/A5052622950",
+    "citation_count": 9,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2020-01-01",
+    "name": "G.Yu. Golovin",
+    "orcid": "",
+    "topics": [
+      "Diatoms and Algae Research"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5000555401",
+    "citation_count": 682,
+    "country": "MY",
+    "h_index": 12,
+    "institution": "Technical University of Malaysia Malacca",
+    "last_publication_date": "2025-12-02",
+    "name": "Siti Rahayu Selamat",
+    "orcid": "0000-0002-5561-569X",
+    "topics": [
+      "Advanced Malware Detection Techniques",
+      "Network Security and Intrusion Detection",
+      "Digital and Cyber Forensics",
+      "Anomaly Detection Techniques and Applications",
+      "Information and Cyber Security"
+    ],
+    "works_count": 61
+  },
+  {
+    "author_id": "https://openalex.org/A5015485882",
+    "citation_count": 6599,
+    "country": "IL",
+    "h_index": 43,
+    "institution": "Ben-Gurion University of the Negev",
+    "last_publication_date": "2025-12-01",
+    "name": "Ruslan Sergienko",
+    "orcid": "0000-0001-9583-008X",
+    "topics": [
+      "Pregnancy and preeclampsia studies",
+      "Gestational Diabetes Research and Management",
+      "Birth, Development, and Health",
+      "Maternal and Perinatal Health Interventions",
+      "Maternal and fetal healthcare"
+    ],
+    "works_count": 368
+  },
+  {
+    "author_id": "https://openalex.org/A5083800393",
+    "citation_count": 9013,
+    "country": "GB",
+    "h_index": 40,
+    "institution": "University of Leicester",
+    "last_publication_date": "2025-12-06",
+    "name": "Veryan Codd",
+    "orcid": "0000-0002-9430-8254",
+    "topics": [
+      "Telomeres, Telomerase, and Senescence",
+      "Genetics, Aging, and Longevity in Model Organisms",
+      "Epigenetics and DNA Methylation",
+      "Single-cell and spatial transcriptomics",
+      "Nutritional Studies and Diet"
+    ],
+    "works_count": 135
+  },
+  {
+    "author_id": "https://openalex.org/A5064262596",
+    "citation_count": 132,
+    "country": "",
+    "h_index": 6,
+    "institution": "",
+    "last_publication_date": "2025-12-03",
+    "name": "null null",
+    "orcid": "",
+    "topics": [
+      "Science, Research, and Medicine",
+      "Monoclonal and Polyclonal Antibodies Research",
+      "Manufacturing Process and Optimization",
+      "Advanced Fiber Optic Sensors",
+      "ICT Impact and Policies"
+    ],
+    "works_count": 390
+  },
+  {
+    "author_id": "https://openalex.org/A5068564128",
+    "citation_count": 11,
+    "country": "",
+    "h_index": 2,
+    "institution": "",
+    "last_publication_date": "2025-07-18",
+    "name": "V Cherviakova",
+    "orcid": "0000-0003-3568-3836",
+    "topics": [
+      "Economic Issues in Ukraine",
+      "Business and Economic Development",
+      "Economic and Business Development Strategies",
+      "Banking, Crisis Management, COVID-19 Impact",
+      "Labor Market and Education"
+    ],
+    "works_count": 13
+  },
+  {
+    "author_id": "https://openalex.org/A5054649525",
+    "citation_count": 76592,
+    "country": "US",
+    "h_index": 144,
+    "institution": "Walker (United States)",
+    "last_publication_date": "2026-01-02",
+    "name": "Guihua Yu",
+    "orcid": "0000-0002-3253-0749",
+    "topics": [
+      "Advanced Battery Materials and Technologies",
+      "Advancements in Battery Materials",
+      "Supercapacitor Materials and Fabrication",
+      "Advanced battery technologies research",
+      "Advanced Battery Technologies Research"
+    ],
+    "works_count": 459
+  },
+  {
+    "author_id": "https://openalex.org/A5073610826",
+    "citation_count": 10861,
+    "country": "JP",
+    "h_index": 26,
+    "institution": "The University of Tokyo",
+    "last_publication_date": "2025-08-23",
+    "name": "Chris Beaumont",
+    "orcid": "0000-0002-6421-4871",
+    "topics": [
+      "Gamma-ray bursts and supernovae",
+      "Computational Physics and Python Applications",
+      "Big Data Technologies and Applications",
+      "Problem and Project Based Learning",
+      "Complex Systems and Decision Making"
+    ],
+    "works_count": 257
+  },
+  {
+    "author_id": "https://openalex.org/A5046247200",
+    "citation_count": 8165,
+    "country": "US",
+    "h_index": 42,
+    "institution": "National Renewable Energy Laboratory",
+    "last_publication_date": "2025-10-15",
+    "name": "Patrick Moriarty",
+    "orcid": "0000-0001-7122-5993",
+    "topics": [
+      "Wind Energy Research and Development",
+      "Wind and Air Flow Studies",
+      "Fluid Dynamics and Vibration Analysis",
+      "Meteorological Phenomena and Simulations",
+      "Fluid Dynamics and Turbulent Flows"
+    ],
+    "works_count": 192
+  },
+  {
+    "author_id": "https://openalex.org/A5058553692",
+    "citation_count": 30694,
+    "country": "ZA",
+    "h_index": 77,
+    "institution": "National Health Laboratory Service",
+    "last_publication_date": "2025-12-20",
+    "name": "Anne von Gottberg",
+    "orcid": "0000-0002-0243-7455",
+    "topics": [
+      "Pneumonia and Respiratory Infections",
+      "Respiratory viral infections research",
+      "SARS-CoV-2 and COVID-19 Research",
+      "Bacterial Infections and Vaccines",
+      "COVID-19 epidemiological studies"
+    ],
+    "works_count": 465
+  },
+  {
+    "author_id": "https://openalex.org/A5032843763",
+    "citation_count": 7428,
+    "country": "US",
+    "h_index": 42,
+    "institution": "Swedish Medical Center",
+    "last_publication_date": "2025-11-25",
+    "name": "Rod J. Oskouian",
+    "orcid": "",
+    "topics": [
+      "Spine and Intervertebral Disc Pathology",
+      "Spinal Fractures and Fixation Techniques",
+      "Cervical and Thoracic Myelopathy",
+      "Pelvic and Acetabular Injuries",
+      "Spinal Dysraphism and Malformations"
+    ],
+    "works_count": 461
+  },
+  {
+    "author_id": "https://openalex.org/A5039238473",
+    "citation_count": 44243,
+    "country": "NO",
+    "h_index": 99,
+    "institution": "CICERO Center for International Climate Research",
+    "last_publication_date": "2025-12-18",
+    "name": "Gunnar Myhre",
+    "orcid": "0000-0002-4309-476X",
+    "topics": [
+      "Atmospheric chemistry and aerosols",
+      "Atmospheric and Environmental Gas Dynamics",
+      "Atmospheric Ozone and Climate",
+      "Atmospheric aerosols and clouds",
+      "Climate variability and models"
+    ],
+    "works_count": 552
+  },
+  {
+    "author_id": "https://openalex.org/A5042274089",
+    "citation_count": 14572,
+    "country": "",
+    "h_index": 50,
+    "institution": "",
+    "last_publication_date": "2022-01-01",
+    "name": "Gregory M. Flato",
+    "orcid": "0000-0002-9811-3067",
+    "topics": [
+      "Arctic and Antarctic ice dynamics",
+      "Climate variability and models",
+      "Cryospheric studies and observations",
+      "Climate change and permafrost",
+      "Atmospheric and Environmental Gas Dynamics"
+    ],
+    "works_count": 115
+  },
+  {
+    "author_id": "https://openalex.org/A5061722716",
+    "citation_count": 8536,
+    "country": "US",
+    "h_index": 42,
+    "institution": "National Renewable Energy Laboratory",
+    "last_publication_date": "2020-12-30",
+    "name": "Dana C. Olson",
+    "orcid": "",
+    "topics": [
+      "Organic Electronics and Photovoltaics",
+      "Conducting polymers and applications",
+      "Perovskite Materials and Applications",
+      "Organic Light-Emitting Diodes Research",
+      "ZnO doping and properties"
+    ],
+    "works_count": 123
+  },
+  {
+    "author_id": "https://openalex.org/A5112003099",
+    "citation_count": 7712,
+    "country": "",
+    "h_index": 16,
+    "institution": "",
+    "last_publication_date": "2017-11-06",
+    "name": "S. Butterfield",
+    "orcid": "",
+    "topics": [
+      "Wind Energy Research and Development",
+      "Wind and Air Flow Studies",
+      "Structural Health Monitoring Techniques",
+      "Offshore Engineering and Technologies",
+      "Probabilistic and Robust Engineering Design"
+    ],
+    "works_count": 37
+  },
+  {
+    "author_id": "https://openalex.org/A5001712121",
+    "citation_count": 6790,
+    "country": "",
+    "h_index": 34,
+    "institution": "",
+    "last_publication_date": "2025-09-16",
+    "name": "T. E. Mason",
+    "orcid": "0000-0003-1880-3971",
+    "topics": [
+      "Physics of Superconductivity and Magnetism",
+      "Advanced Condensed Matter Physics",
+      "Rare-earth and actinide compounds",
+      "Magnetic and transport properties of perovskites and related materials",
+      "Iron-based superconductors research"
+    ],
+    "works_count": 141
+  },
+  {
+    "author_id": "https://openalex.org/A5032567598",
+    "citation_count": 71209,
+    "country": "IE",
+    "h_index": 119,
+    "institution": "Ollscoil na Gaillimhe \u2013 University of Galway",
+    "last_publication_date": "2025-12-05",
+    "name": "Matthew Collins",
+    "orcid": "0000-0003-3785-6008",
+    "topics": [
+      "Climate variability and models",
+      "Genomics and Phylogenetic Studies",
+      "Meteorological Phenomena and Simulations",
+      "Oceanographic and Atmospheric Processes",
+      "Probiotics and Fermented Foods"
+    ],
+    "works_count": 788
+  },
+  {
+    "author_id": "https://openalex.org/A5069365251",
+    "citation_count": 5,
+    "country": "US",
+    "h_index": 1,
+    "institution": "SBS CyberSecurity (United States)",
+    "last_publication_date": "2023-01-05",
+    "name": "Khaled Almoughem",
+    "orcid": "",
+    "topics": [
+      "Information and Cyber Security"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5056627631",
+    "citation_count": 32793,
+    "country": "JP",
+    "h_index": 79,
+    "institution": "Tokyo Medical and Dental University",
+    "last_publication_date": "2023-11-29",
+    "name": "Sumio Sugano",
+    "orcid": "0000-0001-8058-2861",
+    "topics": [
+      "RNA and protein synthesis mechanisms",
+      "RNA modifications and cancer",
+      "Genomics and Chromatin Dynamics",
+      "RNA Research and Splicing",
+      "Genomics and Phylogenetic Studies"
+    ],
+    "works_count": 406
+  },
+  {
+    "author_id": "https://openalex.org/A5004805647",
+    "citation_count": 7943,
+    "country": "IN",
+    "h_index": 49,
+    "institution": "Presidency University",
+    "last_publication_date": "2025-09-16",
+    "name": "Gautam Ghosh",
+    "orcid": "0000-0002-8401-7875",
+    "topics": [
+      "Intermetallics and Advanced Alloy Properties",
+      "Geological and Geochemical Analysis",
+      "earthquake and tectonic studies",
+      "Metallurgical and Alloy Processes",
+      "Aluminum Alloy Microstructure Properties"
+    ],
+    "works_count": 333
+  },
+  {
+    "author_id": "https://openalex.org/A5097562471",
+    "citation_count": 4,
+    "country": "AU",
+    "h_index": 1,
+    "institution": "Australian National University",
+    "last_publication_date": "1997-11-01",
+    "name": "GradDip",
+    "orcid": "",
+    "topics": [
+      "Neuroscience and Neuropharmacology Research",
+      "Retinal Development and Disorders",
+      "Photoreceptor and optogenetics research"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5106079538",
+    "citation_count": 11313,
+    "country": "US",
+    "h_index": 39,
+    "institution": "Lawrence Berkeley National Laboratory",
+    "last_publication_date": "2019-08-09",
+    "name": "Mark D. Biggin",
+    "orcid": "0000-0002-7661-8013",
+    "topics": [
+      "Genomics and Chromatin Dynamics",
+      "RNA and protein synthesis mechanisms",
+      "Developmental Biology and Gene Regulation",
+      "RNA Research and Splicing",
+      "Animal Genetics and Reproduction"
+    ],
+    "works_count": 101
+  },
+  {
+    "author_id": "https://openalex.org/A5071606253",
+    "citation_count": 72618,
+    "country": "DE",
+    "h_index": 119,
+    "institution": "Hasso Plattner Institute",
+    "last_publication_date": "2025-10-31",
+    "name": "Erwin P. B\u00f6ttinger",
+    "orcid": "0000-0001-6868-6676",
+    "topics": [
+      "Genetic Associations and Epidemiology",
+      "TGF-\u03b2 signaling in diseases",
+      "Chronic Kidney Disease and Diabetes",
+      "Genomics and Rare Diseases",
+      "Renal Diseases and Glomerulopathies"
+    ],
+    "works_count": 465
+  },
+  {
+    "author_id": "https://openalex.org/A5024876520",
+    "citation_count": 956,
+    "country": "BN",
+    "h_index": 18,
+    "institution": "Universiti Brunei Darussalam",
+    "last_publication_date": "2025-01-31",
+    "name": "Navod Neranjan Thilakarathne",
+    "orcid": "0000-0002-7761-2035",
+    "topics": [
+      "IoT and Edge/Fog Computing",
+      "Blockchain Technology Applications and Security",
+      "Network Security and Intrusion Detection",
+      "Internet of Things and AI",
+      "Smart Agriculture and AI"
+    ],
+    "works_count": 50
+  },
+  {
+    "author_id": "https://openalex.org/A5087599158",
+    "citation_count": 14550,
+    "country": "",
+    "h_index": 58,
+    "institution": "",
+    "last_publication_date": "2025-06-03",
+    "name": "Ali Abur",
+    "orcid": "0000-0002-8751-9125",
+    "topics": [
+      "Power System Optimization and Stability",
+      "Optimal Power Flow Distribution",
+      "Power Systems Fault Detection",
+      "Smart Grid Security and Resilience",
+      "HVDC Systems and Fault Protection"
+    ],
+    "works_count": 325
+  },
+  {
+    "author_id": "https://openalex.org/A5046359219",
+    "citation_count": 26234,
+    "country": "US",
+    "h_index": 64,
+    "institution": "Cornell University",
+    "last_publication_date": "2025-08-06",
+    "name": "Stephen Kresovich",
+    "orcid": "0000-0001-9995-2375",
+    "topics": [
+      "Genetic Mapping and Diversity in Plants and Animals",
+      "Bioenergy crop production and management",
+      "Genetics and Plant Breeding",
+      "Genetic and phenotypic traits in livestock",
+      "Genetic diversity and population structure"
+    ],
+    "works_count": 191
+  },
+  {
+    "author_id": "https://openalex.org/A5103565640",
+    "citation_count": 20585,
+    "country": "",
+    "h_index": 48,
+    "institution": "",
+    "last_publication_date": "2019-03-29",
+    "name": "Ian Noble",
+    "orcid": "",
+    "topics": [
+      "Ecology and Vegetation Dynamics Studies",
+      "Climate Change Policy and Economics",
+      "Fire effects on ecosystems",
+      "Atmospheric and Environmental Gas Dynamics",
+      "Forest Management and Policy"
+    ],
+    "works_count": 123
+  },
+  {
+    "author_id": "https://openalex.org/A5109885715",
+    "citation_count": 60,
+    "country": "",
+    "h_index": 4,
+    "institution": "",
+    "last_publication_date": "2024-01-26",
+    "name": "C. Mart\u00ednez Roger",
+    "orcid": "",
+    "topics": [
+      "Stellar, planetary, and galactic studies",
+      "Astronomy and Astrophysical Research",
+      "Astronomical Observations and Instrumentation",
+      "Astrophysics and Star Formation Studies",
+      "Astro and Planetary Science"
+    ],
+    "works_count": 33
+  },
+  {
+    "author_id": "https://openalex.org/A5004176408",
+    "citation_count": 4035,
+    "country": "US",
+    "h_index": 24,
+    "institution": "Los Alamos National Laboratory",
+    "last_publication_date": "2025-06-01",
+    "name": "Joyce Ann Guzik",
+    "orcid": "0000-0003-1291-1533",
+    "topics": [
+      "Stellar, planetary, and galactic studies",
+      "Astronomy and Astrophysical Research",
+      "Astrophysics and Star Formation Studies",
+      "Astro and Planetary Science",
+      "Astronomical Observations and Instrumentation"
+    ],
+    "works_count": 356
+  },
+  {
+    "author_id": "https://openalex.org/A5110857717",
+    "citation_count": 17106,
+    "country": "",
+    "h_index": 20,
+    "institution": "",
+    "last_publication_date": "2023-06-29",
+    "name": "Intergovernmental Panel on Climate Change",
+    "orcid": "",
+    "topics": [
+      "Climate Change Policy and Economics",
+      "Global Energy and Sustainability Research",
+      "demographic modeling and climate adaptation",
+      "Sustainable Development and Environmental Policy",
+      "Geology and Paleoclimatology Research"
+    ],
+    "works_count": 36
+  },
+  {
+    "author_id": "https://openalex.org/A5084248150",
+    "citation_count": 48,
+    "country": "",
+    "h_index": 4,
+    "institution": "",
+    "last_publication_date": "2025-08-12",
+    "name": "Yurii Shevchuk",
+    "orcid": "0009-0000-6170-1028",
+    "topics": [
+      "Hydrology and Watershed Management Studies",
+      "Hydrological Forecasting Using AI",
+      "Fish Ecology and Management Studies",
+      "Business and Economic Development",
+      "Economic and Business Development Strategies"
+    ],
+    "works_count": 11
+  },
+  {
+    "author_id": "https://openalex.org/A5081321181",
+    "citation_count": 3922,
+    "country": "CH",
+    "h_index": 36,
+    "institution": "Swiss Federal Laboratories for Materials Science and Technology",
+    "last_publication_date": "2025-05-19",
+    "name": "Kilian Wasmer",
+    "orcid": "0000-0002-3294-3244",
+    "topics": [
+      "Additive Manufacturing Materials and Processes",
+      "Welding Techniques and Residual Stresses",
+      "Advanced Surface Polishing Techniques",
+      "Metal and Thin Film Mechanics",
+      "Diamond and Carbon-based Materials Research"
+    ],
+    "works_count": 125
+  },
+  {
+    "author_id": "https://openalex.org/A5060264145",
+    "citation_count": 2703,
+    "country": "US",
+    "h_index": 29,
+    "institution": "Worcester State University",
+    "last_publication_date": "2025-12-15",
+    "name": "Ian Stephens",
+    "orcid": "0000-0003-3017-4418",
+    "topics": [
+      "Radiomics and Machine Learning in Medical Imaging",
+      "Stellar, planetary, and galactic studies",
+      "Advanced Thermoelectric Materials and Devices",
+      "Astrophysics and Star Formation Studies",
+      "Machine Learning in Materials Science"
+    ],
+    "works_count": 5282
+  },
+  {
+    "author_id": "https://openalex.org/A5002127283",
+    "citation_count": 21839,
+    "country": "US",
+    "h_index": 76,
+    "institution": "Princeton University",
+    "last_publication_date": "2026-01-08",
+    "name": "Zhiyong Jason Ren",
+    "orcid": "0000-0001-7606-0331",
+    "topics": [
+      "Microbial Fuel Cells and Bioremediation",
+      "Membrane Separation Technologies",
+      "Membrane-based Ion Separation Techniques",
+      "Supercapacitor Materials and Fabrication",
+      "Electrochemical sensors and biosensors"
+    ],
+    "works_count": 409
+  },
+  {
+    "author_id": "https://openalex.org/A5097124115",
+    "citation_count": 17,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2000-01-01",
+    "name": "Society for Neuroscience",
+    "orcid": "",
+    "topics": [
+      "Ethics in Clinical Research",
+      "Ethics in medical practice",
+      "Neuroethics, Human Enhancement, Biomedical Innovations"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5111829888",
+    "citation_count": 336,
+    "country": "US",
+    "h_index": 8,
+    "institution": "The University of Texas Medical Branch at Galveston",
+    "last_publication_date": "2012-02-03",
+    "name": "D. J. Deyo",
+    "orcid": "",
+    "topics": [
+      "Optical Imaging and Spectroscopy Techniques",
+      "Photoacoustic and Ultrasonic Imaging",
+      "Traumatic Brain Injury and Neurovascular Disturbances",
+      "Cardiac Arrest and Resuscitation",
+      "Mechanical Circulatory Support Devices"
+    ],
+    "works_count": 47
+  },
+  {
+    "author_id": "https://openalex.org/A5074063024",
+    "citation_count": 6468,
+    "country": "CN",
+    "h_index": 43,
+    "institution": "Zhejiang International Studies University",
+    "last_publication_date": "2025-12-11",
+    "name": "Jiuwen Cao",
+    "orcid": "0000-0002-6480-5794",
+    "topics": [
+      "Machine Learning and ELM",
+      "EEG and Brain-Computer Interfaces",
+      "Blind Source Separation Techniques",
+      "Face and Expression Recognition",
+      "Domain Adaptation and Few-Shot Learning"
+    ],
+    "works_count": 275
+  },
+  {
+    "author_id": "https://openalex.org/A5114006012",
+    "citation_count": 13738,
+    "country": "",
+    "h_index": 14,
+    "institution": "",
+    "last_publication_date": "2023-06-29",
+    "name": "Intergovernmental Panel on Climate Change",
+    "orcid": "",
+    "topics": [
+      "Sustainability and Climate Change Governance",
+      "Climate Change Policy and Economics",
+      "Climate Change, Adaptation, Migration",
+      "Climate change impacts on agriculture",
+      "Atmospheric and Environmental Gas Dynamics"
+    ],
+    "works_count": 19
+  },
+  {
+    "author_id": "https://openalex.org/A5114142547",
+    "citation_count": 6,
+    "country": "",
+    "h_index": 2,
+    "institution": "",
+    "last_publication_date": "2024-11-21",
+    "name": "C Lab",
+    "orcid": "",
+    "topics": [
+      "Video Coding and Compression Technologies",
+      "Parallel Computing and Optimization Techniques",
+      "Advanced Data Compression Techniques",
+      "Embedded Systems Design Techniques",
+      "Isotope Analysis in Ecology"
+    ],
+    "works_count": 10
+  },
+  {
+    "author_id": "https://openalex.org/A5057618056",
+    "citation_count": 212,
+    "country": "",
+    "h_index": 9,
+    "institution": "",
+    "last_publication_date": "2025-09-21",
+    "name": "L. A. Cacha",
+    "orcid": "0000-0003-0706-9994",
+    "topics": [
+      "Neural dynamics and brain function",
+      "Biofield Effects and Biophysics",
+      "EEG and Brain-Computer Interfaces",
+      "Photoreceptor and optogenetics research",
+      "Plant and Biological Electrophysiology Studies"
+    ],
+    "works_count": 30
+  },
+  {
+    "author_id": "https://openalex.org/A5011512882",
+    "citation_count": 29570,
+    "country": "US",
+    "h_index": 56,
+    "institution": "Broad Institute",
+    "last_publication_date": "2025-11-07",
+    "name": "Jason Flannick",
+    "orcid": "",
+    "topics": [
+      "Genetic Associations and Epidemiology",
+      "Bioinformatics and Genomic Networks",
+      "Pancreatic function and diabetes",
+      "Genomics and Rare Diseases",
+      "Epigenetics and DNA Methylation"
+    ],
+    "works_count": 199
+  },
+  {
+    "author_id": "https://openalex.org/A5052453881",
+    "citation_count": 87828,
+    "country": "US",
+    "h_index": 151,
+    "institution": "National Institutes of Health",
+    "last_publication_date": "2025-10-27",
+    "name": "Kenneth M. Yamada",
+    "orcid": "0000-0003-1512-6805",
+    "topics": [
+      "Cell Adhesion Molecules Research",
+      "Cellular Mechanics and Interactions",
+      "Protease and Inhibitor Mechanisms",
+      "Physics of Superconductivity and Magnetism",
+      "Advanced Condensed Matter Physics"
+    ],
+    "works_count": 1121
+  },
+  {
+    "author_id": "https://openalex.org/A5067910023",
+    "citation_count": 19827,
+    "country": "US",
+    "h_index": 68,
+    "institution": "St. Thomas University",
+    "last_publication_date": "2025-11-07",
+    "name": "Ben P. Kirtman",
+    "orcid": "0000-0001-7423-2734",
+    "topics": [
+      "Climate variability and models",
+      "Meteorological Phenomena and Simulations",
+      "Oceanographic and Atmospheric Processes",
+      "Tropical and Extratropical Cyclones Research",
+      "Atmospheric and Environmental Gas Dynamics"
+    ],
+    "works_count": 387
+  },
+  {
+    "author_id": "https://openalex.org/A5029638799",
+    "citation_count": 4099,
+    "country": "IT",
+    "h_index": 31,
+    "institution": "University of Udine",
+    "last_publication_date": "2025-12-05",
+    "name": "Alessandro Gasparetto",
+    "orcid": "0000-0001-9902-9783",
+    "topics": [
+      "Robotic Mechanisms and Dynamics",
+      "Dynamics and Control of Mechanical Systems",
+      "Robotic Path Planning Algorithms",
+      "Robot Manipulation and Learning",
+      "Soft Robotics and Applications"
+    ],
+    "works_count": 214
+  },
+  {
+    "author_id": "https://openalex.org/A5116273732",
+    "citation_count": 3,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2025-02-14",
+    "name": "Machine learning algorithms for healthcare",
+    "orcid": "",
+    "topics": [
+      "Artificial Intelligence in Healthcare"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5108692646",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2023-11-13",
+    "name": "Lyudmila Sushkova",
+    "orcid": "",
+    "topics": [
+      "Plant biochemistry and biosynthesis",
+      "Allelopathy and phytotoxic interactions",
+      "Plant Growth Enhancement Techniques",
+      "Magnetic and Electromagnetic Effects",
+      "Botanical Research and Chemistry"
+    ],
+    "works_count": 3
+  },
+  {
+    "author_id": "https://openalex.org/A5056621893",
+    "citation_count": 1280,
+    "country": "FR",
+    "h_index": 16,
+    "institution": "Universit\u00e9 Claude Bernard Lyon 1",
+    "last_publication_date": "2022-01-04",
+    "name": "St\u00e9phane Lallich",
+    "orcid": "",
+    "topics": [
+      "Data Mining Algorithms and Applications",
+      "Rough Sets and Fuzzy Logic",
+      "Data Management and Algorithms",
+      "Imbalanced Data Classification Techniques",
+      "Machine Learning and Data Classification"
+    ],
+    "works_count": 127
+  },
+  {
+    "author_id": "https://openalex.org/A5059290188",
+    "citation_count": 3031,
+    "country": "ES",
+    "h_index": 32,
+    "institution": "Universidad de La Laguna",
+    "last_publication_date": "2023-04-04",
+    "name": "A. Mampaso",
+    "orcid": "",
+    "topics": [
+      "Stellar, planetary, and galactic studies",
+      "Astronomy and Astrophysical Research",
+      "Astrophysics and Star Formation Studies",
+      "Astro and Planetary Science",
+      "Astronomical Observations and Instrumentation"
+    ],
+    "works_count": 238
+  },
+  {
+    "author_id": "https://openalex.org/A5031996459",
+    "citation_count": 10425,
+    "country": "SN",
+    "h_index": 44,
+    "institution": "Centre de Suivi Ecologique",
+    "last_publication_date": "2025-12-13",
+    "name": "Cheikh Mbow",
+    "orcid": "0000-0003-4620-4490",
+    "topics": [
+      "African Botany and Ecology Studies",
+      "Agriculture and Rural Development Research",
+      "Nanofluid Flow and Heat Transfer",
+      "Remote Sensing in Agriculture",
+      "Conservation, Biodiversity, and Resource Management"
+    ],
+    "works_count": 288
+  },
+  {
+    "author_id": "https://openalex.org/A5083280296",
+    "citation_count": 259,
+    "country": "",
+    "h_index": 7,
+    "institution": "",
+    "last_publication_date": "2025-01-01",
+    "name": "Pedro Tavares",
+    "orcid": "0000-0001-5909-1654",
+    "topics": [
+      "Robot Manipulation and Learning",
+      "Robotic Path Planning Algorithms",
+      "Advanced Manufacturing and Logistics Optimization",
+      "Robotic Mechanisms and Dynamics",
+      "Modular Robots and Swarm Intelligence"
+    ],
+    "works_count": 25
+  },
+  {
+    "author_id": "https://openalex.org/A5014648014",
+    "citation_count": 2211,
+    "country": "",
+    "h_index": 26,
+    "institution": "",
+    "last_publication_date": "2025-10-02",
+    "name": "Grant J. Mathews",
+    "orcid": "0000-0002-3164-9131",
+    "topics": [
+      "Pulsars and Gravitational Waves Research",
+      "Gamma-ray bursts and supernovae",
+      "Cosmology and Gravitation Theories",
+      "Dark Matter and Cosmic Phenomena",
+      "Astrophysics and Cosmic Phenomena"
+    ],
+    "works_count": 168
+  },
+  {
+    "author_id": "https://openalex.org/A5009995339",
+    "citation_count": 4844,
+    "country": "CN",
+    "h_index": 35,
+    "institution": "Central South University",
+    "last_publication_date": "2025-11-30",
+    "name": "Wei Xiong",
+    "orcid": "0000-0002-3825-1679",
+    "topics": [
+      "Additive Manufacturing Materials and Processes",
+      "Additive Manufacturing and 3D Printing Technologies",
+      "Intermetallics and Advanced Alloy Properties",
+      "High Entropy Alloys Studies",
+      "Microstructure and Mechanical Properties of Steels"
+    ],
+    "works_count": 215
+  },
+  {
+    "author_id": "https://openalex.org/A5020797379",
+    "citation_count": 13,
+    "country": "IT",
+    "h_index": 2,
+    "institution": "Scuola Internazionale Superiore di Studi Avanzati",
+    "last_publication_date": "2020-01-01",
+    "name": "Mohammadreza Soltanipour",
+    "orcid": "0000-0001-7947-9533",
+    "topics": [
+      "Neural dynamics and brain function",
+      "Functional Brain Connectivity Studies",
+      "Visual perception and processing mechanisms",
+      "Neuroscience and Music Perception",
+      "Multisensory perception and integration"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5049019505",
+    "citation_count": 60,
+    "country": "",
+    "h_index": 5,
+    "institution": "",
+    "last_publication_date": "2023-08-17",
+    "name": "H\u00e9l\u00e8ne Delecroix",
+    "orcid": "",
+    "topics": [
+      "Traumatic Brain Injury Research",
+      "Cardiac Arrest and Resuscitation",
+      "Health, Medicine and Society",
+      "Stroke Rehabilitation and Recovery",
+      "Traumatic Brain Injury and Neurovascular Disturbances"
+    ],
+    "works_count": 18
+  },
+  {
+    "author_id": "https://openalex.org/A5027113119",
+    "citation_count": 377,
+    "country": "",
+    "h_index": 11,
+    "institution": "",
+    "last_publication_date": "2025-10-11",
+    "name": "Angela Palomba",
+    "orcid": "0000-0003-3736-0491",
+    "topics": [
+      "Stroke Rehabilitation and Recovery",
+      "Sports Performance and Training",
+      "Muscle activation and electromyography studies",
+      "Musculoskeletal pain and rehabilitation",
+      "Balance, Gait, and Falls Prevention"
+    ],
+    "works_count": 35
+  },
+  {
+    "author_id": "https://openalex.org/A5106432715",
+    "citation_count": 11,
+    "country": "FR",
+    "h_index": 1,
+    "institution": "Institut national de recherche en sciences et technologies du num\u00e9rique",
+    "last_publication_date": "2017-10-23",
+    "name": "Catherine Zucker",
+    "orcid": "",
+    "topics": [
+      "Semantic Web and Ontologies",
+      "Optics and Image Analysis",
+      "Computational Geometry and Mesh Generation",
+      "Regional Economic and Spatial Analysis",
+      "Biomedical Text Mining and Ontologies"
+    ],
+    "works_count": 16
+  },
+  {
+    "author_id": "https://openalex.org/A5083637508",
+    "citation_count": 1216,
+    "country": "ES",
+    "h_index": 16,
+    "institution": "Universidad de La Laguna",
+    "last_publication_date": "2025-09-18",
+    "name": "I. G. Mart\u00ednez-Pais",
+    "orcid": "",
+    "topics": [
+      "Astrophysical Phenomena and Observations",
+      "Stellar, planetary, and galactic studies",
+      "Astrophysics and Star Formation Studies",
+      "Gamma-ray bursts and supernovae",
+      "Astronomical Observations and Instrumentation"
+    ],
+    "works_count": 75
+  },
+  {
+    "author_id": "https://openalex.org/A5036343196",
+    "citation_count": 6101,
+    "country": "IN",
+    "h_index": 33,
+    "institution": "Jawaharlal Nehru Technological University, Hyderabad",
+    "last_publication_date": "2025-10-03",
+    "name": "Prateek Prasanna",
+    "orcid": "0000-0002-3068-3573",
+    "topics": [
+      "Radiomics and Machine Learning in Medical Imaging",
+      "AI in cancer detection",
+      "Glioma Diagnosis and Treatment",
+      "Medical Imaging Techniques and Applications",
+      "MRI in cancer diagnosis"
+    ],
+    "works_count": 286
+  },
+  {
+    "author_id": "https://openalex.org/A5060834430",
+    "citation_count": 12042,
+    "country": "CN",
+    "h_index": 62,
+    "institution": "Zhengzhou University",
+    "last_publication_date": "2026-01-08",
+    "name": "Duo Pan",
+    "orcid": "0000-0001-7794-8922",
+    "topics": [
+      "Advanced Frequency and Time Standards",
+      "Advanced Fiber Laser Technologies",
+      "Atomic and Subatomic Physics Research",
+      "Quantum optics and atomic interactions",
+      "Cold Atom Physics and Bose-Einstein Condensates"
+    ],
+    "works_count": 288
+  },
+  {
+    "author_id": "https://openalex.org/A5047728001",
+    "citation_count": 10256,
+    "country": "FR",
+    "h_index": 46,
+    "institution": "Institut polytechnique de Grenoble",
+    "last_publication_date": "2025-09-19",
+    "name": "Ignacio Palomo",
+    "orcid": "0000-0002-4573-5989",
+    "topics": [
+      "Land Use and Ecosystem Services",
+      "Conservation, Biodiversity, and Resource Management",
+      "Economic and Environmental Valuation",
+      "Sustainability and Climate Change Governance",
+      "Forest Management and Policy"
+    ],
+    "works_count": 120
+  },
+  {
+    "author_id": "https://openalex.org/A5007609257",
+    "citation_count": 38378,
+    "country": "US",
+    "h_index": 97,
+    "institution": "Allen Institute for Brain Science",
+    "last_publication_date": "2025-12-11",
+    "name": "Michael J. Frank",
+    "orcid": "0000-0001-8451-0523",
+    "topics": [
+      "Neural and Behavioral Psychology Studies",
+      "Neural dynamics and brain function",
+      "Functional Brain Connectivity Studies",
+      "Mental Health Research Topics",
+      "Neurotransmitter Receptor Influence on Behavior"
+    ],
+    "works_count": 456
+  },
+  {
+    "author_id": "https://openalex.org/A5008888320",
+    "citation_count": 17610,
+    "country": "AU",
+    "h_index": 62,
+    "institution": "NSW Department of Planning and Environment",
+    "last_publication_date": "2025-10-17",
+    "name": "John R. Porter",
+    "orcid": "0000-0002-0777-3028",
+    "topics": [
+      "Crop Yield and Soil Fertility",
+      "Climate change impacts on agriculture",
+      "Plant responses to elevated CO2",
+      "Wheat and Barley Genetics and Pathology",
+      "Agriculture Sustainability and Environmental Impact"
+    ],
+    "works_count": 313
+  },
+  {
+    "author_id": "https://openalex.org/A5066589732",
+    "citation_count": 178877,
+    "country": "DE",
+    "h_index": 92,
+    "institution": "Max Planck Institute for Biology",
+    "last_publication_date": "2026-01-12",
+    "name": "Ruth E. Ley",
+    "orcid": "0000-0002-9087-1672",
+    "topics": [
+      "Gut microbiota and health",
+      "Diet and metabolism studies",
+      "Genomics and Phylogenetic Studies",
+      "Microbial Community Ecology and Physiology",
+      "Clostridium difficile and Clostridium perfringens research"
+    ],
+    "works_count": 281
+  },
+  {
+    "author_id": "https://openalex.org/A5089110902",
+    "citation_count": 189,
+    "country": "",
+    "h_index": 3,
+    "institution": "",
+    "last_publication_date": "2024-12-18",
+    "name": "Saikat Ray Majumder",
+    "orcid": "",
+    "topics": [
+      "Pulsars and Gravitational Waves Research",
+      "Quantum Computing Algorithms and Architecture",
+      "Quantum Information and Cryptography",
+      "Neural Networks and Reservoir Computing",
+      "Black Holes and Theoretical Physics"
+    ],
+    "works_count": 11
+  },
+  {
+    "author_id": "https://openalex.org/A5100615928",
+    "citation_count": 947,
+    "country": "IN",
+    "h_index": 17,
+    "institution": "Government Medical College",
+    "last_publication_date": "2025-11-27",
+    "name": "Mandeep Kaur",
+    "orcid": "0000-0003-4738-4657",
+    "topics": [
+      "RNA and protein synthesis mechanisms",
+      "RNA modifications and cancer",
+      "RNA Research and Splicing",
+      "COVID-19 Clinical Research Studies",
+      "SARS-CoV-2 and COVID-19 Research"
+    ],
+    "works_count": 90
+  },
+  {
+    "author_id": "https://openalex.org/A5009730551",
+    "citation_count": 8992,
+    "country": "US",
+    "h_index": 49,
+    "institution": "National Institutes of Health",
+    "last_publication_date": "2025-10-01",
+    "name": "Robert J. Morell",
+    "orcid": "0000-0003-1537-7356",
+    "topics": [
+      "Hearing, Cochlea, Tinnitus, Genetics",
+      "Hearing Loss and Rehabilitation",
+      "Cancer-related molecular mechanisms research",
+      "Vestibular and auditory disorders",
+      "Connexins and lens biology"
+    ],
+    "works_count": 128
+  },
+  {
+    "author_id": "https://openalex.org/A5011112429",
+    "citation_count": 543,
+    "country": "CH",
+    "h_index": 10,
+    "institution": "ETH Zurich",
+    "last_publication_date": "2022-08-26",
+    "name": "Samuel Charreyron",
+    "orcid": "0000-0003-4636-3096",
+    "topics": [
+      "Micro and Nano Robotics",
+      "Microfluidic and Bio-sensing Technologies",
+      "Modular Robots and Swarm Intelligence",
+      "Characterization and Applications of Magnetic Nanoparticles",
+      "Retinal and Macular Surgery"
+    ],
+    "works_count": 21
+  },
+  {
+    "author_id": "https://openalex.org/A5070497923",
+    "citation_count": 5,
+    "country": "MY",
+    "h_index": 2,
+    "institution": "Universiti Sains Islam Malaysia",
+    "last_publication_date": "2021-01-01",
+    "name": "Amirul Syauqi Mohamad Syafiq",
+    "orcid": "",
+    "topics": [
+      "Network Security and Intrusion Detection",
+      "Advanced Malware Detection Techniques",
+      "Spam and Phishing Detection",
+      "Mobile and Web Applications"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5101861337",
+    "citation_count": 327,
+    "country": "CN",
+    "h_index": 8,
+    "institution": "Soochow University",
+    "last_publication_date": "2025-07-17",
+    "name": "Xiaodong Wang",
+    "orcid": "0000-0003-3377-921X",
+    "topics": [
+      "Bone fractures and treatments",
+      "Orthopedic Surgery and Rehabilitation",
+      "Shoulder Injury and Treatment",
+      "Orthopedic Infections and Treatments",
+      "Sarcoma Diagnosis and Treatment"
+    ],
+    "works_count": 28
+  },
+  {
+    "author_id": "https://openalex.org/A5103428585",
+    "citation_count": 33210,
+    "country": "GB",
+    "h_index": 74,
+    "institution": "University of East Anglia",
+    "last_publication_date": "2025-12-15",
+    "name": "Robert T. Watson",
+    "orcid": "",
+    "topics": [
+      "Spatial Neglect and Hemispheric Dysfunction",
+      "Atmospheric chemistry and aerosols",
+      "Atmospheric Ozone and Climate",
+      "Metabolism, Diabetes, and Cancer",
+      "Pancreatic function and diabetes"
+    ],
+    "works_count": 242
+  },
+  {
+    "author_id": "https://openalex.org/A5069232831",
+    "citation_count": 11336,
+    "country": "US",
+    "h_index": 46,
+    "institution": "University of California, San Diego",
+    "last_publication_date": "2025-12-22",
+    "name": "Joel O. Wertheim",
+    "orcid": "0000-0003-4882-5856",
+    "topics": [
+      "HIV Research and Treatment",
+      "HIV/AIDS Research and Interventions",
+      "HIV, Drug Use, Sexual Risk",
+      "SARS-CoV-2 and COVID-19 Research",
+      "Genomics and Phylogenetic Studies"
+    ],
+    "works_count": 170
+  },
+  {
+    "author_id": "https://openalex.org/A5087499608",
+    "citation_count": 8709,
+    "country": "",
+    "h_index": 41,
+    "institution": "",
+    "last_publication_date": "2018-05-18",
+    "name": "E. Chornet",
+    "orcid": "",
+    "topics": [
+      "Lignin and Wood Chemistry",
+      "Biofuel production and bioconversion",
+      "Thermochemical Biomass Conversion Processes",
+      "Advanced Cellulose Research Studies",
+      "Catalysts for Methane Reforming"
+    ],
+    "works_count": 181
+  },
+  {
+    "author_id": "https://openalex.org/A5048101285",
+    "citation_count": 428,
+    "country": "US",
+    "h_index": 11,
+    "institution": "Mount Holyoke College",
+    "last_publication_date": "2025-10-02",
+    "name": "Marco Morales",
+    "orcid": "0000-0003-1824-2350",
+    "topics": [
+      "Robotic Path Planning Algorithms",
+      "Robotics and Sensor-Based Localization",
+      "Modular Robots and Swarm Intelligence",
+      "Robot Manipulation and Learning",
+      "AI-based Problem Solving and Planning"
+    ],
+    "works_count": 61
+  },
+  {
+    "author_id": "https://openalex.org/A5051775800",
+    "citation_count": 27821,
+    "country": "CN",
+    "h_index": 86,
+    "institution": "Central South University",
+    "last_publication_date": "2025-11-29",
+    "name": "Yabing Qi",
+    "orcid": "0000-0002-4876-8049",
+    "topics": [
+      "Perovskite Materials and Applications",
+      "Quantum Dots Synthesis And Properties",
+      "Conducting polymers and applications",
+      "Chalcogenide Semiconductor Thin Films",
+      "Organic Electronics and Photovoltaics"
+    ],
+    "works_count": 328
+  },
+  {
+    "author_id": "https://openalex.org/A5065289908",
+    "citation_count": 709,
+    "country": "",
+    "h_index": 13,
+    "institution": "",
+    "last_publication_date": "2025-05-01",
+    "name": "Tetsuro Ueno",
+    "orcid": "0000-0003-2546-9270",
+    "topics": [
+      "Magnetic properties of thin films",
+      "Magnetic Properties of Alloys",
+      "Magnetic Properties and Applications",
+      "Advanced X-ray Imaging Techniques",
+      "Machine Learning in Materials Science"
+    ],
+    "works_count": 90
+  },
+  {
+    "author_id": "https://openalex.org/A5065109936",
+    "citation_count": 10769,
+    "country": "AU",
+    "h_index": 51,
+    "institution": "The University of Melbourne",
+    "last_publication_date": "2025-12-29",
+    "name": "Zornitza Stark",
+    "orcid": "0000-0001-8640-1371",
+    "topics": [
+      "Genomics and Rare Diseases",
+      "Genomic variations and chromosomal abnormalities",
+      "Genetics and Neurodevelopmental Disorders",
+      "BRCA gene mutations in cancer",
+      "Prenatal Screening and Diagnostics"
+    ],
+    "works_count": 333
+  },
+  {
+    "author_id": "https://openalex.org/A5003887627",
+    "citation_count": 6673,
+    "country": "US",
+    "h_index": 41,
+    "institution": "University of Pittsburgh",
+    "last_publication_date": "2025-12-04",
+    "name": "Brian Batell",
+    "orcid": "0000-0001-5285-5535",
+    "topics": [
+      "Particle physics theoretical and experimental studies",
+      "Dark Matter and Cosmic Phenomena",
+      "Cosmology and Gravitation Theories",
+      "Particle Detector Development and Performance",
+      "Neutrino Physics Research"
+    ],
+    "works_count": 122
+  },
+  {
+    "author_id": "https://openalex.org/A5110793713",
+    "citation_count": 1540,
+    "country": "US",
+    "h_index": 17,
+    "institution": "University of California, Berkeley",
+    "last_publication_date": "2024-11-12",
+    "name": "Carina Cheng",
+    "orcid": "",
+    "topics": [
+      "Radio Astronomy Observations and Technology",
+      "Astrophysics and Cosmic Phenomena",
+      "Antenna Design and Optimization",
+      "Radio Wave Propagation Studies",
+      "Electromagnetic Compatibility and Measurements"
+    ],
+    "works_count": 54
+  },
+  {
+    "author_id": "https://openalex.org/A5012477767",
+    "citation_count": 71817,
+    "country": "US",
+    "h_index": 92,
+    "institution": "Broad Institute",
+    "last_publication_date": "2025-11-01",
+    "name": "Judy H. Cho",
+    "orcid": "0000-0002-7959-0466",
+    "topics": [
+      "Inflammatory Bowel Disease",
+      "Helicobacter pylori-related gastroenterology studies",
+      "Microscopic Colitis",
+      "Immunodeficiency and Autoimmune Disorders",
+      "Genetic Associations and Epidemiology"
+    ],
+    "works_count": 435
+  },
+  {
+    "author_id": "https://openalex.org/A5000561291",
+    "citation_count": 2488,
+    "country": "US",
+    "h_index": 23,
+    "institution": "University of Chicago",
+    "last_publication_date": "2026-02-04",
+    "name": "Daniel J. Fridberg",
+    "orcid": "0000-0003-3451-1418",
+    "topics": [
+      "Substance Abuse Treatment and Outcomes",
+      "Behavioral Health and Interventions",
+      "Neural and Behavioral Psychology Studies",
+      "Smoking Behavior and Cessation",
+      "Mental Health Research Topics"
+    ],
+    "works_count": 62
+  },
+  {
+    "author_id": "https://openalex.org/A5069510122",
+    "citation_count": 18092,
+    "country": "US",
+    "h_index": 49,
+    "institution": "Clemson University",
+    "last_publication_date": "2025-11-28",
+    "name": "Marek W. Urban",
+    "orcid": "0000-0002-1522-2736",
+    "topics": [
+      "Polymer composites and self-healing",
+      "Advanced Polymer Synthesis and Characterization",
+      "Surfactants and Colloidal Systems",
+      "Thermography and Photoacoustic Techniques",
+      "Polymer Surface Interaction Studies"
+    ],
+    "works_count": 387
+  },
+  {
+    "author_id": "https://openalex.org/A5042474946",
+    "citation_count": 1188,
+    "country": "NL",
+    "h_index": 17,
+    "institution": "Maastricht University",
+    "last_publication_date": "2025-12-02",
+    "name": "Lars Gutschalk Hausfeld",
+    "orcid": "0000-0002-4396-8201",
+    "topics": [
+      "Neural dynamics and brain function",
+      "Advanced Memory and Neural Computing",
+      "Neuroscience and Music Perception",
+      "EEG and Brain-Computer Interfaces",
+      "Hearing Loss and Rehabilitation"
+    ],
+    "works_count": 91
+  },
+  {
+    "author_id": "https://openalex.org/A5111944051",
+    "citation_count": 2376,
+    "country": "",
+    "h_index": 23,
+    "institution": "",
+    "last_publication_date": "2024-01-15",
+    "name": "Jean\u2010Pierre Delahaye",
+    "orcid": "",
+    "topics": [
+      "Particle Accelerators and Free-Electron Lasers",
+      "Particle accelerators and beam dynamics",
+      "Particle Detector Development and Performance",
+      "Gyrotron and Vacuum Electronics Research",
+      "Cardiac Valve Diseases and Treatments"
+    ],
+    "works_count": 159
+  },
+  {
+    "author_id": "https://openalex.org/A5041731322",
+    "citation_count": 28366,
+    "country": "CN",
+    "h_index": 74,
+    "institution": "Capital Medical University",
+    "last_publication_date": "2026-01-21",
+    "name": "Xunming Ji",
+    "orcid": "0000-0003-0293-2744",
+    "topics": [
+      "Acute Ischemic Stroke Management",
+      "Cerebral Venous Sinus Thrombosis",
+      "Cerebrovascular and Carotid Artery Diseases",
+      "Neuroinflammation and Neurodegeneration Mechanisms",
+      "Traumatic Brain Injury and Neurovascular Disturbances"
+    ],
+    "works_count": 949
+  },
+  {
+    "author_id": "https://openalex.org/A5103268213",
+    "citation_count": 44,
+    "country": "",
+    "h_index": 4,
+    "institution": "",
+    "last_publication_date": "2025-07-17",
+    "name": "B. Bhushan",
+    "orcid": "0000-0001-9432-5196",
+    "topics": [
+      "Ocular Surface and Contact Lens",
+      "Supramolecular Self-Assembly in Materials",
+      "Nonlinear Optical Materials Studies",
+      "Polydiacetylene-based materials and applications",
+      "Nonlinear Optical Materials Research"
+    ],
+    "works_count": 8
+  },
+  {
+    "author_id": "https://openalex.org/A5060338624",
+    "citation_count": 106,
+    "country": "",
+    "h_index": 6,
+    "institution": "",
+    "last_publication_date": "2025-09-30",
+    "name": "R Poznanski",
+    "orcid": "0000-0003-2836-7042",
+    "topics": [
+      "Neural dynamics and brain function",
+      "Biofield Effects and Biophysics",
+      "Quantum Mechanics and Applications",
+      "Photoreceptor and optogenetics research",
+      "stochastic dynamics and bifurcation"
+    ],
+    "works_count": 26
+  },
+  {
+    "author_id": "https://openalex.org/A5085244670",
+    "citation_count": 329,
+    "country": "SA",
+    "h_index": 8,
+    "institution": "Princess Nourah bint Abdulrahman University",
+    "last_publication_date": "2025-11-20",
+    "name": "Mohamad Adzhar Md Zawawi",
+    "orcid": "0000-0001-7061-1745",
+    "topics": [
+      "Semiconductor Quantum Structures and Devices",
+      "Conducting polymers and applications",
+      "Graphene research and applications",
+      "Advanced Sensor and Energy Harvesting Materials",
+      "Organic Electronics and Photovoltaics"
+    ],
+    "works_count": 50
+  },
+  {
+    "author_id": "https://openalex.org/A5109578252",
+    "citation_count": 5,
+    "country": "KZ",
+    "h_index": 1,
+    "institution": "Ministry of Education and Science of the Republic of Kazakhstan",
+    "last_publication_date": "2022-11-18",
+    "name": "Ye.A. Soboleva",
+    "orcid": "",
+    "topics": [
+      "Copper-based nanomaterials and applications",
+      "Nanomaterials for catalytic reactions",
+      "Electrocatalysts for Energy Conversion",
+      "Magnetic Properties and Synthesis of Ferrites"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5067630122",
+    "citation_count": 434,
+    "country": "CN",
+    "h_index": 13,
+    "institution": "Nanjing Tech University",
+    "last_publication_date": "2025-12-17",
+    "name": "Xiaodong Wang",
+    "orcid": "0009-0005-3788-7420",
+    "topics": [
+      "Spinal Fractures and Fixation Techniques",
+      "Spine and Intervertebral Disc Pathology",
+      "Pelvic and Acetabular Injuries",
+      "Medical Imaging and Analysis",
+      "Hip and Femur Fractures"
+    ],
+    "works_count": 86
+  },
+  {
+    "author_id": "https://openalex.org/A5006233830",
+    "citation_count": 12338,
+    "country": "AU",
+    "h_index": 54,
+    "institution": "University of Tasmania",
+    "last_publication_date": "2025-12-08",
+    "name": "Nathaniel L. Bindoff",
+    "orcid": "0000-0001-5662-9519",
+    "topics": [
+      "Oceanographic and Atmospheric Processes",
+      "Climate variability and models",
+      "Arctic and Antarctic ice dynamics",
+      "Marine and coastal ecosystems",
+      "Geology and Paleoclimatology Research"
+    ],
+    "works_count": 288
+  },
+  {
+    "author_id": "https://openalex.org/A5100363117",
+    "citation_count": 19839,
+    "country": "CN",
+    "h_index": 64,
+    "institution": "Wuhan Polytechnic University",
+    "last_publication_date": "2026-01-28",
+    "name": "Xin Chen",
+    "orcid": "0000-0003-1990-2058",
+    "topics": [
+      "Manufacturing Process and Optimization",
+      "Piezoelectric Actuators and Control",
+      "Advanced Measurement and Metrology Techniques",
+      "Iterative Learning Control Systems",
+      "Advanced machining processes and optimization"
+    ],
+    "works_count": 1169
+  },
+  {
+    "author_id": "https://openalex.org/A5091680839",
+    "citation_count": 9857,
+    "country": "AU",
+    "h_index": 50,
+    "institution": "The University of Sydney",
+    "last_publication_date": "2026-01-01",
+    "name": "Vitali Sintchenko",
+    "orcid": "0000-0002-9261-3650",
+    "topics": [
+      "Mycobacterium research and diagnosis",
+      "Tuberculosis Research and Epidemiology",
+      "Salmonella and Campylobacter epidemiology",
+      "SARS-CoV-2 and COVID-19 Research",
+      "Genomics and Phylogenetic Studies"
+    ],
+    "works_count": 415
+  },
+  {
+    "author_id": "https://openalex.org/A5098444099",
+    "citation_count": 23806,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2014-03-24",
+    "name": "RIZA ACAR KUTAY",
+    "orcid": "",
+    "topics": [
+      "Climate Change and Sustainable Development"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5041674466",
+    "citation_count": 753,
+    "country": "IT",
+    "h_index": 11,
+    "institution": "University of Verona",
+    "last_publication_date": "2025-12-01",
+    "name": "Nicola Val\u00e8",
+    "orcid": "0000-0002-2364-5990",
+    "topics": [
+      "Stroke Rehabilitation and Recovery",
+      "Cerebral Palsy and Movement Disorders",
+      "Botulinum Toxin and Related Neurological Disorders",
+      "Motor Control and Adaptation",
+      "Balance, Gait, and Falls Prevention"
+    ],
+    "works_count": 39
+  },
+  {
+    "author_id": "https://openalex.org/A5027781657",
+    "citation_count": 57590,
+    "country": "JP",
+    "h_index": 118,
+    "institution": "Tokyo Institute of Technology",
+    "last_publication_date": "2025-12-09",
+    "name": "Shigeyuki Yokoyama",
+    "orcid": "0000-0003-3133-7338",
+    "topics": [
+      "RNA and protein synthesis mechanisms",
+      "RNA modifications and cancer",
+      "Enzyme Structure and Function",
+      "RNA Research and Splicing",
+      "DNA and Nucleic Acid Chemistry"
+    ],
+    "works_count": 2010
+  },
+  {
+    "author_id": "https://openalex.org/A5094334156",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2022-01-30",
+    "name": "UCI Machine Learning",
+    "orcid": "",
+    "topics": [
+      "Chemistry and Stereochemistry Studies"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5112584350",
+    "citation_count": 291,
+    "country": "US",
+    "h_index": 6,
+    "institution": "Pennsylvania State University",
+    "last_publication_date": "2024-02-01",
+    "name": "Subhra Kanti Das",
+    "orcid": "",
+    "topics": [
+      "Underwater Vehicles and Communication Systems",
+      "Genomics and Chromatin Dynamics",
+      "DNA and Nucleic Acid Chemistry",
+      "RNA Research and Splicing",
+      "Target Tracking and Data Fusion in Sensor Networks"
+    ],
+    "works_count": 25
+  },
+  {
+    "author_id": "https://openalex.org/A5032729775",
+    "citation_count": 43,
+    "country": "CN",
+    "h_index": 2,
+    "institution": "Harbin Institute of Technology",
+    "last_publication_date": "2018-01-01",
+    "name": "Xuemai Gu",
+    "orcid": "",
+    "topics": [
+      "Big Data and Business Intelligence",
+      "Customer churn and segmentation",
+      "AI and HR Technologies",
+      "Advanced Data Compression Techniques",
+      "Infrared Target Detection Methodologies"
+    ],
+    "works_count": 3
+  },
+  {
+    "author_id": "https://openalex.org/A5007923168",
+    "citation_count": 5734,
+    "country": "DK",
+    "h_index": 36,
+    "institution": "Aarhus University",
+    "last_publication_date": "2021-10-27",
+    "name": "G. Houdek",
+    "orcid": "0000-0003-1819-810X",
+    "topics": [
+      "Stellar, planetary, and galactic studies",
+      "Astronomy and Astrophysical Research",
+      "Astro and Planetary Science",
+      "Solar and Space Plasma Dynamics",
+      "Astrophysics and Star Formation Studies"
+    ],
+    "works_count": 167
+  },
+  {
+    "author_id": "https://openalex.org/A5092548450",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2023-07-26",
+    "name": "Sai Manasa Leburi",
+    "orcid": "",
+    "topics": [
+      "Big Data and Business Intelligence"
+    ],
+    "works_count": 1
+  },
+  {
+    "author_id": "https://openalex.org/A5122196920",
+    "citation_count": 0,
+    "country": "",
+    "h_index": 0,
+    "institution": "",
+    "last_publication_date": "2026-01-05",
+    "name": "Big Data e Quantum Computing Fondazione ICSC Centro Nazionale di Ricerca in High Performance Computing",
+    "orcid": "",
+    "topics": [
+      "Research Data Management Practices",
+      "Academic Publishing and Open Access",
+      "E-Learning and Knowledge Management"
+    ],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5013299494",
+    "citation_count": 6236,
+    "country": "US",
+    "h_index": 33,
+    "institution": "Oak Ridge National Laboratory",
+    "last_publication_date": "2025-10-23",
+    "name": "Jaswinder Sharma",
+    "orcid": "0000-0002-3610-5520",
+    "topics": [
+      "Advanced biosensing and bioanalysis techniques",
+      "Gold and Silver Nanoparticles Synthesis and Applications",
+      "Nanocluster Synthesis and Applications",
+      "Advancements in Battery Materials",
+      "Advanced Battery Technologies Research"
+    ],
+    "works_count": 108
+  },
+  {
+    "author_id": "https://openalex.org/A5121866513",
+    "citation_count": 0,
+    "country": "GR",
+    "h_index": 0,
+    "institution": "Harokopio University of Athens",
+    "last_publication_date": "2026-01-02",
+    "name": "HUA COMPUTER VISION GROUP",
+    "orcid": "",
+    "topics": [],
+    "works_count": 2
+  },
+  {
+    "author_id": "https://openalex.org/A5062331469",
+    "citation_count": 18886,
+    "country": "US",
+    "h_index": 59,
+    "institution": "University of Alaska Fairbanks",
+    "last_publication_date": "2025-09-10",
+    "name": "Regine Hock",
+    "orcid": "0000-0001-8336-9441",
+    "topics": [
+      "Cryospheric studies and observations",
+      "Climate change and permafrost",
+      "Arctic and Antarctic ice dynamics",
+      "Winter Sports Injuries and Performance",
+      "Landslides and related hazards"
+    ],
+    "works_count": 299
+  },
+  {
+    "author_id": "https://openalex.org/A5067921991",
+    "citation_count": 2511,
+    "country": "FR",
+    "h_index": 23,
+    "institution": "Laboratoire d\u2019Annecy de Physique des Particules",
+    "last_publication_date": "2024-10-01",
+    "name": "Pijushpani Bhattacharjee",
+    "orcid": "0000-0002-2672-9639",
+    "topics": [
+      "Dark Matter and Cosmic Phenomena",
+      "Astrophysics and Cosmic Phenomena",
+      "Cosmology and Gravitation Theories",
+      "Particle physics theoretical and experimental studies",
+      "Neutrino Physics Research"
+    ],
+    "works_count": 95
+  },
+  {
+    "author_id": "https://openalex.org/A5055975704",
+    "citation_count": 254,
+    "country": "",
+    "h_index": 8,
+    "institution": "",
+    "last_publication_date": "2025-01-01",
+    "name": "\u0422. \u0413. \u0428\u0435\u043d\u0434\u0440\u0438\u043a",
+    "orcid": "0000-0001-6629-6471",
+    "topics": [
+      "Coal and Coke Industries Research",
+      "Coal Combustion and Slurry Processing",
+      "Mining and Gasification Technologies",
+      "Adsorption, diffusion, and thermodynamic properties of materials",
+      "Adsorption and biosorption for pollutant removal"
+    ],
+    "works_count": 66
+  },
+  {
+    "author_id": "https://openalex.org/A5003077921",
+    "citation_count": 33644,
+    "country": "CN",
+    "h_index": 67,
+    "institution": "China Meteorological Administration",
+    "last_publication_date": "2025-08-26",
+    "name": "Panmao Zhai",
+    "orcid": "",
+    "topics": [
+      "Climate variability and models",
+      "Meteorological Phenomena and Simulations",
+      "Atmospheric aerosols and clouds",
+      "Tropical and Extratropical Cyclones Research",
+      "Hydrology and Drought Analysis"
+    ],
+    "works_count": 244
+  },
+  {
+    "author_id": "https://openalex.org/A5084421609",
+    "citation_count": 9100,
+    "country": "US",
+    "h_index": 45,
+    "institution": "University of North Carolina at Chapel Hill",
+    "last_publication_date": "2025-12-16",
+    "name": "Liselotte Petersen",
+    "orcid": "0000-0002-0479-5379",
+    "topics": [
+      "Eating Disorders and Behaviors",
+      "Obesity, Physical Activity, Diet",
+      "Genetic Associations and Epidemiology",
+      "Birth, Development, and Health",
+      "Child and Adolescent Psychosocial and Emotional Development"
+    ],
+    "works_count": 278
+  },
+  {
+    "author_id": "https://openalex.org/A5113741633",
+    "citation_count": 14379,
+    "country": "BE",
+    "h_index": 64,
+    "institution": "Janssen (Belgium)",
+    "last_publication_date": "2025-09-10",
+    "name": "Timothy W. Lovenberg",
+    "orcid": "",
+    "topics": [
+      "Receptor Mechanisms and Signaling",
+      "Mast cells and histamine",
+      "Neuropeptides and Animal Physiology",
+      "Sleep and Wakefulness Research",
+      "Neuroscience and Neuropharmacology Research"
+    ],
+    "works_count": 211
+  },
+  {
+    "author_id": "https://openalex.org/A5079515801",
+    "citation_count": 1467,
+    "country": "US",
+    "h_index": 17,
+    "institution": "Smithsonian Astrophysical Observatory",
+    "last_publication_date": "2026-02-11",
+    "name": "Catherine Zucker",
+    "orcid": "0000-0002-2250-730X",
+    "topics": [
+      "Geophysics and Gravity Measurements",
+      "Arctic and Antarctic ice dynamics",
+      "Stellar, planetary, and galactic studies",
+      "Remote Sensing and Land Use",
+      "Geological Studies and Exploration"
+    ],
+    "works_count": 1247
+  },
+  {
+    "author_id": "https://openalex.org/A5049555613",
+    "citation_count": 4406,
+    "country": "JP",
+    "h_index": 33,
+    "institution": "University of Tsukuba",
+    "last_publication_date": "2025-10-20",
+    "name": "Yasumasa Nishiura",
+    "orcid": "0000-0003-2269-7438",
+    "topics": [
+      "Nonlinear Dynamics and Pattern Formation",
+      "Mathematical and Theoretical Epidemiology and Ecology Models",
+      "stochastic dynamics and bifurcation",
+      "Advanced Mathematical Modeling in Engineering",
+      "Quantum chaos and dynamical systems"
+    ],
+    "works_count": 225
+  },
+  {
+    "author_id": "https://openalex.org/A5002175197",
+    "citation_count": 11,
+    "country": "",
+    "h_index": 1,
+    "institution": "",
+    "last_publication_date": "2023-01-01",
+    "name": "Louis Marshall",
+    "orcid": "",
+    "topics": [
+      "American Constitutional Law and Politics",
+      "Nursing Education, Practice, and Leadership",
+      "Disaster Management and Resilience",
+      "Judicial and Constitutional Studies",
+      "Fire dynamics and safety research"
+    ],
+    "works_count": 10
+  },
+  {
+    "author_id": "https://openalex.org/A5031440281",
+    "citation_count": 13795,
+    "country": "US",
+    "h_index": 65,
+    "institution": "Lawrence Berkeley National Laboratory",
+    "last_publication_date": "2025-10-10",
+    "name": "Ryan Wiser",
+    "orcid": "0000-0002-2540-1092",
+    "topics": [
+      "Social Acceptance of Renewable Energy",
+      "Global Energy and Sustainability Research",
+      "Electric Power System Optimization",
+      "Climate Change Policy and Economics",
+      "Wind Energy Research and Development"
+    ],
+    "works_count": 310
+  },
+  {
+    "author_id": "https://openalex.org/A5002175874",
+    "citation_count": 17,
+    "country": "MY",
+    "h_index": 1,
+    "institution": "University of Cyberjaya",
+    "last_publication_date": "2025-05-24",
+    "name": "Wira Z. A. Zakaria",
+    "orcid": "",
+    "topics": [
+      "Advanced Malware Detection Techniques",
+      "Network Security and Intrusion Detection",
+      "Information and Cyber Security",
+      "Security and Verification in Computing",
+      "Spam and Phishing Detection"
+    ],
+    "works_count": 4
+  },
+  {
+    "author_id": "https://openalex.org/A5112590181",
+    "citation_count": 7288,
+    "country": "US",
+    "h_index": 33,
+    "institution": "University of Louisville",
+    "last_publication_date": "2024-02-07",
+    "name": "Thomas L. Starr",
+    "orcid": "",
+    "topics": [
+      "Advanced ceramic materials synthesis",
+      "Additive Manufacturing and 3D Printing Technologies",
+      "Additive Manufacturing Materials and Processes",
+      "Power Line Communications and Noise",
+      "Welding Techniques and Residual Stresses"
+    ],
+    "works_count": 148
+  },
+  {
+    "author_id": "https://openalex.org/A5066219856",
+    "citation_count": 3267,
+    "country": "BR",
+    "h_index": 29,
+    "institution": "AC Camargo Hospital",
+    "last_publication_date": "2025-11-17",
+    "name": "Leonardo S. Mattos",
+    "orcid": "0000-0002-8511-9144",
+    "topics": [
+      "Surgical Simulation and Training",
+      "Soft Robotics and Applications",
+      "Anatomy and Medical Technology",
+      "Augmented Reality Applications",
+      "Optical Coherence Tomography Applications"
+    ],
+    "works_count": 219
+  },
+  {
+    "author_id": "https://openalex.org/A5004116271",
+    "citation_count": 10744,
+    "country": "US",
+    "h_index": 48,
+    "institution": "University of Central Florida",
+    "last_publication_date": "2025-10-21",
+    "name": "Zhihua Qu",
+    "orcid": "0000-0001-6710-7134",
+    "topics": [
+      "Adaptive Control of Nonlinear Systems",
+      "Distributed Control Multi-Agent Systems",
+      "Advanced Control Systems Optimization",
+      "Stability and Control of Uncertain Systems",
+      "Microgrid Control and Optimization"
+    ],
+    "works_count": 477
+  },
+  {
+    "author_id": "https://openalex.org/A5051518048",
+    "citation_count": 9934,
+    "country": "JP",
+    "h_index": 52,
+    "institution": "RIKEN Center for Biosystems Dynamics Research",
+    "last_publication_date": "2025-12-09",
+    "name": "T. Kigawa",
+    "orcid": "0000-0003-0146-9719",
+    "topics": [
+      "RNA Research and Splicing",
+      "RNA and protein synthesis mechanisms",
+      "Ubiquitin and proteasome pathways",
+      "Protein Structure and Dynamics",
+      "RNA modifications and cancer"
+    ],
+    "works_count": 676
+  },
+  {
+    "author_id": "https://openalex.org/A5007133617",
+    "citation_count": 2412,
+    "country": "GB",
+    "h_index": 20,
+    "institution": "Google DeepMind (United Kingdom)",
+    "last_publication_date": "2025-10-02",
+    "name": "Abbas Abdolmaleki",
+    "orcid": "0000-0001-6692-5856",
+    "topics": [
+      "Reinforcement Learning in Robotics",
+      "Robot Manipulation and Learning",
+      "Advanced Multi-Objective Optimization Algorithms",
+      "Robotic Locomotion and Control",
+      "Machine Learning and Algorithms"
+    ],
+    "works_count": 95
+  },
+  {
+    "author_id": "https://openalex.org/A5030697996",
+    "citation_count": 13543,
+    "country": "US",
+    "h_index": 44,
+    "institution": "Oak Ridge National Laboratory",
+    "last_publication_date": "2025-08-08",
+    "name": "John P. Cunningham",
+    "orcid": "0000-0001-9125-3027",
+    "topics": [
+      "Neural dynamics and brain function",
+      "EEG and Brain-Computer Interfaces",
+      "Gaussian Processes and Bayesian Inference",
+      "Neural Networks and Applications",
+      "Neuroscience and Neural Engineering"
+    ],
+    "works_count": 191
+  },
+  {
+    "author_id": "https://openalex.org/A5023442994",
+    "citation_count": 1182,
+    "country": "",
+    "h_index": 17,
+    "institution": "",
+    "last_publication_date": "2025-11-13",
+    "name": "Christophe Chautems",
+    "orcid": "0000-0003-4951-067X",
+    "topics": [
+      "Soft Robotics and Applications",
+      "Micro and Nano Robotics",
+      "Cardiac Arrhythmias and Treatments",
+      "Modular Robots and Swarm Intelligence",
+      "Characterization and Applications of Magnetic Nanoparticles"
+    ],
+    "works_count": 35
+  },
+  {
+    "author_id": "https://openalex.org/A5082082741",
+    "citation_count": 27156,
+    "country": "US",
+    "h_index": 80,
+    "institution": "Princeton University",
+    "last_publication_date": "2025-09-12",
+    "name": "Michael Oppenheimer",
+    "orcid": "0000-0002-9708-5914",
+    "topics": [
+      "Climate Change Policy and Economics",
+      "Climate variability and models",
+      "Atmospheric and Environmental Gas Dynamics",
+      "Flood Risk Assessment and Management",
+      "Tropical and Extratropical Cyclones Research"
+    ],
+    "works_count": 382
+  },
+  {
+    "author_id": "https://openalex.org/A5076651586",
+    "citation_count": 27959,
+    "country": "",
+    "h_index": 35,
+    "institution": "",
+    "last_publication_date": "2025-07-15",
+    "name": "Wojciech Zaremba",
+    "orcid": "",
+    "topics": [
+      "Reinforcement Learning in Robotics",
+      "Domain Adaptation and Few-Shot Learning",
+      "Neural Networks and Applications",
+      "Adversarial Robustness in Machine Learning",
+      "Topic Modeling"
+    ],
+    "works_count": 61
+  },
+  {
+    "author_id": "https://openalex.org/A5010877878",
+    "citation_count": 913,
+    "country": "",
+    "h_index": 19,
+    "institution": "",
+    "last_publication_date": "2025-01-10",
+    "name": "Elisa L\u00f3pez\u2010Dolado",
+    "orcid": "0000-0002-3358-727X",
+    "topics": [
+      "Spinal Cord Injury Research",
+      "Neuroscience and Neural Engineering",
+      "Nerve injury and regeneration",
+      "Stroke Rehabilitation and Recovery",
+      "Graphene and Nanomaterials Applications"
+    ],
+    "works_count": 62
+  },
+  {
+    "author_id": "https://openalex.org/A5073805601",
+    "citation_count": 21194,
+    "country": "AU",
+    "h_index": 71,
+    "institution": "Australian Research Council",
+    "last_publication_date": "2025-12-10",
+    "name": "Jason P. Evans",
+    "orcid": "0000-0003-1776-3429",
+    "topics": [
+      "Climate variability and models",
+      "Meteorological Phenomena and Simulations",
+      "Hydrology and Watershed Management Studies",
+      "Hydrology and Drought Analysis",
+      "Plant Water Relations and Carbon Dynamics"
+    ],
+    "works_count": 483
+  },
+  {
+    "author_id": "https://openalex.org/A5024773327",
+    "citation_count": 253,
+    "country": "KR",
+    "h_index": 9,
+    "institution": "Myongji University",
+    "last_publication_date": "2025-05-19",
+    "name": "Hansoul Kim",
+    "orcid": "0000-0003-4001-6368",
+    "topics": [
+      "Soft Robotics and Applications",
+      "Surgical Simulation and Training",
+      "Gastric Cancer Management and Outcomes",
+      "Augmented Reality Applications",
+      "Gastrointestinal Tumor Research and Treatment"
+    ],
+    "works_count": 30
+  },
+  {
+    "author_id": "https://openalex.org/A5112866528",
+    "citation_count": 4,
+    "country": "US",
+    "h_index": 1,
+    "institution": "Texas A&M University School of Law",
+    "last_publication_date": "2025-11-24",
+    "name": "Joshua Moses",
+    "orcid": "",
+    "topics": [
+      "Mesenchymal stem cell research",
+      "Biblical Studies and Interpretation",
+      "Spinal Cord Injury Research",
+      "Neuroscience of respiration and sleep",
+      "Religion and Society Interactions"
+    ],
+    "works_count": 6
+  }
+]
