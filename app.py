@@ -32,10 +32,48 @@ def parse_manuscript(text: str) -> dict:
     lines = [l.strip() for l in text.split("\n") if l.strip()]
     title = abstract = ""
     keywords: list[str] = []
+    authors: list[str] = []
+    author_institutions: list[str] = []
     for line in lines[:10]:
         if len(line) > 15 and not line.lower().startswith(("abstract","keyword","introduction","http","doi")):
             title = line; break
     full = text.lower()
+    # Extract authors: lines between title and abstract that contain names/emails
+    title_found = False
+    for line in lines[:20]:
+        if line == title:
+            title_found = True; continue
+        if not title_found:
+            continue
+        ll = line.lower()
+        if ll.startswith(("abstract","a b s t r a c t")):
+            break
+        # Skip lines that are just emails, dates, or markers
+        if re.match(r'^(corresponding|e-mail|email|doi|http|received|accepted|published)', ll):
+            continue
+        # Look for author-like lines (contain names, possibly with affiliations)
+        # Extract name part before comma/institution info
+        if len(line) > 3 and len(line) < 300 and not ll.startswith(("keywords","key words")):
+            # Try to extract just the name portion
+            name_part = re.split(r'[,;]', line)[0].strip()
+            # Remove email addresses
+            name_part = re.sub(r'\S+@\S+', '', name_part).strip()
+            # Remove common suffixes
+            name_part = re.sub(r'\b(Ph\.?D|M\.?D|Dr\.?|Prof\.?)\b', '', name_part, flags=re.IGNORECASE).strip()
+            name_part = name_part.strip('., ')
+            if name_part and len(name_part) > 3 and len(name_part) < 80 and ' ' in name_part:
+                # Check it looks like a name (mostly letters)
+                alpha_ratio = sum(c.isalpha() or c == ' ' for c in name_part) / max(len(name_part), 1)
+                if alpha_ratio > 0.8:
+                    authors.append(name_part)
+            # Try to extract institution
+            parts = re.split(r'[,;]', line)
+            for part in parts[1:]:
+                part = part.strip()
+                inst_keywords = ["university","institute","college","laboratory","lab","department","dept","school","centre","center","hospital","corporation","corp"]
+                if any(ik in part.lower() for ik in inst_keywords) and len(part) > 5:
+                    author_institutions.append(part.strip('., '))
+                    break
     for marker in ["abstract","a b s t r a c t"]:
         idx = full.find(marker)
         if idx != -1:
@@ -55,7 +93,13 @@ def parse_manuscript(text: str) -> dict:
                 if ei > 5: kt = kt[:ei]; break
             keywords = [k.strip().rstrip('.') for k in re.split(r'[;,\n]',kt) if 2<len(k.strip())<60][:10]
             break
-    return {"title": title, "abstract": abstract, "keywords": keywords}
+    return {
+        "title": title,
+        "abstract": abstract,
+        "keywords": keywords,
+        "authors": authors,
+        "author_institutions": list(dict.fromkeys(author_institutions)),  # deduplicate
+    }
 
 def _to_excel(df):
     from io import BytesIO
@@ -756,12 +800,42 @@ elif st.session_state.stage == "review":
     with c2:
         num_candidates = st.slider("Search depth (candidates)", 20, 100, 50)
 
-    with st.expander("🛡️ Conflict of Interest Filters"):
-        cc1, cc2 = st.columns(2)
-        with cc1:
-            author_names_str = st.text_input("Paper author names", "")
-        with cc2:
-            author_institutions_str = st.text_input("Author institutions", "")
+    st.markdown('<div class="section-heading">🛡️ Conflict of Interest — Excluded Authors</div>', unsafe_allow_html=True)
+
+    # Pre-fill with extracted authors from the manuscript
+    extracted_authors = parsed.get("authors", [])
+    extracted_institutions = parsed.get("author_institutions", [])
+
+    if extracted_authors:
+        st.markdown(f"""
+        <div style="background:rgba(239,68,68,0.08); border:1px solid rgba(239,68,68,0.2);
+                    border-radius:12px; padding:14px 18px; margin-bottom:14px;">
+            <div style="font-size:13px;font-weight:700;color:#f87171;margin-bottom:8px;">
+                Authors extracted from manuscript (will be excluded from results):
+            </div>
+            <div style="display:flex;flex-wrap:wrap;gap:8px;">
+                {''.join(f'<span style="background:rgba(239,68,68,0.15);color:#fca5a5;padding:4px 12px;border-radius:20px;font-size:12px;font-weight:600;">{esc(a)}</span>' for a in extracted_authors)}
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+
+    author_names_str = st.text_input(
+        "Excluded author names (comma-separated)",
+        value=", ".join(extracted_authors),
+        help="These authors will be excluded from the reviewer results. Edit or add more names.",
+    )
+
+    author_institutions_str = st.text_input(
+        "Excluded institutions (comma-separated)",
+        value=", ".join(extracted_institutions),
+        help="Reviewers from these institutions will be flagged as COI.",
+    )
+
+    additional_exclude = st.text_area(
+        "Additional authors to exclude (one per line)",
+        height=80,
+        help="Add any other names you want to exclude from the results, e.g. known collaborators.",
+    )
 
     st.markdown("<div style='height:14px'></div>", unsafe_allow_html=True)
 
@@ -771,6 +845,10 @@ elif st.session_state.stage == "review":
         else:
             kw = [k.strip() for k in keywords_str.split(",") if k.strip()]
             an = [n.strip() for n in author_names_str.split(",") if n.strip()] if author_names_str else []
+            # Add additional exclusions
+            if additional_exclude:
+                an += [n.strip() for n in additional_exclude.split("\n") if n.strip()]
+            an = list(dict.fromkeys(an))  # deduplicate
             ai = [i.strip() for i in author_institutions_str.split(",") if i.strip()] if author_institutions_str else []
 
             progress = st.progress(0, text="Initializing search pipeline...")
@@ -887,6 +965,7 @@ elif st.session_state.stage == "results":
             reason = esc(r.get("reasoning", ""))
             contact = r.get("contact", {})
             email = contact.get("email", "")
+            email_is_inferred = contact.get("email_is_inferred", False)
 
             # Gradient divider
             if idx > 0:
@@ -947,9 +1026,14 @@ elif st.session_state.stage == "results":
                         profile_links += f'<a href="{esc(url)}" target="_blank" style="padding:4px 12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;font-size:11px;font-weight:600;color:#a5b4fc;text-decoration:none;margin-right:4px;transition:all .2s;" onmouseover="this.style.background=\'rgba(99,102,241,0.1)\';this.style.borderColor=\'rgba(99,102,241,0.25)\'" onmouseout="this.style.background=\'rgba(255,255,255,0.04)\';this.style.borderColor=\'rgba(255,255,255,0.08)\'">{lbl}</a>'
 
                 if email:
+                    if email_is_inferred:
+                        ai_badge = '<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.25);border-radius:6px;font-size:10px;font-weight:700;color:#fbbf24;letter-spacing:.03em;margin-left:4px;" title="This email was inferred from the reviewer\'s name and institution. Please verify before sending.">AI INFERRED</span>'
+                    else:
+                        ai_badge = ""
                     st.markdown(f"""<div style="display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap;">
                         <span style="font-size:13px;">✉️</span>
                         <a href="mailto:{esc(email)}" style="font-size:13px;font-weight:700;color:#a5b4fc;text-decoration:none;border-bottom:1px dashed rgba(99,102,241,0.3);">{esc(email)}</a>
+                        {ai_badge}
                         {profile_links}
                     </div>""", unsafe_allow_html=True)
                 elif profile_links:
@@ -989,6 +1073,9 @@ elif st.session_state.stage == "results":
                     f"Best regards"
                 )
 
+                inferred_note = ""
+                if email_is_inferred:
+                    inferred_note = '<div style="margin-top:6px;padding:6px 10px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;font-size:11px;color:#fbbf24;">⚠️ This email was AI-inferred from the reviewer\'s name and institution. Please verify before sending.</div>'
                 st.markdown(f"""<div class="invite-header">
                     <div style="display:flex;align-items:center;gap:8px;">
                         <span style="font-size:14px;">📨</span>
@@ -996,6 +1083,7 @@ elif st.session_state.stage == "results":
                         <span style="color:#475569;">→</span>
                         <span style="font-size:13px;font-weight:600;color:#e2e8f0;">{esc(email)}</span>
                     </div>
+                    {inferred_note}
                 </div>""", unsafe_allow_html=True)
 
                 subj = st.text_input("Subject", value=default_subject, key=f"subj_{invite_key}")
@@ -1019,9 +1107,12 @@ elif st.session_state.stage == "results":
         export = []
         for r in reviewers:
             c = r.get("contact", {})
+            email_val = c.get("email", "")
+            email_note = " (AI inferred)" if c.get("email_is_inferred") else ""
             export.append({
                 "Rank": r.get("rank"), "Name": r.get("name"),
-                "Institution": r.get("institution", ""), "Email": c.get("email", ""),
+                "Institution": r.get("institution", ""),
+                "Email": f"{email_val}{email_note}" if email_val else "",
                 "Score": round(r.get("overall_score", 0), 1),
                 "H-Index": r.get("h_index", ""), "Citations": r.get("citation_count", ""),
                 "ORCID": c.get("orcid_url", ""), "OpenAlex": c.get("openalex_url", ""),

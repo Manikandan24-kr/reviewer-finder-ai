@@ -144,61 +144,134 @@ def _mock_rerank(
 ) -> list[dict]:
     """
     Heuristic re-ranking based on:
-    - Vector similarity score (from Qdrant)
-    - Topic keyword overlap
+    - Vector similarity score (from Qdrant / numpy cosine)
+    - Topic keyword overlap (bidirectional — scored against candidate terms)
+    - Research summary text similarity
     - H-index / citation-based seniority
     - Recency of last publication
     """
+    # Build query terms from title + abstract + keywords
     query_terms = set()
     for text in [title.lower(), abstract.lower()] + [k.lower() for k in keywords]:
         query_terms.update(re.findall(r'\b[a-z]{3,}\b', text))
     query_terms -= _STOPWORDS
 
+    # Also build query bigrams for phrase-level matching
+    query_text = f"{title} {abstract} {' '.join(keywords)}".lower()
+    query_words = re.findall(r'\b[a-z]{3,}\b', query_text)
+    query_bigrams = set()
+    for i in range(len(query_words) - 1):
+        if query_words[i] not in _STOPWORDS and query_words[i+1] not in _STOPWORDS:
+            query_bigrams.add(f"{query_words[i]} {query_words[i+1]}")
+
     scored = []
     for candidate in candidates:
         c = candidate.copy()
 
-        # Topic score: keyword overlap between query and candidate topics
+        # ── Topic score: bidirectional keyword overlap ──
+        # Use candidate topic terms as the denominator (not the huge query set)
         candidate_terms = set()
         for topic in c.get("topics", []):
             candidate_terms.update(re.findall(r'\b[a-z]{3,}\b', topic.lower()))
+        candidate_terms -= _STOPWORDS
+
+        # Also check research_summary if available
+        summary = c.get("research_summary", "")
+        if summary:
+            summary_terms = set(re.findall(r'\b[a-z]{3,}\b', summary.lower())) - _STOPWORDS
+            candidate_terms |= summary_terms
+
         overlap = len(query_terms & candidate_terms)
-        max_possible = max(len(query_terms), 1)
-        topic_score = min((overlap / max_possible) * 15, 10)  # Boost and cap at 10
+        # Score against candidate terms (what % of candidate's expertise matches the query)
+        cand_coverage = overlap / max(len(candidate_terms), 1)
+        # Also score against a focused subset of query terms (keywords only)
+        kw_terms = set()
+        for k in keywords:
+            kw_terms.update(re.findall(r'\b[a-z]{3,}\b', k.lower()))
+        kw_terms -= _STOPWORDS
+        kw_overlap = len(kw_terms & candidate_terms) / max(len(kw_terms), 1) if kw_terms else 0
 
-        # Methodology score: based on vector similarity (proxy)
+        # Bigram matching for phrase-level accuracy
+        cand_text = " ".join(c.get("topics", [])).lower() + " " + summary.lower()
+        cand_bigrams = set()
+        cw = re.findall(r'\b[a-z]{3,}\b', cand_text)
+        for i in range(len(cw) - 1):
+            if cw[i] not in _STOPWORDS and cw[i+1] not in _STOPWORDS:
+                cand_bigrams.add(f"{cw[i]} {cw[i+1]}")
+        bigram_overlap = len(query_bigrams & cand_bigrams) / max(len(cand_bigrams), 1) if cand_bigrams else 0
+
+        # Phrase-in-topic matching: check if user keyword words appear in candidate topic names
+        # Handles cases like keyword "seismic inversion" matching topic "Seismic Imaging and Inversion Techniques"
+        topic_phrases = [t.lower() for t in c.get("topics", [])]
+        phrase_hits = 0
+        for kw in keywords:
+            kw_words = set(re.findall(r'\b[a-z]{3,}\b', kw.lower())) - _STOPWORDS
+            if not kw_words:
+                continue
+            for tp in topic_phrases:
+                tp_words = set(re.findall(r'\b[a-z]{3,}\b', tp)) - _STOPWORDS
+                # If most keyword words appear in this topic, count it as a hit
+                if len(kw_words & tp_words) >= max(len(kw_words) * 0.5, 1):
+                    phrase_hits += 1
+                    break
+        phrase_match = phrase_hits / max(len(keywords), 1) if keywords else 0
+
+        # Combined topic score: blend coverage metrics
+        raw_topic = (
+            cand_coverage * 0.20
+            + kw_overlap * 0.25
+            + bigram_overlap * 0.20
+            + phrase_match * 0.35
+        ) * 10
+        # Boost by vector similarity (semantic signal — captures meaning beyond keywords)
         vector_sim = c.get("score", 0)
-        methodology_score = min(vector_sim * 12, 10)  # Scale similarity to 0-10
+        # Use vector similarity as a floor — if semantic match is strong, topic can't be too low
+        vec_topic_floor = max((vector_sim - 0.25) / 0.45, 0) * 10  # 0.25→0, 0.70→10
+        topic_score = min(max(raw_topic * 0.50 + vector_sim * 10 * 0.50, vec_topic_floor), 10)
 
-        # Seniority score: from h-index
+        # ── Methodology score: vector similarity is our best semantic proxy ──
+        # Scale cosine similarity (typical range 0.3–0.75) to 0–10
+        methodology_score = min(max((vector_sim - 0.2) / 0.5, 0) * 10, 10)
+
+        # ── Seniority score: from h-index (smoothed curve) ──
         h = c.get("h_index", 0) or 0
-        if h >= 40:
+        if h >= 50:
+            seniority_score = 9.8
+        elif h >= 40:
             seniority_score = 9.5
+        elif h >= 30:
+            seniority_score = 9.0
         elif h >= 25:
             seniority_score = 8.5
-        elif h >= 15:
+        elif h >= 18:
+            seniority_score = 8.0
+        elif h >= 12:
             seniority_score = 7.5
         elif h >= 8:
-            seniority_score = 6.5
+            seniority_score = 7.0
+        elif h >= 5:
+            seniority_score = 6.0
         elif h >= 3:
             seniority_score = 5.0
         else:
-            seniority_score = 3.0
+            seniority_score = 3.5
 
-        # Recency score: based on last publication date
+        # ── Recency score: based on last publication date ──
         last_pub = c.get("last_publication_date", "")
         if last_pub and len(last_pub) >= 4:
             try:
                 pub_year = int(last_pub[:4])
                 years_ago = 2026 - pub_year
-                if years_ago <= 1:
+                if years_ago <= 0:
+                    recency_score = 9.8
+                elif years_ago <= 1:
                     recency_score = 9.5
                 elif years_ago <= 2:
                     recency_score = 8.5
                 elif years_ago <= 3:
-                    recency_score = 7.0
+                    recency_score = 7.5
                 elif years_ago <= 5:
-                    recency_score = 5.0
+                    recency_score = 5.5
                 else:
                     recency_score = 3.0
             except ValueError:
@@ -206,27 +279,36 @@ def _mock_rerank(
         else:
             recency_score = 5.0
 
-        # Weighted overall score
+        # ── Weighted overall score ──
         overall = (
-            topic_score * 0.40
-            + methodology_score * 0.25
+            topic_score * 0.35
+            + methodology_score * 0.30
             + seniority_score * 0.15
             + recency_score * 0.20
         )
 
-        # Generate reasoning
+        # ── Generate reasoning ──
         reasoning_parts = []
-        if overlap > 3:
-            reasoning_parts.append(f"Strong topic overlap ({overlap} matching terms)")
+        if topic_score >= 7:
+            reasoning_parts.append(f"Strong topic alignment ({overlap} matching terms)")
+        elif topic_score >= 4:
+            reasoning_parts.append(f"Good topic relevance ({overlap} matching terms)")
         elif overlap > 0:
             reasoning_parts.append(f"Some topic overlap ({overlap} matching terms)")
         else:
-            reasoning_parts.append("Limited direct topic overlap, but related domain")
+            reasoning_parts.append("Related domain expertise")
 
-        if h >= 20:
+        if methodology_score >= 7:
+            reasoning_parts.append("strong methodological match")
+        elif methodology_score >= 4:
+            reasoning_parts.append("relevant methodological expertise")
+
+        if h >= 25:
+            reasoning_parts.append(f"senior researcher (h-index: {h})")
+        elif h >= 12:
             reasoning_parts.append(f"established researcher (h-index: {h})")
-        elif h >= 8:
-            reasoning_parts.append(f"mid-career researcher (h-index: {h})")
+        elif h >= 5:
+            reasoning_parts.append(f"active researcher (h-index: {h})")
 
         if last_pub and last_pub >= "2024":
             reasoning_parts.append("actively publishing")

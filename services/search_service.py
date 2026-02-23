@@ -37,17 +37,25 @@ def _load_inmemory_index():
     if _inmemory_embeddings is not None:
         return
 
-    emb_path = os.path.join(DATA_DIR, "embeddings.npy")
+    emb_path_npy = os.path.join(DATA_DIR, "embeddings.npy")
+    emb_path_json = os.path.join(DATA_DIR, "embeddings.json")
     meta_path = os.path.join(DATA_DIR, "embeddings_metadata.json")
 
-    if not os.path.exists(emb_path) or not os.path.exists(meta_path):
+    if not os.path.exists(meta_path):
         raise FileNotFoundError(
             f"In-memory index files not found at {DATA_DIR}. "
-            "Run the seed pipeline first or ensure embeddings.npy and "
+            "Run the seed pipeline first or ensure embeddings and "
             "embeddings_metadata.json exist."
         )
 
-    _inmemory_embeddings = np.load(emb_path).astype(np.float32)
+    # Load embeddings from .npy (preferred) or .json (HF Spaces fallback)
+    if os.path.exists(emb_path_npy):
+        _inmemory_embeddings = np.load(emb_path_npy).astype(np.float32)
+    elif os.path.exists(emb_path_json):
+        with open(emb_path_json) as f:
+            _inmemory_embeddings = np.array(json.load(f), dtype=np.float32)
+    else:
+        raise FileNotFoundError(f"No embeddings file found at {DATA_DIR}.")
     with open(meta_path) as f:
         _inmemory_metadata = json.load(f)
 

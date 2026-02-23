@@ -8,6 +8,7 @@ from __future__ import annotations
 import httpx
 import json
 import os
+import re
 
 AUTHORS_FILE = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "authors.json")
 
@@ -64,6 +65,13 @@ def enrich_contact(candidate: dict) -> dict:
     if author_id:
         openalex_id = author_id.replace("https://openalex.org/", "")
         contact["openalex_url"] = f"https://openalex.org/{openalex_id}"
+
+    # Step 5: Generate inferred email if no real email found
+    if "email" not in contact or not contact["email"]:
+        inferred = _infer_email(candidate.get("name", ""), candidate.get("institution", ""))
+        if inferred:
+            contact["email"] = inferred
+            contact["email_is_inferred"] = True
 
     candidate["contact"] = contact
     return candidate
@@ -138,6 +146,177 @@ def _fetch_orcid_contact(orcid_id: str) -> dict:
 
     except Exception:
         return {}
+
+
+def _infer_email(name: str, institution: str) -> str | None:
+    """
+    Infer a likely email address from name + institution.
+    Uses common academic email patterns (firstname.lastname@domain).
+    Returns None if we can't determine a plausible domain.
+    """
+    if not name or not institution:
+        return None
+
+    # Clean and split the name
+    name_clean = re.sub(r'[^a-zA-Z\s\-]', '', name).strip()
+    parts = name_clean.split()
+    if len(parts) < 2:
+        return None
+
+    first = parts[0].lower()
+    last = parts[-1].lower()
+
+    # Map institution to email domain
+    domain = _get_institution_domain(institution)
+    if not domain:
+        return None
+
+    # Most common academic pattern: firstname.lastname@domain
+    return f"{first}.{last}@{domain}"
+
+
+# Well-known institution → email domain mapping
+_INSTITUTION_DOMAINS = {
+    "imperial college london": "imperial.ac.uk",
+    "university of oxford": "ox.ac.uk",
+    "university of cambridge": "cam.ac.uk",
+    "mit": "mit.edu",
+    "massachusetts institute of technology": "mit.edu",
+    "stanford university": "stanford.edu",
+    "harvard university": "harvard.edu",
+    "caltech": "caltech.edu",
+    "california institute of technology": "caltech.edu",
+    "university of california berkeley": "berkeley.edu",
+    "uc berkeley": "berkeley.edu",
+    "princeton university": "princeton.edu",
+    "yale university": "yale.edu",
+    "columbia university": "columbia.edu",
+    "university of chicago": "uchicago.edu",
+    "carnegie mellon university": "cmu.edu",
+    "cornell university": "cornell.edu",
+    "university of michigan": "umich.edu",
+    "university of pennsylvania": "upenn.edu",
+    "duke university": "duke.edu",
+    "university of toronto": "utoronto.ca",
+    "eth zurich": "ethz.ch",
+    "university of tokyo": "u-tokyo.ac.jp",
+    "national university of singapore": "nus.edu.sg",
+    "peking university": "pku.edu.cn",
+    "tsinghua university": "tsinghua.edu.cn",
+    "university of melbourne": "unimelb.edu.au",
+    "australian national university": "anu.edu.au",
+    "university of edinburgh": "ed.ac.uk",
+    "ucl": "ucl.ac.uk",
+    "university college london": "ucl.ac.uk",
+    "king's college london": "kcl.ac.uk",
+    "university of manchester": "manchester.ac.uk",
+    "university of bristol": "bristol.ac.uk",
+    "university of leeds": "leeds.ac.uk",
+    "university of warwick": "warwick.ac.uk",
+    "university of glasgow": "glasgow.ac.uk",
+    "university of birmingham": "bham.ac.uk",
+    "georgia institute of technology": "gatech.edu",
+    "georgia tech": "gatech.edu",
+    "university of washington": "uw.edu",
+    "university of wisconsin": "wisc.edu",
+    "university of texas at austin": "utexas.edu",
+    "university of illinois": "illinois.edu",
+    "university of minnesota": "umn.edu",
+    "university of florida": "ufl.edu",
+    "ohio state university": "osu.edu",
+    "penn state university": "psu.edu",
+    "pennsylvania state university": "psu.edu",
+    "university of maryland": "umd.edu",
+    "university of virginia": "virginia.edu",
+    "university of north carolina": "unc.edu",
+    "northwestern university": "northwestern.edu",
+    "university of southern california": "usc.edu",
+    "new york university": "nyu.edu",
+    "boston university": "bu.edu",
+    "rice university": "rice.edu",
+    "purdue university": "purdue.edu",
+    "indiana university": "indiana.edu",
+    "michigan state university": "msu.edu",
+    "arizona state university": "asu.edu",
+    "university of colorado": "colorado.edu",
+    "washington university in st. louis": "wustl.edu",
+    "emory university": "emory.edu",
+    "vanderbilt university": "vanderbilt.edu",
+    "johns hopkins university": "jhu.edu",
+    "brown university": "brown.edu",
+    "dartmouth college": "dartmouth.edu",
+    "university of california los angeles": "ucla.edu",
+    "ucla": "ucla.edu",
+    "university of california san diego": "ucsd.edu",
+    "ucsd": "ucsd.edu",
+    "university of california san francisco": "ucsf.edu",
+    "ucsf": "ucsf.edu",
+    "university of california davis": "ucdavis.edu",
+    "university of california irvine": "uci.edu",
+    "university of california santa barbara": "ucsb.edu",
+    "university of california santa cruz": "ucsc.edu",
+    "max planck": "mpg.de",
+    "cnrs": "cnrs.fr",
+    "inria": "inria.fr",
+    "university of paris": "u-paris.fr",
+    "sorbonne": "sorbonne-universite.fr",
+    "delft university of technology": "tudelft.nl",
+    "university of amsterdam": "uva.nl",
+    "karolinska institute": "ki.se",
+    "technical university of munich": "tum.de",
+    "university of munich": "lmu.de",
+    "humboldt university": "hu-berlin.de",
+    "university of heidelberg": "uni-heidelberg.de",
+    "rwth aachen": "rwth-aachen.de",
+    "university of bologna": "unibo.it",
+    "sapienza university": "uniroma1.it",
+    "politecnico di milano": "polimi.it",
+    "university of copenhagen": "ku.dk",
+    "university of helsinki": "helsinki.fi",
+    "university of oslo": "uio.no",
+    "university of zurich": "uzh.ch",
+    "epfl": "epfl.ch",
+    "ben-gurion university": "bgu.ac.il",
+    "technion": "technion.ac.il",
+    "hebrew university": "huji.ac.il",
+    "weizmann institute": "weizmann.ac.il",
+    "korean advanced institute of science and technology": "kaist.ac.kr",
+    "kaist": "kaist.ac.kr",
+    "seoul national university": "snu.ac.kr",
+    "nanyang technological university": "ntu.edu.sg",
+    "indian institute of technology": "iitb.ac.in",
+    "iit bombay": "iitb.ac.in",
+    "iit delhi": "iitd.ac.in",
+    "chinese academy of sciences": "cas.cn",
+    "united states geological survey": "usgs.gov",
+}
+
+
+def _get_institution_domain(institution: str) -> str | None:
+    """Resolve an institution name to its email domain."""
+    if not institution:
+        return None
+
+    inst_lower = institution.lower().strip()
+
+    # Direct lookup
+    for key, domain in _INSTITUTION_DOMAINS.items():
+        if key in inst_lower or inst_lower in key:
+            return domain
+
+    # Heuristic: try to build domain from "University of X" pattern
+    m = re.match(r'(?:the\s+)?university\s+of\s+(\w[\w\s]*)', inst_lower)
+    if m:
+        slug = m.group(1).strip().split()[0]  # first word
+        return f"{slug}.edu"
+
+    # Heuristic: "X University" pattern
+    m = re.match(r'(\w+)\s+university', inst_lower)
+    if m:
+        slug = m.group(1).strip().lower()
+        return f"{slug}.edu"
+
+    return None
 
 
 def enrich_candidates(candidates: list[dict]) -> list[dict]:
