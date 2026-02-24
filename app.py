@@ -1144,26 +1144,30 @@ elif st.session_state.stage == "results":
                     coi_border = "rgba(239,68,68,0.2)" if sev in ("high","critical") else "rgba(245,158,11,0.2)"
                     st.markdown(f'<div class="coi-flag" style="background:{coi_bg};color:{coi_color};border:1px solid {coi_border};">⚠️ {esc(flag.get("detail",""))}</div>', unsafe_allow_html=True)
 
-                # Contact
-                profile_links = ""
+                # Contact — email row
+                if email:
+                    if email_is_inferred:
+                        ai_badge = ' <span class="ai-inferred-badge">AI INFERRED</span>'
+                    else:
+                        ai_badge = ""
+                    email_html = (
+                        '<div style="display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap;">'
+                        '<span style="font-size:13px;">\u2709\uFE0F</span>'
+                        f'<a href="mailto:{esc(email)}" style="font-size:13px;font-weight:700;color:#a5b4fc;text-decoration:none;border-bottom:1px dashed rgba(99,102,241,0.3);">{esc(email)}</a>'
+                        f'{ai_badge}'
+                        '</div>'
+                    )
+                    st.markdown(email_html, unsafe_allow_html=True)
+
+                # Contact — profile links (separate st.markdown to avoid sanitizer issues)
+                link_items = []
                 for lbl, key in [("ORCID","orcid_url"),("OpenAlex","openalex_url"),("Homepage","homepage")]:
                     url = contact.get(key,"")
                     if url:
-                        profile_links += f'<a href="{esc(url)}" target="_blank" class="profile-link">{lbl}</a> '
-
-                if email:
-                    if email_is_inferred:
-                        ai_badge = '<span class="ai-inferred-badge" title="This email was inferred from the reviewer name and institution. Please verify before sending.">AI INFERRED</span>'
-                    else:
-                        ai_badge = ""
-                    st.markdown(f"""<div style="display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap;">
-                        <span style="font-size:13px;">✉️</span>
-                        <a href="mailto:{esc(email)}" style="font-size:13px;font-weight:700;color:#a5b4fc;text-decoration:none;border-bottom:1px dashed rgba(99,102,241,0.3);">{esc(email)}</a>
-                        {ai_badge}
-                        {profile_links}
-                    </div>""", unsafe_allow_html=True)
-                elif profile_links:
-                    st.markdown(f'<div style="margin-top:14px;">{profile_links}</div>', unsafe_allow_html=True)
+                        link_items.append(f'<a href="{esc(url)}" target="_blank" class="profile-link">{lbl}</a>')
+                if link_items:
+                    links_html = " ".join(link_items)
+                    st.markdown(f'<div style="display:flex;gap:6px;margin-top:8px;flex-wrap:wrap;">{links_html}</div>', unsafe_allow_html=True)
 
             with col_scores:
                 st.markdown("<div style='height:4px'></div>", unsafe_allow_html=True)
