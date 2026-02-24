@@ -1206,15 +1206,18 @@ elif st.session_state.stage == "results":
                 inferred_note = ""
                 if email_is_inferred:
                     inferred_note = '<div style="margin-top:6px;padding:6px 10px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;font-size:11px;color:#fbbf24;">⚠️ This email was AI-inferred. Please verify before sending.</div>'
-                st.markdown(f"""<div class="invite-header">
-                    <div style="display:flex;align-items:center;gap:8px;">
-                        <span style="font-size:14px;">📨</span>
-                        <span style="font-size:14px;font-weight:700;color:#a5b4fc;">Compose Invite</span>
-                        <span style="color:#475569;">→</span>
-                        <span style="font-size:13px;font-weight:600;color:#e2e8f0;">{esc(email)}</span>
-                    </div>
-                    {inferred_note}
-                </div>""", unsafe_allow_html=True)
+                invite_header_html = (
+                    '<div class="invite-header">'
+                    '<div style="display:flex;align-items:center;gap:8px;">'
+                    '<span style="font-size:14px;">\U0001F4E8</span>'
+                    '<span style="font-size:14px;font-weight:700;color:#a5b4fc;">Compose Invite</span>'
+                    '<span style="color:#475569;">\u2192</span>'
+                    f'<span style="font-size:13px;font-weight:600;color:#e2e8f0;">{esc(email)}</span>'
+                    '</div>'
+                    f'{inferred_note}'
+                    '</div>'
+                )
+                st.markdown(invite_header_html, unsafe_allow_html=True)
 
                 subj = st.text_input("Subject", value=default_subject, key=f"subj_{invite_key}")
                 body = st.text_area("Message", value=default_body, height=220, key=f"body_{invite_key}")
