@@ -70,8 +70,8 @@ def parse_manuscript(text: str) -> dict:
                     authors.append(name_part)
             # Try to extract institution/affiliation — the part right after the name
             parts = re.split(r'[,;]', line)
-            for part in parts[1:]:
-                part = part.strip()
+            for pi, raw_part in enumerate(parts[1:]):
+                part = raw_part.strip()
                 # Remove emails, addresses (numbers), "E-mail:" text
                 part = re.sub(r'\S+@\S+', '', part).strip()
                 part = re.sub(r'E-mail:.*', '', part, flags=re.IGNORECASE).strip()
@@ -86,7 +86,7 @@ def parse_manuscript(text: str) -> dict:
                     author_institutions.append(part)
                     break
                 # If it's the first part after the name and looks like an org (has uppercase, > 4 chars)
-                elif parts.index(part) == 0 or (len(part) > 5 and part[0].isupper() and not any(c.isdigit() for c in part[:5])):
+                elif pi == 0 and len(part) > 5 and part[0].isupper() and not any(c.isdigit() for c in part[:5]):
                     author_institutions.append(part)
                     break
     for marker in ["abstract","a b s t r a c t"]:
