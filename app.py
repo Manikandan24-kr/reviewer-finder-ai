@@ -48,16 +48,18 @@ def parse_manuscript(text: str) -> dict:
         ll = line.lower()
         if ll.startswith(("abstract","a b s t r a c t")):
             break
-        # Skip lines that are just emails, dates, or markers
-        if re.match(r'^(corresponding|e-mail|email|doi|http|received|accepted|published)', ll):
+        # Skip lines that are just "Corresponding author:" references
+        if re.match(r'^corresponding\s*(author)?', ll):
             continue
         # Look for author-like lines (contain names, possibly with affiliations)
         # Extract name part before comma/institution info
-        if len(line) > 3 and len(line) < 300 and not ll.startswith(("keywords","key words")):
+        if len(line) > 3 and len(line) < 300 and not ll.startswith(("keywords","key words","e-mail","email","doi","http","received","accepted","published")):
             # Try to extract just the name portion
             name_part = re.split(r'[,;]', line)[0].strip()
             # Remove email addresses
             name_part = re.sub(r'\S+@\S+', '', name_part).strip()
+            # Remove E-mail: prefix and trailing text
+            name_part = re.sub(r'E-mail:.*', '', name_part, flags=re.IGNORECASE).strip()
             # Remove common suffixes
             name_part = re.sub(r'\b(Ph\.?D|M\.?D|Dr\.?|Prof\.?)\b', '', name_part, flags=re.IGNORECASE).strip()
             name_part = name_part.strip('., ')
@@ -66,13 +68,26 @@ def parse_manuscript(text: str) -> dict:
                 alpha_ratio = sum(c.isalpha() or c == ' ' for c in name_part) / max(len(name_part), 1)
                 if alpha_ratio > 0.8:
                     authors.append(name_part)
-            # Try to extract institution
+            # Try to extract institution/affiliation — the part right after the name
             parts = re.split(r'[,;]', line)
             for part in parts[1:]:
                 part = part.strip()
-                inst_keywords = ["university","institute","college","laboratory","lab","department","dept","school","centre","center","hospital","corporation","corp"]
+                # Remove emails, addresses (numbers), "E-mail:" text
+                part = re.sub(r'\S+@\S+', '', part).strip()
+                part = re.sub(r'E-mail:.*', '', part, flags=re.IGNORECASE).strip()
+                part = part.strip('., ')
+                if not part or len(part) < 4:
+                    continue
+                # Check for institution keywords OR treat 2nd comma-part as org name
+                inst_keywords = ["university","institute","college","laboratory","lab","department",
+                                 "dept","school","centre","center","hospital","corporation","corp",
+                                 "survey","agency","research","national","organisation","organization"]
                 if any(ik in part.lower() for ik in inst_keywords) and len(part) > 5:
-                    author_institutions.append(part.strip('., '))
+                    author_institutions.append(part)
+                    break
+                # If it's the first part after the name and looks like an org (has uppercase, > 4 chars)
+                elif parts.index(part) == 0 or (len(part) > 5 and part[0].isupper() and not any(c.isdigit() for c in part[:5])):
+                    author_institutions.append(part)
                     break
     for marker in ["abstract","a b s t r a c t"]:
         idx = full.find(marker)
@@ -93,6 +108,26 @@ def parse_manuscript(text: str) -> dict:
                 if ei > 5: kt = kt[:ei]; break
             keywords = [k.strip().rstrip('.') for k in re.split(r'[;,\n]',kt) if 2<len(k.strip())<60][:10]
             break
+
+    # Auto-generate keywords from title + abstract if none were found
+    if not keywords and (title or abstract):
+        keywords = _extract_keywords_from_text(title, abstract)
+
+    # Also try to extract institution from author lines with email patterns
+    if not author_institutions and authors:
+        for line in lines[:20]:
+            for inst_kw in ["university","institute","college","laboratory","lab","centre","center","survey","corporation"]:
+                if inst_kw in line.lower() and len(line) > 10:
+                    # Extract the institution part
+                    parts = re.split(r'[,;]', line)
+                    for part in parts:
+                        part = part.strip()
+                        if inst_kw in part.lower() and len(part) > 5:
+                            clean = re.sub(r'\S+@\S+', '', part).strip().rstrip('., ')
+                            if clean and len(clean) > 5:
+                                author_institutions.append(clean)
+                    break
+
     return {
         "title": title,
         "abstract": abstract,
@@ -100,6 +135,62 @@ def parse_manuscript(text: str) -> dict:
         "authors": authors,
         "author_institutions": list(dict.fromkeys(author_institutions)),  # deduplicate
     }
+
+
+def _extract_keywords_from_text(title: str, abstract: str) -> list[str]:
+    """Extract relevant keywords from title and abstract using NLP heuristics."""
+    text = f"{title} {abstract}".lower()
+    words = re.findall(r'\b[a-z]{3,}\b', text)
+
+    # Stopwords for academic text
+    stops = {
+        "the","and","for","are","but","not","you","all","can","had","her","was",
+        "one","our","out","has","have","been","from","this","that","with","they",
+        "will","each","make","like","into","over","such","than","them","then",
+        "these","some","would","other","about","which","their","there","could",
+        "more","also","most","here","both","after","those","using","used","based",
+        "show","shown","well","however","between","through","where","while",
+        "during","before","should","results","paper","study","method","methods",
+        "approach","propose","proposed","present","presented","demonstrate",
+        "existing","recent","first","second","new","novel","different","important",
+        "significant","provide","provides","including","across","within","without",
+        "performance","compared","model","models","data","analysis","often",
+        "when","does","being","value","values","case","cases","effect","effects",
+        "test","tests","suggests","suggesting","particularly","may","terms",
+        "strongly","simple","address","begin","begins","combination","attempt",
+        "attempts","prior","assumption","derive","derived","improve","improved",
+        "practical","application","confirmed","offer","offering","serve",
+        "serving","useful","efficient","transparent","alternative",
+    }
+
+    # Extract bigrams (two-word phrases)
+    bigrams = []
+    for i in range(len(words) - 1):
+        if words[i] not in stops and words[i+1] not in stops:
+            bigrams.append(f"{words[i]} {words[i+1]}")
+
+    # Count frequencies
+    bigram_freq = {}
+    for bg in bigrams:
+        bigram_freq[bg] = bigram_freq.get(bg, 0) + 1
+
+    word_freq = {}
+    for w in words:
+        if w not in stops and len(w) > 3:
+            word_freq[w] = word_freq.get(w, 0) + 1
+
+    # Top bigrams as keywords
+    top_bigrams = sorted(bigram_freq.items(), key=lambda x: x[1], reverse=True)
+    keywords = [bg for bg, cnt in top_bigrams if cnt >= 2][:6]
+
+    # Add top single words if we don't have enough
+    if len(keywords) < 4:
+        top_words = sorted(word_freq.items(), key=lambda x: x[1], reverse=True)
+        for w, _ in top_words:
+            if w not in " ".join(keywords) and len(keywords) < 8:
+                keywords.append(w)
+
+    return keywords[:8]
 
 def _to_excel(df):
     from io import BytesIO
