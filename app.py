@@ -1146,15 +1146,10 @@ elif st.session_state.stage == "results":
 
                 # Contact — email row
                 if email:
-                    if email_is_inferred:
-                        ai_badge = ' <span class="ai-inferred-badge">AI INFERRED</span>'
-                    else:
-                        ai_badge = ""
                     email_html = (
                         '<div style="display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap;">'
                         '<span style="font-size:13px;">\u2709\uFE0F</span>'
                         f'<a href="mailto:{esc(email)}" style="font-size:13px;font-weight:700;color:#a5b4fc;text-decoration:none;border-bottom:1px dashed rgba(99,102,241,0.3);">{esc(email)}</a>'
-                        f'{ai_badge}'
                         '</div>'
                     )
                     st.markdown(email_html, unsafe_allow_html=True)
@@ -1203,9 +1198,6 @@ elif st.session_state.stage == "results":
                     f"Best regards"
                 )
 
-                inferred_note = ""
-                if email_is_inferred:
-                    inferred_note = '<div style="margin-top:6px;padding:6px 10px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;font-size:11px;color:#fbbf24;">⚠️ This email was AI-inferred. Please verify before sending.</div>'
                 invite_header_html = (
                     '<div class="invite-header">'
                     '<div style="display:flex;align-items:center;gap:8px;">'
@@ -1214,7 +1206,6 @@ elif st.session_state.stage == "results":
                     '<span style="color:#475569;">\u2192</span>'
                     f'<span style="font-size:13px;font-weight:600;color:#e2e8f0;">{esc(email)}</span>'
                     '</div>'
-                    f'{inferred_note}'
                     '</div>'
                 )
                 st.markdown(invite_header_html, unsafe_allow_html=True)
