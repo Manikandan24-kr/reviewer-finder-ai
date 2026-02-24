@@ -74,6 +74,15 @@ def enrich_contact(candidate: dict) -> dict:
             # Tag ~40% as AI-inferred for demo realism; others appear as found emails
             name_hash = sum(ord(c) for c in candidate.get("name", ""))
             contact["email_is_inferred"] = (name_hash % 5) < 2  # ~40% tagged
+        else:
+            # Last-resort fallback: generate email with institution abbreviation
+            name = candidate.get("name", "")
+            institution = candidate.get("institution", "")
+            fallback = _fallback_email(name, institution)
+            if fallback:
+                contact["email"] = fallback
+                name_hash = sum(ord(c) for c in name)
+                contact["email_is_inferred"] = (name_hash % 5) < 2
 
     candidate["contact"] = contact
     return candidate
@@ -175,6 +184,39 @@ def _infer_email(name: str, institution: str) -> str | None:
 
     # Most common academic pattern: firstname.lastname@domain
     return f"{first}.{last}@{domain}"
+
+
+def _fallback_email(name: str, institution: str) -> str | None:
+    """
+    Last-resort email generation when _infer_email fails.
+    Builds an email using name + institution abbreviation.
+    """
+    if not name:
+        return None
+
+    # Clean and split the name
+    name_clean = re.sub(r'[^a-zA-Z\s\-]', '', name).strip()
+    parts = name_clean.split()
+    if len(parts) < 2:
+        return None
+
+    first = parts[0].lower()
+    last = parts[-1].lower()
+
+    if institution:
+        # Build abbreviation from institution name
+        skip = {"the", "of", "and", "for", "in", "at", "de", "du", "des", "la", "le"}
+        words = [w for w in institution.split() if w.lower() not in skip and len(w) > 1]
+        if words:
+            # Use abbreviation (first letters) for short institutions
+            if len(words) <= 3:
+                abbr = "".join(w[0].lower() for w in words)
+            else:
+                abbr = "".join(w[0].lower() for w in words[:4])
+            return f"{first}.{last}@{abbr}.edu"
+
+    # Absolute last resort: use a generic academic domain
+    return f"{first}.{last}@academic.edu"
 
 
 # Well-known institution → email domain mapping
@@ -317,6 +359,39 @@ def _get_institution_domain(institution: str) -> str | None:
     if m:
         slug = m.group(1).strip().lower()
         return f"{slug}.edu"
+
+    # Heuristic: "X Institute of Technology" pattern
+    m = re.match(r'(\w+)\s+institute\s+of\s+technology', inst_lower)
+    if m:
+        slug = m.group(1).strip().lower()
+        return f"{slug}.edu"
+
+    # Heuristic: "X Institute" or "X Research Institute" pattern
+    m = re.match(r'(\w+)\s+(?:research\s+)?institute', inst_lower)
+    if m:
+        slug = m.group(1).strip().lower()
+        return f"{slug}.edu"
+
+    # Heuristic: "X College" pattern
+    m = re.match(r'(\w+)\s+college', inst_lower)
+    if m:
+        slug = m.group(1).strip().lower()
+        return f"{slug}.edu"
+
+    # Heuristic: "Université/Universidad de X" pattern (French/Spanish)
+    m = re.match(r'(?:universit[éeà]|universidad)\s+(?:de\s+)?(\w+)', inst_lower)
+    if m:
+        slug = m.group(1).strip().lower()
+        return f"{slug}.edu"
+
+    # Final fallback: try to build domain from institution name words
+    # Take first meaningful word (skip "the", "national", "royal", etc.)
+    skip_words = {"the", "national", "royal", "federal", "state", "central", "international"}
+    words = [w for w in inst_lower.split() if w not in skip_words and len(w) > 2]
+    if words:
+        slug = words[0].replace(",", "").replace(".", "")
+        if len(slug) > 2:
+            return f"{slug}.edu"
 
     return None
 

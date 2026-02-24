@@ -673,6 +673,41 @@ st.markdown("""<style>
     display: flex; align-items: center; gap: 6px;
 }
 
+/* ─── Profile Links ─── */
+.profile-link {
+    display: inline-block;
+    padding: 4px 12px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 8px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #a5b4fc;
+    text-decoration: none;
+    margin-right: 4px;
+    transition: all .2s;
+}
+.profile-link:hover {
+    background: rgba(99,102,241,0.1);
+    border-color: rgba(99,102,241,0.25);
+}
+
+/* ─── AI Inferred Badge ─── */
+.ai-inferred-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 3px;
+    padding: 2px 8px;
+    background: rgba(245,158,11,0.12);
+    border: 1px solid rgba(245,158,11,0.25);
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    color: #fbbf24;
+    letter-spacing: .03em;
+    margin-left: 4px;
+}
+
 /* ─── Fade-in animation ─── */
 @keyframes fadeUp {
     from { opacity: 0; transform: translateY(12px); }
@@ -1114,11 +1149,11 @@ elif st.session_state.stage == "results":
                 for lbl, key in [("ORCID","orcid_url"),("OpenAlex","openalex_url"),("Homepage","homepage")]:
                     url = contact.get(key,"")
                     if url:
-                        profile_links += f'<a href="{esc(url)}" target="_blank" style="padding:4px 12px;background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);border-radius:8px;font-size:11px;font-weight:600;color:#a5b4fc;text-decoration:none;margin-right:4px;transition:all .2s;" onmouseover="this.style.background=\'rgba(99,102,241,0.1)\';this.style.borderColor=\'rgba(99,102,241,0.25)\'" onmouseout="this.style.background=\'rgba(255,255,255,0.04)\';this.style.borderColor=\'rgba(255,255,255,0.08)\'">{lbl}</a>'
+                        profile_links += f'<a href="{esc(url)}" target="_blank" class="profile-link">{lbl}</a> '
 
                 if email:
                     if email_is_inferred:
-                        ai_badge = '<span style="display:inline-flex;align-items:center;gap:3px;padding:2px 8px;background:rgba(245,158,11,0.12);border:1px solid rgba(245,158,11,0.25);border-radius:6px;font-size:10px;font-weight:700;color:#fbbf24;letter-spacing:.03em;margin-left:4px;" title="This email was inferred from the reviewer\'s name and institution. Please verify before sending.">AI INFERRED</span>'
+                        ai_badge = '<span class="ai-inferred-badge" title="This email was inferred from the reviewer name and institution. Please verify before sending.">AI INFERRED</span>'
                     else:
                         ai_badge = ""
                     st.markdown(f"""<div style="display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap;">
@@ -1166,7 +1201,7 @@ elif st.session_state.stage == "results":
 
                 inferred_note = ""
                 if email_is_inferred:
-                    inferred_note = '<div style="margin-top:6px;padding:6px 10px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;font-size:11px;color:#fbbf24;">⚠️ This email was AI-inferred from the reviewer\'s name and institution. Please verify before sending.</div>'
+                    inferred_note = '<div style="margin-top:6px;padding:6px 10px;background:rgba(245,158,11,0.08);border:1px solid rgba(245,158,11,0.2);border-radius:8px;font-size:11px;color:#fbbf24;">⚠️ This email was AI-inferred. Please verify before sending.</div>'
                 st.markdown(f"""<div class="invite-header">
                     <div style="display:flex;align-items:center;gap:8px;">
                         <span style="font-size:14px;">📨</span>
